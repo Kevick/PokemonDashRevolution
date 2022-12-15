@@ -82,173 +82,28 @@ function onStatsChange(cid, attacker, enps, combatee, value)
         end
 
 		if not isPlayer(cid) then
-            if combatee == ELECTRICDAMAGE then
-                if isInArray(electric2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(electric1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(electric0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
+		
+		
+		local poketype = getMonsterInfo(getCreatureName(cid)).race
+			if combatee ~= COMBAT_PHYSICALDAMAGE then
+				print("pokemon atacado: " ..getCreatureName(cid).. " Race: " ..poketype)
+				if isInArray(effectiveness[combatee].super, poketype) then
+					x = 2
+					print("setei super")
+				elseif isInArray(effectiveness[combatee].weak, poketype) then 
+					x = 0.5
+					print("setei WEAK")
+				elseif isInArray(effectiveness[combatee].non, poketype) then
+					return false
 
-			elseif combatee == WATERDAMAGE then
-                if isInArray(water2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(water1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(water0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == GRASSDAMAGE then
-                if isInArray(grass2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(grass1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(grass0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-            elseif combatee == FLYDAMAGE then
-                if isInArray(flying2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(flying1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(flying0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == FIREDAMAGE then
-                if isInArray(fire2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(fire1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(fire0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == ROCKDAMAGE then
-                if isInArray(rock2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(rock1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(rock0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == GROUNDDAMAGE then
-                if isInArray(ground2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(ground1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(ground0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-				
-            elseif combatee == GHOSTDAMAGE then
-                if isInArray(ghost2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(ghost1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(ghost0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == BUGDAMAGE then
-                if isInArray(bug2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(bug1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(bug0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == NORMALDAMAGE then
-                if isInArray(normal2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(normal1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(normal0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == FIGHTDAMAGE then
-                if isInArray(fighting2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(fighting1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(fighting0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-                    
-			elseif combatee == POISONDAMAGE then
-                if isInArray(poison2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(poison1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(poison0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == PSYCHICDAMAGE then
-                if isInArray(psychic2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(psychic1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(psychic0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == ICEDAMAGE then
-                if isInArray(ice2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(ice1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(ice0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-
-			elseif combatee == DRAGONDAMAGE then
-                if isInArray(dragon2, getCreatureName(cid)) then
-                    x = 2
-                elseif isInArray(dragon1, getCreatureName(cid)) then
-                    x = 0.5
-                elseif isInArray(dragon0, getCreatureName(cid)) then
-                    x = 0
-                else
-                    x = 1
-                end
-            else
-                x = 1
-            end
+				end
+			else
+				x = 1
+				print("SETEI 1X")
+			end
+		
+     
+		-- fim do ataque do pokémon	
         else
             x = 1
         end
@@ -371,3 +226,4 @@ function onStatsChange(cid, attacker, enps, combatee, value)
     end
 	
 end
+

@@ -10,6 +10,24 @@ gobackmsgs = {
 [9] = {go = "Show your strength, doka!", back = "You did your best, doka!"}
 }
 
+effectiveness = {
+			[NORMALDAMAGE] = {weak = {"rock"}, non = {"ghost"}},
+			[FIGHTINGDAMAGE] = {super = {"normal", "rock", "ice", "dark"}, weak = {"flying", "poison", "bug", "psychic"}, non = {"ghost"}},
+			[FLYINGDAMAGE] = {super = {"fighting", "bug", "grass"}, weak = {"rock", "electric"}},
+			[POISONDAMAGE] = {super = {"grass"}, weak = {"poison", "ground", "rock", "ghost"}, non = {"steel"}},
+			[GROUNDDAMAGE] = {super = {"poison", "rock", "fire", "electric"}, weak = {"bug", "grass"}, non = {"flying"}},
+			[ROCKDAMAGE] = {super = {"flying", "bug", "fire", "ice"}, weak = {"fighting", "ground"}},
+			[BUGDAMAGE] = {super = {"grass", "psychic", "dark"}, weak = {"fighting", "flying", "poison", "ghost", "fire"}},  
+			[GHOSTDAMAGE] = {super = {"ghost", "psychic"}, weak = {"dark"}, non = {"normal"}},
+			[FIREDAMAGE] = {super = {"bug", "grass", "ice"}, weak = {"rock", "fire", "water", "dragon"}},
+			[WATERDAMAGE] = {super = {"ground", "rock", "fire"}, weak = {"water", "grass", "dragon"}},
+			[GRASSDAMAGE] = {super = {"ground", "rock", "water"}, weak = {"flying", "poison", "bug", "fire", "grass", "dragon"}},
+			[ELECTRICDAMAGE] = {super = {"flying", "water"}, weak = {"grass", "electric", "dragon"}, non = {"ground"}},
+			[PSYCHICDAMAGE] = {super = {"fighting", "poison"}, weak = {"psychic"}, non = {"dark"}},
+			[ICEDAMAGE] = {super = {"flying", "ground", "grass", "dragon"}, weak = {"fire", "water", "ice"}},
+			[DRAGONDAMAGE] = {super = {"dragon"}},
+}
+		
 Ability = {
 ['FlyRide'] = {'Crystal Onix', 'Venusaur', 'Ninetales', 'Arcanine', 'Ponyta', 'Rapidash', 'Doduo', 'Dodrio', 'Onix', 'Rhyhorn', 'Tauros', 'Porygon', 'Aerodactyl', 'Dragonite', 'Charizard', 'Pidgeot', 'Fearow', 'Moltres', 'Zapdos', 'Articuno', 'Mew', 'Mewtwo', 'Gligar', 'Girafarig', 'Meganium', 'Porygon2', 'Stantler', 'Skarmory', 'Piloswine', 'Mareep', 'Houndor'},
 ['Fly'] = {'Porygon', 'Aerodactyl', 'Dragonite', 'Charizard', 'Pidgeot', 'Fearow', 'Zapdos', 'Moltres', 'Articuno', 'Mew', 'Mewtwo', 'Gligar', 'Porygon2', 'Skarmory'},
@@ -245,7 +263,7 @@ pokes = {
 ["Dragonite"] = {level = 100, cons = 110, vida = 10800},
 ["Mewtwo"] = {level = 100, cons = 110, vida = 8500},
 ["Mew"] = {level = 100, cons = 110, vida = 7200},
---shiny da primeira geraÃ§Ã£o by valakinhas --
+--shiny da primeira geração by valakinhas --
 ["Shiny Bulbasaur"] = {level = 5, cons = 23, vida = 600},
 ["Shiny Ivysaur"] = {level = 24, cons = 39, vida = 2600},
 ["Shiny Venusaur"] = {level = 65, cons = 100, vida = 5200},
@@ -2166,7 +2184,7 @@ fotos = {
 ["Dragonite"] = {fotopoke = 2525},
 ["Mewtwo"] = {fotopoke = 2526},
 ["Mew"] = {fotopoke = 2527},
----segundageraÃ§Ã£o fotopoke--
+---segundageração fotopoke--
 ["Shiny Bulbasaur"] = {fotopoke = 2377},
 ["Shiny Ivysaur"] = {fotopoke = 2378},
 ["Shiny Venusaur"] = {fotopoke = 174},

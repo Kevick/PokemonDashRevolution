@@ -62,7 +62,6 @@ function onUse(cid, item, frompos, item2, topos)
                     doItemSetAttribute(item.uid, "isConfusion", false)
                 end
                 doCreatureSay(cid, mbk, TALKTYPE_MONSTER)
-                doPlayerSendCancel(cid, "12//,hide")
                 setPokeballInfo(item.uid, pokeballInfo.name, getCreatureHealth(z), getCreatureMaxHealth(z))
                 doItemSetAttribute(item.uid, "php", (getCreatureHealth(z) / getCreatureMaxHealth(z)))
                 doItemSetAttribute(item.uid, "happy", (getPlayerStorageValue(z, 66604) or 0))
@@ -163,24 +162,6 @@ function onUse(cid, item, frompos, item2, topos)
                 local pokename = pokeballInfo.nick
                 local mgo = gobackmsgs[math.random(1, #gobackmsgs)].go:gsub("doka", pokename)
                 doCreatureSay(cid, mgo, TALKTYPE_MONSTER)
-                if useOTClient then
-                    doPlayerSendCancel(cid, "12//,show") --alterado v1.7
-                end
-                if useKpdoDlls then
-                    doUpdateMoves(cid)
-                end
-                if pokeballInfo.name ~= "Ditto" then
-                    for i = 1, 12 do
-                        if not getMoveNamee(cid, i) then
-                            addEvent(doGoBackSetCooldown, 200, cid)
-                        end
-                    end
-                else
-                    for a = 1, 12 do
-                        setPokemonCooldown(cid, a, "Don't have this move.")
-                    end
-                end
-
                 doItemSetAttribute(
                     item.uid,
                     "poke",

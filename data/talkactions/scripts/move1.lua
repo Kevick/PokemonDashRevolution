@@ -126,10 +126,6 @@ function onSay(cid, words, param, channel)
 		doSendAnimatedText(getThingPos(mypoke), "MISS", 215)
 		setPlayerStorageValue(mypoke, 3, -1)
 		setCD(getPlayerSlotItem(cid, 8).uid, cdzin, move.cd)
-		setPokemonCooldown(cid,1,move.cd) 
-		doPokemonDropCooldown(cid,1) 
-		getMoveLevel(cid,1,move.minLv) 
-		getMoveName(cid,1,move.spell)
 	return true
 	end
 	if getPlayerStorageValue(mypoke, 5) >= 1 then
@@ -200,10 +196,7 @@ function onSay(cid, words, param, channel)
 	setPlayerStorageValue(mypoke, 1000, ((num1)+(getPlayerLevel(cid)*(num3))))
 
 	newid = setCD(getPlayerSlotItem(cid, 8).uid, cdzin, move.cd)
-		setPokemonCooldown(cid,1,move.cd) 
-		doPokemonDropCooldown(cid,1) 
-		getMoveLevel(cid,1,move.minLv) 
-		getMoveName(cid,1,move.spell)
+
 	
 	doCreatureSay(cid, ""..getCreatureName(mypoke)..", "..msgs[math.random(#msgs)]..""..move.spell.."!", TALKTYPE_MONSTER)
 	
@@ -234,11 +227,7 @@ function onSay(cid, words, param, channel)
 	end
     doPokemonUseSpell(mypoke, move.spell, min, max, element)
 	doUpdateCds(cid)
-	doUpdateCooldowns(cid)
+
 	getHappinesStatus(mypoke, false)
-	setPokemonCooldown(cid,1,move.cd) 
-		doPokemonDropCooldown(cid,1) 
-		getMoveLevel(cid,1,move.minLv) 
-		getMoveName(cid,1,move.spell)
 return 0
 end
