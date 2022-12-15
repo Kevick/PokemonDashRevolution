@@ -1,0 +1,24 @@
+Nome: Dewgong
+
+Tipo: Ice / Water
+
+Level minimo: 65
+
+Movimentos:
+Aqua Tail - m1 - level 65 - water
+Headbutt - m2 - level 65 - normal
+Ice Shards - m3 - level 65 - ice
+Ice Beam - m4 - level 65 - ice
+Icy Wind - m5 - level 65 - ice
+Aurora Beam - m6 - level 69 - ice
+Blizzard - m7 - level 71 - ice
+Rest - m8 - level 71 - normal
+
+Passivas: Nenhum
+
+Evolução: Seel / Dewgong
+
+Stone: Nenhum
+
+Habilidade especial:
+surf

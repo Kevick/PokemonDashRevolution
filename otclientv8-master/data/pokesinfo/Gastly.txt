@@ -1,0 +1,21 @@
+Nome: Gastly
+
+Tipo: Ghost
+
+Level minimo: 18
+
+Movimentos:
+Lick - m1 - level 20 - normal
+Shadow Ball - m2 - level 20 - ghost
+Night Shade - m3 - level 26 - ghost
+Invisible - m4 - level 24 - ghost
+Hypnosis - m5 - level 28 - psychic
+Fear - m6 - level 30 - ghost
+Passivas: Nenhum
+
+Evolução: Gastly / Haunter / Gengar
+
+Stone: 1x Darkness Stone
+
+Habilidade especial:
+Nenhum

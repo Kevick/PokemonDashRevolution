@@ -1,0 +1,21 @@
+Nome: Zubat
+
+Tipo: Poison/flying
+
+Level minimo: 5
+
+Movimentos:
+Super Sonic - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Poison Fang - m3 - level 10 - poison
+Absorb - m4 - level 12 - grass
+Toxic - m5 - level 15 - poison
+
+Passivas: Nenhum
+
+Evolução: Zubat/Golbat
+
+Stone: 1x Venom Stone
+
+Habilidade especial:
+Nenhum

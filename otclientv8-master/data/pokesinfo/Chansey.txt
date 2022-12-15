@@ -1,0 +1,21 @@
+Nome: Chansey
+
+Tipo: Normal
+
+Level minimo: 60
+
+Movimentos:
+Doubleslap - m1 - level 60 - normal
+Egg Bomb - m2 - level 60 - normal
+Great Love - m3 - level 72 - normal
+Selfheal - m4 - level 60 - normal
+Healarea - m5 - level 60 - normal
+
+Passivas: Nenhum
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

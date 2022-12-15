@@ -1,0 +1,76 @@
+ModuleListLabel < Label
+  font: verdana-11px-monochrome
+  background-color: alpha
+  text-offset: 2 0
+  focusable: true
+  color: #cccccc
+
+  $focus:
+    background-color: #0000ff
+
+  $on:
+    background-color: #0000ff
+
+MainWindow
+  id: pokedexWindow
+  size: 470 450
+  text: Pokedex
+
+  Item
+    id: pokedexIcon
+    size: 34 34
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 10
+    margin-right: 195
+
+  TextEdit
+    id: pokedexDesc
+    height: 250
+    width: 220
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin-bottom: 30
+    margin-right: 10
+    padding: 1
+    font: verdana-11px-rounded
+    color: #FFFFFF
+    focusable: false
+    vertical-scrollbar: pokedexDescScrollBar
+    auto-focus: first
+    opacity: 0.80
+
+  VerticalScrollBar
+    id: pokedexDescScrollBar
+    anchors.top: pokedexDesc.top
+    anchors.bottom: pokedexDesc.bottom
+    anchors.left: pokedexDesc.right
+    step: 10
+    pixels-scroll: true
+
+  TextList
+    id: pokedexList
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    width: 190
+    padding: 1
+    focusable: false
+    margin-bottom: 30
+    vertical-scrollbar: pokedexListScrollBar
+
+  VerticalScrollBar
+    id: pokedexListScrollBar
+    anchors.top: pokedexList.top
+    anchors.bottom: pokedexList.bottom
+    anchors.left: pokedexList.right
+    step: 14
+    pixels-scroll: true
+
+  Button
+    id: closeButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    !text: tr('Close')
+    width: 90
+    @onClick: modules.game_pokedex.hide()

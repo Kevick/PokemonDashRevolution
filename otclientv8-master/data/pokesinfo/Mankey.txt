@@ -1,0 +1,21 @@
+Nome: Mankey
+
+Tipo: Fighting
+
+Level minimo: 10
+
+Movimentos:
+Scratch - m1 - level 15 - normal
+Triple Kick - m2 - level 15 - fighting
+Karate Chop - m3 - level 18 - fighting
+Cross Chop - m4 - level 20 - fighting
+Rage - m5 - level 22 - dragon
+
+Passivas: Nenhum
+
+Evolução: Mankey / Primeape
+
+Stone: 1x Punch Stone
+
+Habilidade especial:
+Nenhum

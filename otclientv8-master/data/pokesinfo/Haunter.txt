@@ -1,0 +1,23 @@
+Nome: Haunter
+
+Tipo: Ghost
+
+Level minimo: 45
+
+Movimentos:
+Lick - m1 - level 45 - normal
+Shadow Ball - m2 - level 45 - ghost
+Night Shade - m3 - level 45 - ghost
+Shadow Storm - m4 - level 60 - ghost
+Invisible - m5 - level 45 - ghost
+Dream Eater - m6 - level 50 - ghost
+Hypnosis - m7 - level 45 - psychic
+Fear - m8 - level 45 - ghost
+Dark Eye - m9 - level 45 - ghost
+
+Evolução: Gastly / Haunter / Gengar
+
+Stone: 2x Darkness Stone
+
+Habilidade especial:
+Nenhum

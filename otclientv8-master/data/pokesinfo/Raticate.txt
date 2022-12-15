@@ -1,0 +1,21 @@
+Nome: Raticate
+
+Tipo: Normal
+
+Level minimo: 20
+
+Movimentos:
+Quick Attack - m1 - level 25 - normal
+Bite - m2 - level 25 - normal
+Scratch - m3 - level 25 - normal
+Super Fang - m4 - level 25 - normal
+
+Passivas: Fury
+
+Evolução: Rattata/Raticate
+
+Stone: nenhum
+
+Habilidade especial:
+Dig
+Cut

@@ -1,0 +1,21 @@
+Nome: Spearow
+
+Tipo: Normal/flying
+
+Level minimo: 5
+
+Movimentos:
+Quick Attack - m1 - level 10 - normal
+Sand Attack - m2 - level 10 - earth
+Gust - m3 - level 12 - flying
+Drill Peck - m4 - level 10 - flying
+Rage - m5 - level 15 - dragon
+
+Passivas: Nenhum
+
+Evolução: Spearow/Fearow
+
+Stone: 2x Heart stone
+
+Habilidade especial:
+Nenhum

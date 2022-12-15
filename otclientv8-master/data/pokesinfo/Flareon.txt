@@ -1,0 +1,24 @@
+Nome: Flareon
+
+Tipo: Fire
+
+Level minimo: 55
+
+Movimentos:
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Flamethrower - m3 - level 55 - fire
+Sacred Fire - m4 - level 55 - fire
+Blaze Kick - m5 - level 55 - fire
+Raging Blast - m6 - level 55 - fire
+Overheat - m7 - level 60 - fire
+Fire Blast - m8 - level 65 - fire
+
+Passivas: Nenhum
+
+Evolução: Eevee/Flareon
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

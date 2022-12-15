@@ -1,0 +1,25 @@
+Nome: Golem
+
+Tipo: Rock
+
+Level minimo: 70
+
+Movimentos:
+Rock Throw - m1 - level 70 - stone
+Rock Slide - m2 - level 70 - stone
+Mega Punch - m3 - level 70 - fighting
+Earthshock - m4 - level 70 - earth
+Falling Rocks - m5 - level 75 - stone
+Harden - m6 - level 70 - normal
+Rollout - m7 - level 70 - stone
+Selfdestruction - m8 - level 75 - normal
+
+Passivas: Nenhum
+
+Evolução: Geodude / Graveler / Golem
+
+Stone: Nenhum
+
+Habilidade especial:
+Rock Smash
+Dig

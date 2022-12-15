@@ -1,0 +1,17 @@
+Nome: Magikarp
+
+Tipo: Water
+
+Level minimo: 1
+
+Movimentos:
+Splash - m1 - level 5 - water
+
+Passivas: Nenhum
+
+Evolução: Magikarp/Gyarados
+
+Stone: Crystal Stone/Water Stone
+
+Habilidade especial:
+Nenhum

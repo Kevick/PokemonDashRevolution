@@ -1,0 +1,25 @@
+Nome: Venonat
+
+Tipo: Bug / Poison
+
+Level minimo: 50
+
+Movimentos:
+Absorb - m1 - level 50 - grass
+Bug Bite - m2 - level 50 - bug
+Super Sonic - m3 - level 50 - normal
+Confusion - m4 - level 56 - psychic
+Psychic - m5 - level 50 - psychic
+Poison Fang - m6 - level 50 - poison
+Sleep Powder - m7 - level 50 - grass
+Poison Powder - m8 - level 50 - poison
+Stun Spore - m9 - level 50 - grass
+
+Passivas: Nenhum
+ 
+Evolução: Venonat / Venomoth
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

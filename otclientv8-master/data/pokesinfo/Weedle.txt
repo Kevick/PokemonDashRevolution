@@ -1,0 +1,19 @@
+Nome: Weedle
+
+Tipo: Bug/Poison
+
+Level minimo: 1
+
+Movimentos:
+Horn Attack - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Poison Sting - m3 - level 1 - poison
+
+Passivas: Nenhum
+
+Evolução: Weedle/Kakuna/Beedrill
+
+Stone: 1x Coccon Stone
+
+Habilidade especial:
+Nenhum

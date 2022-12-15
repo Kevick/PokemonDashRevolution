@@ -1,0 +1,26 @@
+Nome: Tauros
+
+Tipo: Normal
+
+Level minimo: 40
+
+Movimentos:
+Headbutt - m1 - level 45 - normal
+Quick Attack - m2 - level 45 - normal
+Horn Attack - m3 - level 45 - normal
+Hyper Beam - m4 - level 50 - normal
+Thrash - m5 - level 51 - normal
+Rage - m6 - level 45 - dragon
+Fear - m7 - level 53 - ghost
+
+
+Passivas: Nenhum
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Ride
+Rock Smash
+Dig

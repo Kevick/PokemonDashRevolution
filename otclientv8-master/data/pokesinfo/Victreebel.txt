@@ -1,0 +1,26 @@
+Nome: Victreebel
+
+Tipo: Grass / Poison
+
+Level minimo: 50
+
+Movimentos:
+Razor Leaf - m1 - level 50 - grass
+Vine Whip - m2 - level 50 - grass
+Acid - m3 - level 50 - poison
+Poison Bomb - m4 - level 50 - poison
+Slash - m5 - level 50 - normal
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 55 - grass
+Leaf Storm - m9 - level 65 - grass
+
+Passivas: Nenhum
+
+Evolução: 
+Bellsprout / Weepinbell / Victreebel
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut

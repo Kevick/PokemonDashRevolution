@@ -1,0 +1,23 @@
+Nome: Weepinbell
+
+Tipo: Grass / Poison
+
+Level minimo: 18
+
+Movimentos:
+Razor Leaf - m1 - level 25 - grass
+Vine Whip - m2 - level 25 - grass
+Acid - m3 - level 25 - poison
+Poison Bomb - m4 - level 27 - poison
+Slash - m5 - level 25 - normal
+Stun Spore - m6 - level 30 - grass
+
+Passivas: Nenhum
+
+Evolução: 
+Bellsprout / Weepinbell / Victreebel
+
+Stone: 2x Leaf Stone
+
+Habilidade especial:
+Cut

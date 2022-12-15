@@ -1,0 +1,23 @@
+Nome: Rhyhorn
+
+Tipo: Rock
+
+Level minimo: 35
+
+Movimentos:
+Iron Tail - m1 - level 30 - normal
+Horn Attack - m2 - level 30 - normal
+Stomp - m3 - level 32 - earth
+Horn Drill - m4 - level 35 - normal
+Shockwave - m5 - level 37 - earth
+
+Passivas: Nenhum
+
+Evolução: Rhyhorn / Rhydon
+
+Stone: 2x Rock Stone
+
+Habilidade especial:
+ride
+Rock Smash
+Dig

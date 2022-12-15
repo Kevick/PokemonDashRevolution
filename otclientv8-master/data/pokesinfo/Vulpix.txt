@@ -1,0 +1,21 @@
+Nome: Vulpix
+
+Tipo: Fire
+
+Level minimo: 20
+
+Movimentos:
+Quick Attack - m1 - level 15 - normal
+Iron Tail - m2 - level 18 - normal
+Ember - m3 - level 15 - fire
+Flamethrower - m4 - level 22 - fire
+Flame Wheel - m5 - level 25 - fire
+
+Passivas: Nenhum
+
+Evolução: Vulpix/Ninetales
+
+Stone: 2x Fire Stone
+
+Habilidade Especial:
+Nenhum

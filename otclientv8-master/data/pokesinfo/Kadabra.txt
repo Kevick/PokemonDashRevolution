@@ -1,0 +1,27 @@
+Nome: Kadabra
+
+Tipo: psychic 
+
+Level minimo: 50
+
+Movimentos:
+Psybeam - m1 - level 45 - psychic
+Psywave - m2 - level 45 - psychic
+Psy Pulse - m3 - level 45 - psychic
+Confusion - m4 - level 45 - psychic
+Psychic - m5 - level 47 - psychic
+Calm Mind - m6 - level 45 - psychic
+Hypnosis - m7 - level 45 - psychic
+Reflect - m8 - level 60 - psychic
+Restore - m9 - level 50 - psychic
+
+Passivas: Nenhum
+
+Evolução: Abra / Kadabra / Alakazam
+
+Stone: 2x Enigma Stone
+
+Habilidade especial:
+Teleport
+Flash
+Blink

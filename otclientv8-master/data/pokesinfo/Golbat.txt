@@ -1,0 +1,22 @@
+Nome: Golbat
+
+Tipo: Poison/flying
+
+Level minimo: 30
+
+Movimentos:
+Super Sonic - m1 - level 35 - normal
+Bite - m2 - level 35 - normal
+Poison Fang - m3 - level 35 - poison
+Absorb - m4 - level 35 - grass
+Toxic - m5 - level 35 - poison
+Whirlwind - m6 - level 38 - flying
+Wing Attack - m7 - level 40 - flying
+Passivas: Nenhum
+
+Evolução: Zubat/Golbat
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

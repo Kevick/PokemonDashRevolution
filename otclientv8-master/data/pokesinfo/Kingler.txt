@@ -1,0 +1,24 @@
+Nome: Krabby
+
+Tipo: Water
+
+Level minimo: 35
+
+Movimentos:
+Bubbles - m1 - level 40 - water
+Bubblebeam - m2 - level 40 - water
+Mud Shot - m3 - level 40 - earth
+Crabhammer - m4 - level 40 - normal
+Fury Cutter - m5 - level 45 - bug
+Guillotine - m6 - level 50 - normal
+Harden - m7 - level 40 - normal
+
+Passivas: Nenhum
+
+Evolução: Krabby / Kingler
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut
+Dig

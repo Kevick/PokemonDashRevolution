@@ -1,0 +1,23 @@
+Nome: Bulbasaur
+
+Tipo: Grass
+
+Level minimo: 40
+
+Movimentos:
+Absorb - m1 - level 50 - grass
+Leech Seed - m2 - level 50 - grass
+Vine Whip - m3 - level 50 - grass
+Super Vines - m4 - level 58 - grass
+Poison Powder - m5 - level 50 - poison
+Sleep Powder - m6 - level 55 - grass
+Stun Spore - m7 - level 50 - grass
+
+Passivas: Mega Drain - Normal
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut

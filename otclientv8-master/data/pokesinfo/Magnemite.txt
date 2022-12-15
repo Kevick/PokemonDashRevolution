@@ -1,0 +1,21 @@
+Nome: Magnemite
+
+Tipo: eletric
+
+Level minimo: 15
+
+Movimentos:
+Super Sonic - m1 - level 15 - normal
+Thunder Shock - m2 - level 15 - electric
+Thunder Bolt - m3 - level 16 - electric
+Thunder Wave - m4 - level 18 - electric
+Sonicboom - m5 - level 20 - normal
+
+Passivas: Nenhum
+
+Evolução: Magnemite / Magneton
+
+Stone: 1x Thunder Stone
+
+Habilidade especial:
+Flash

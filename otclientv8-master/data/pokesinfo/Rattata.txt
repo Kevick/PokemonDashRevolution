@@ -1,0 +1,20 @@
+Nome: Rattata
+
+Tipo: Normal
+
+Level minimo: 1
+
+Movimentos:
+Quick Attack - m1 - level 1 - normal
+Bite - m2 - level 1 - normal
+Scratch - m3 - level 1 - normal
+Super Fang - m4 - level 12 - normal
+
+Passivas: Nenhum
+
+Evolução: Rattata/Raticate
+
+Stone: 1x Heart stone
+
+Habilidade especial:
+Nenhum

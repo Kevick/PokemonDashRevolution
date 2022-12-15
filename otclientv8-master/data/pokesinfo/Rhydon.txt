@@ -1,0 +1,25 @@
+Nome: Rhydon
+
+Tipo: Rock
+
+Level minimo: 65
+
+Movimentos:
+Iron Tail - m1 - level 75 - normal
+Horn Attack - m2 - level 75 - normal
+Rock Throw - m3 - level 75 - stone
+Stomp - m4 - level 80 - earth
+Horn Drill - m5 - level 75 - normal
+Shockwave - m6 - level 78 - earth
+Falling Rocks - m7 - level 80 - stone
+Mega Horn - m8 - level 82 - stone
+
+Passivas: Nenhum
+
+Evolução: Rhyhorn / Rhydon
+
+Stone: Nenhum
+
+Habilidade especial:
+Rock Smash
+Dig

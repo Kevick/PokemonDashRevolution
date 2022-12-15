@@ -1,0 +1,27 @@
+Nome: Vileplume
+
+Tipo: Grass/Posion
+
+Level minimo: 50
+
+Movimentos:
+Absorb - m1 - level 50 - grass
+Leech Seed - m2 - level 50 - grass
+Acid - m3 - level 50 - poison
+Poison Bomb - m4 - level 50 - poison
+Poison Gas - m5 - level 50 - poison
+Petal Dance - m6 - level 55 - grass
+Solar Beam - m7 - level 60 - grass
+Sleep Powder - m8 - level 50 - grass
+Stun Spore - m9 - level 50 - grass
+Poison Powder - m10 - level 50 - poison
+Spores Reaction - passive  - poison
+
+Passivas: Mega Drain - Normal
+
+Evolução: Oddish/Gloom/Vileplume
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut

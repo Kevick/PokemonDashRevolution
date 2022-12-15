@@ -1,0 +1,25 @@
+Nome: Lickitung
+
+Tipo: Normal
+
+Level minimo: 45
+
+Movimentos:
+Lick - m1 - level 55 - normal
+Headbutt - m2 - level 55 - normal
+Doubleslap - m3 - level 55 - normal
+Mega Punch - m4 - level 55 - fighting
+Iron Tail - m5 - level 55 - normal
+Squishy Licking - m6 - level 60 - normal
+Super Sonic - m7 - level 55 - normal
+Strafe - m8 - level 55 - normal
+
+
+Passivas: Nenhum
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

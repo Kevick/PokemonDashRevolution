@@ -1,0 +1,9 @@
+Module
+  name: game_moves
+  description: summon moves
+  author: aberos
+  website: otland.net
+  sandboxed: true
+  scripts: [ moves ]
+  @onLoad: init()
+  @onUnload: terminate()

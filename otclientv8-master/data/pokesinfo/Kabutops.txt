@@ -1,0 +1,22 @@
+Nome: Kabutops
+
+Tipo: Rock/Water
+
+Level minimo: 70
+
+Movimentos:
+Scratch - m1 - level 80 - normal
+Bubbles - m2 - level 85 - water
+Slash - m3 - level 85 - normal
+Fury Cutter - m4 - level 80 - bug
+Mud Shot - m5 - level 85 - earth
+Harden - m6 - level 90 - normal
+Ancient Power - m7 - level 95 - stone
+Mega Drain - passive  - normal
+
+Evoluções: Kabuto/Kabutops
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

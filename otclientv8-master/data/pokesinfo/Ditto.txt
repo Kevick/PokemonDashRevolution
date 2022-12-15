@@ -1,0 +1,17 @@
+Nome: Ditto
+
+Tipo: Normal
+
+Level minimo: 40
+
+Movimentos:
+Nenhum
+
+Passivas: Nenhum
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Transform

@@ -1,0 +1,21 @@
+Nome: Dragonair
+
+Tipo: Dragon
+
+Level minimo: 70
+
+Movimentos:
+Headbutt - m1 - level 60 - normal
+Aqua Tail - m2 - level 60 - water
+Thunder Wave - m3 - level 60 - electric
+Dragon Breath - m4 - level 62 - dragon
+Twister - m5 - level 61 - dragon
+Hyper Beam - m6 - level 64 - normal
+Dragon Fury - passive  - dragon
+
+Evoluções: Dratini/Dragonair/Dragonite
+
+Stone: 2x Crystal Stone
+
+Habilidade especial:
+Nenhuma

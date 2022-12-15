@@ -1,0 +1,9 @@
+Module
+  name: game_pokedex
+  description: pokedex
+  author: aberos
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ pokedex ]
+  @onLoad: init()
+  @onUnload: terminate()

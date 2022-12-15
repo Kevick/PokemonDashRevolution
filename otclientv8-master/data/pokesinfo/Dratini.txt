@@ -1,0 +1,19 @@
+Nome: Dratini
+
+Tipo: Dragon
+
+Level minimo: 10
+
+Movimentos:
+Aqua Tail - m1 - level 20 - water
+Thunder Wave - m2 - level 20 - electric
+Hyper Beam - m3 - level 40 - normal
+Dragon Breath - m4 - level 35 - dragon
+Dragon Fury - passive  - dragon
+
+Evoluções: Dratini/Dragonair/Dragonite
+
+Stone: 1x Crystal Stone
+
+Habilidade especial:
+Nenhuma

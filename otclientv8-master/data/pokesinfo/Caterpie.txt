@@ -1,0 +1,19 @@
+Nome: Caterpie
+
+Tipo: Bug
+
+Level minimo: 1
+
+Movimentos:
+Headbutt - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Bug Bite - m3 - level 1 - bug
+
+Passivas: Nenhum
+
+Evolução: Caterpie/Metapod/Butterfree
+
+Stone: 1x Coccon Stone
+
+Habilidade especial:
+Nenhum

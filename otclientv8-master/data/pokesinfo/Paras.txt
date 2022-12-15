@@ -1,0 +1,22 @@
+Nome: Paras
+
+Tipo: Bug / Grass
+
+Level minimo: 1
+
+Movimentos:
+Scratch - m1 - level 5 - normal
+Poison Sting - m2 - level 5 - poison
+Slash - m3 - level 5 - normal
+Stun Spore - m4 - level 10 - grass
+Poison Powder - m5 - level 8 - poison
+Sleep Powder - m6 - level 12 - grass
+
+Passivas: Nenhum
+ 
+Evolução: Paras / Parasect
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut

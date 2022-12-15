@@ -1,0 +1,24 @@
+Nome: Gengar
+
+Tipo: Ghost
+
+Level minimo: 80
+
+Movimentos:
+Lick - m1 - level 80 - normal
+Shadow Ball - m2 - level 80 - ghost
+Shadow Punch - m3 - level 84 - ghost
+Night Shade - m4 - level 80 - ghost
+Shadow Storm - m5 - level 86 - ghost
+Invisible - m6 - level 80 - ghost
+Dream Eater - m7 - level 80 - ghost
+Hypnosis - m8 - level 80 - psychic
+Fear - m9 - level 80 - ghost
+Dark Eye - m10 - level 80 - ghost
+
+Evolução: Gastly / Haunter / Gengar
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

@@ -1,0 +1,22 @@
+Nome: Machop
+
+Tipo: Fighting
+
+Level minimo: 18
+
+Movimentos:
+Triple Punch - m1 - level 20 - fighting
+Mega Punch - m2 - level 20 - fighting
+Karate Chop - m3 - level 24 - fighting
+Ground Chop - m4 - level 28 - fighting
+Strafe - m5 - level 30 - normal
+
+Passivas: Nenhum
+
+Evolução: Machop / Machoke / Machamp
+
+Stone: 1x Punch Stone
+
+Habilidade especial:
+Rock Smash
+Dig

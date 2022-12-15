@@ -1,0 +1,22 @@
+Nome: Grimer
+
+Tipo: Poison
+
+Level minimo: 12
+
+Movimentos:
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Sludge - m3 - level 17 - poison
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 22 - poison
+Harden - m6 - level 22 - normal
+
+Passivas: Nenhum
+
+Evolução: Grimer / Muk
+
+Stone: 1x Venom Stone
+
+Habilidade especial:
+Nenhum

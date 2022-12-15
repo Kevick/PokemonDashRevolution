@@ -1,0 +1,25 @@
+Nome: Dragonite
+
+Tipo: Dragon/Flying
+
+Level minimo: 100
+
+Movimentos:
+Headbutt - m1 - level 100 - normal
+Aqua Tail - m2 - level 100 - water
+Thunder Wave - m3 - level 100 - electric
+Thunder Punch - m4 - level 100 - electric
+Fire Punch - m5 - level 100 - fire
+Dragon Claw - m6 - level 100 - dragon
+Dragon Breath - m7 - level 102 - dragon
+Twister - m8 - level 104 - dragon
+Wing Attack - m9 - level 106 - flying
+Hyper Beam - m10 - level 108 - normal
+Dragon Fury - passive  - dragon
+
+Evoluções: Dratini/Dragonair/Dragonite
+
+Stone: Nenhuma 
+
+Habilidade especial:
+Fly

@@ -1,0 +1,29 @@
+Nome: Alakazam
+
+Tipo: psychic 
+
+Level minimo: 18
+
+Movimentos:
+Psybeam - m1 - level 80 - psychic
+Psywave - m2 - level 80 - psychic
+Psy Pulse - m3 - level 80 - psychic
+Confusion - m4 - level 80 - psychic
+Psychic - m5 - level 80 - psychic
+Psyusion - m6 - level 95 - psychic
+Calm Mind - m7 - level 80 - psychic
+Hypnosis - m8 - level 80 - psychic
+Reflect - m9 - level 85 - psychic
+Restore - m10 - level 85 - psychic
+
+Passivas: Nenhum
+
+Evolução: Abra / Kadabra / Alakazam
+
+Stone: Nenhum
+
+Habilidade especial:
+Teleport
+Flash
+Blink
+Control mind

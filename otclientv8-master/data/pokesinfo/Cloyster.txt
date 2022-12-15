@@ -1,0 +1,24 @@
+Nome: Cloyster
+
+Tipo: Water / Ice
+
+Level minimo: 65
+
+Movimentos:
+Lick - m1 - level 60 - normal
+Super Sonic - m2 - level 60 - normal
+Clamp - m3 - level 60 - water
+Bubbles - m4 - level 60 - water
+Ice Beam - m5 - level 60 - ice
+Aurora Beam - m6 - level 64 - ice
+Blizzard - m7 - level 68 - ice
+Harden - m8 - level 62 - normal
+
+Passivas: Nenhum
+
+Evolução: Shellder / Cloyster
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

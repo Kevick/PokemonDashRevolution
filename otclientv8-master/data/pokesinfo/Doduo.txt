@@ -1,0 +1,20 @@
+Nome: Doduo
+
+Tipo: Normal/flying
+
+Level minimo: 12
+
+Movimentos:
+Sand Attack - m1 - level 15 - earth
+Quick Attack - m2 - level 15 - normal
+Drill Peck - m3 - level 16 - flying
+Rage - m4 - level 20 - dragon
+Strafe - m5 - level 20 - normal
+Passivas: Nenhum
+
+Evolução: Doduo / Dodrio
+
+Stone: 1x Heart Stone
+
+Habilidade especial:
+ride

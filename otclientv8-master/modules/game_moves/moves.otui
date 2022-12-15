@@ -1,0 +1,274 @@
+movebar1 < ProgressBar
+  id: movebar1
+  height: 15
+  background-color: #44ff44
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('1')
+
+movebar2 < ProgressBar
+  id: movebar2
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('2')
+
+movebar3 < ProgressBar
+  id: movebar3
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('3')
+
+movebar4 < ProgressBar
+  id: movebar4
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('4')
+
+movebar5 < ProgressBar
+  id: movebar5
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('5')
+
+movebar6 < ProgressBar
+  id: movebar6
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('6')
+
+movebar7 < ProgressBar
+  id: movebar7
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('7')
+
+movebar8 < ProgressBar
+  id: movebar8
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('8')
+
+movebar9 < ProgressBar
+  id: movebar9
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('9')
+
+movebar10 < ProgressBar
+  id: movebar10
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('10')
+
+movebar11 < ProgressBar
+  id: movebar11
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('11')
+  
+movebar12 < ProgressBar
+  id: movebar12
+  height: 15
+  background-color: #44ff44
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+  @onClick: MoveUpdate('12')
+
+movelabel1 < GameLabel
+  id: movelabel1
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar1
+  margin-top: 2
+  text: 0%
+  visible: false
+
+movelabel2 < GameLabel
+  id: movelabel2
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar2
+  margin-top: 2
+  text: 0%
+  visible: false
+
+movelabel3 < GameLabel
+  id: movelabel3
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar3
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel4 < GameLabel
+  id: movelabel4
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar4
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel5 < GameLabel
+  id: movelabel5
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar5
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel6 < GameLabel
+  id: movelabel6
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar6
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel7 < GameLabel
+  id: movelabel7
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar7
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel8 < GameLabel
+  id: movelabel8
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar8
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel9 < GameLabel
+  id: movelabel9
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar9
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel10 < GameLabel
+  id: movelabel10
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar10
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel11 < GameLabel
+  id: movelabel11
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar11
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+movelabel12 < GameLabel
+  id: movelabel12
+  color: white
+  text-align: center
+  font: verdana-11px-rounded
+  anchors.fill: movebar12
+  margin-top: 2
+  text: 0%
+  visible: false
+  
+
+MiniWindow
+  icon: /images/topbuttons/moves.png
+  id: movesWindow
+  !text: tr('Moves')
+  height: 24
+  @onClose: modules.game_moves.onMiniWindowClose()
+  &save: true
+
+  MiniWindowContents
+    movebar1
+    movelabel1
+    movebar2
+    movelabel2
+    movebar3
+    movelabel3
+    movebar4
+    movelabel4
+    movebar5
+    movelabel5
+    movebar6
+    movelabel6
+    movebar7
+    movelabel7
+    movebar8
+    movelabel8
+    movebar9
+    movelabel9
+    movebar10
+    movelabel10
+    movebar11
+    movelabel11
+    movebar12
+    movelabel12

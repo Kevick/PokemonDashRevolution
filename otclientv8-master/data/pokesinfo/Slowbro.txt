@@ -1,0 +1,24 @@
+Nome: Slowpoke
+
+Tipo: psychic 
+
+Level minimo: 45
+
+Movimentos:
+Aqua Tail - m1 - level 45 - water
+Headbutt - m2 - level 45 - normal
+Iron Tail - m3 - level 45 - normal
+Waterball - m4 - level 45 - water
+Water Gun - m5 - level 45 - water
+Confusion - m6 - level 45 - psychic
+Psywave - m7 - level 50 - psychic
+Psychic - m8 - level 55 - psychic
+
+Passivas: Nenhum
+
+Evolução: Slowpoke / Slowbro
+
+Stone: 1x Enigma Stone
+
+Habilidade especial:
+Nenhum

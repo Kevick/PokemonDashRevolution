@@ -1,0 +1,24 @@
+Nome: Starmie
+
+Tipo: Water
+
+Level minimo: 45
+
+Movimentos:
+Swift - m1 - level 35 - normal
+Slash - m2 - level 35 - normal
+Bubbles - m3 - level 35 - water
+Water Gun - m4 - level 35 - water
+Waterball - m5 - level 35 - water
+Psybeam - m6 - level 42 - psychic
+Thunder Wave - m7 - level 40 - electric
+Restore - m8 - level 35 - psychic
+
+Passivas: Nenhum
+
+Evolução: Staryu/Starmie
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

@@ -1,0 +1,26 @@
+Nome: Onix
+
+Tipo: Rock
+
+Level minimo: 50
+
+Movimentos:
+Sand Attack - m1 - level 50 - earth
+Iron Tail - m2 - level 50 - normal
+Rock Throw - m3 - level 50 - stone
+Rock Slide - m4 - level 50 - stone
+Earthshock - m5 - level 50 - earth
+Falling Rocks - m6 - level 58 - stone
+Earthquake - m7 - level 62 - earth
+Harden - m8 - level 50 - normal
+
+Passivas: Nenhum
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+ride
+Rock Smash
+Dig

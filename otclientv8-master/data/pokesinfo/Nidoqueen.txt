@@ -1,0 +1,26 @@
+Nome: Nidoquen
+
+Tipo: Poison/earth
+
+Level minimo: 65
+
+Movimentos:
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Toxic Spikes - m7 - level 67 - poison
+Stomp - m8 - level 69 - earth
+Earthshock - m9 - level 71 - earth
+Strafe - m10 - level 65 - normal
+
+Passivas: Nenhum
+
+Evolução: Nidoran F/Nidorina/Nidoqueen
+
+Stone: nenhum
+
+Habilidade especial:
+Nenhum

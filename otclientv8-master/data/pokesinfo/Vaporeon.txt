@@ -1,0 +1,24 @@
+Nome: Vaporeon
+
+Tipo: Water
+
+Level minimo: 55
+
+Movimentos:
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Water Gun - m3 - level 55 - water
+Bubblebeam - m4 - level 55 - water
+Water Pulse - m5 - level 55 - water
+Muddy Water - m6 - level 55 - water
+Aurora Beam - m7 - level 60 - ice
+Hydro Cannon - m8 - level 65 - water
+
+Passivas: Nenhum
+
+Evolução: Eevee/Vaporeon
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

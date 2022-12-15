@@ -1,0 +1,25 @@
+Nome: Diglett
+
+Tipo: Earth
+
+Level minimo: 35
+
+Movimentos:
+Sand Attack - m1 - level 35 - earth
+Slash - m2 - level 35 - normal
+Mud Shot - m3 - level 35 - earth
+Mud Slap - m4 - level 35 - earth
+Earthshock - m5 - level 35 - earth
+Shockwave - m6 - level 40 - earth
+Earthquake - m7 - level 42 - earth
+Rage - m8 - level 45 - dragon
+
+Passivas: Nenhum
+
+Evolução: Diglett / Dugtrio
+
+Stone: Nenhum
+
+Habilidade especial:
+Dig
+Rock Smash

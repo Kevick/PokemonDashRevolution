@@ -1,0 +1,26 @@
+Nome: Nidoking
+
+Tipo: Poison/earth
+
+Level minimo: 65
+Movimentos:
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Horn Drill - m7 - level 67 - normal
+Stomp - m8 - level 69 - earth
+Shockwave - m9 - level 71 - earth
+Rage - m10 - level 65 - dragon
+Fear - m11 - level 73 - ghost
+
+Passivas: Nenhum
+
+Evolução: Nidoran M/Nidorino/Nidoking
+
+Stone: 1x Venom stone/ 1x Earth Stone
+
+Habilidade especial:
+Nenhum
