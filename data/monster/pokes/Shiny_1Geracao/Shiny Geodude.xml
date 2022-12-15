@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Geodude" nameDescription="Shiny Geodude" race="rock" experience="275" speed="153" manacost="0">
+  <health now="1080" max="1080"/>
+  <look type="196" head="0" body="0" legs="0" feet="0" corpse="6071"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+  <attack name="Rock Throw" interval="10000" chance="100" >
+	</attack>
+	<attack name="Sand Attack" interval="9000" chance="100" >
+	</attack>
+	<attack name="Rock Slide" interval="7000" chance="100" >
+	</attack>
+	<attack name="Earthshock" interval="11000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="GEO!"/>
+    <voice sentence="DUDE!"/>
+    <voice sentence="GEODUDE!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="15" chance="62000"/> -- small stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

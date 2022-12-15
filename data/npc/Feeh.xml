@@ -1,0 +1,9 @@
+<npc name="Feeh [quest]" script="data/npc/scripts/Remagikarp.lua" walkinterval="350000" floorchange="0" speed="0">
+		<health now="100" max="100"/>
+		<look type="152" head="89" body="88" legs="65" feet="0"/>
+						<parameters>
+														<parameter key="message_greet" value="Ola! |PLAYERNAME|, Poederia me dar uma ajuda?" />
+														<parameter key="message_farewell" value="Tchau." />
+														<parameter key="message_walkaway" value="Tchau." />
+						</parameters>
+</npc>

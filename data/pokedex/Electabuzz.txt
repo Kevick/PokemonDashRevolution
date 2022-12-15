@@ -1,0 +1,23 @@
+Nome: Electabuzz
+
+Tipo: Eletric
+
+Level minimo: 70
+
+Movimentos:
+Quick Attack - m1 - level 80 - normal
+Thunder Punch - m2 - level 80 - electric
+Thunder Shock - m3 - level 80 - electric
+Thunder Bolt - m4 - level 80 - electric
+Thunder Wave - m5 - level 80 - electric
+Thunder - m6 - level 80 - electric
+Electric Storm - m7 - level 85 - electric
+
+Passivas: Electricity - electric
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade Especial:
+Flash

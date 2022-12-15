@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Koga Weezing" nameDescription="a Koga Weezing" race="undead" experience="610" speed="270" manacost="280">
+  <health now="3500" max="3500"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="60" min="-100" max="-140">
+    </attack>
+    <attack name="smokescreen" interval="4000" chance="90" min="-200" max="-240">
+    </attack>
+    <attack name="sludge bomb" interval="3000" chance="90" min="-300" max="-400">
+    </attack>
+    <attack name="poison fang" interval="6500" chance="90" min="-550" max="-600">
+    </attack>
+    <attack name="smokescreen" interval="7000" chance="90" min="-700" max="-800">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="50" max="100">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Weeezing!"/>
+	</voices>
+	<loot>
+		<item id="5881" countmax="20" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="200"/><!-- Stone -->
+	</loot>
+</monster>

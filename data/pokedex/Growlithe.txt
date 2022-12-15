@@ -1,0 +1,23 @@
+Nome: Growlithe
+
+Tipo: Fire
+
+Level minimo: 20
+
+Movimentos:
+Roar - m1 - level 28 - normal
+Bite - m2 - level 25 - normal
+Quick Attack - m3 - level 25 - normal
+Ember - m4 - level 25 - fire
+Flamethrower - m5 - level 25 - fire
+Fireball - m6 - level 27 - fire
+Rage - m7 - level 30 - dragon
+
+Passivas: Nenhum
+
+Evolução: Growlithe / Arcanine
+
+Stone: 2x Fire Stone
+
+Habilidade Especial:
+Nenhum

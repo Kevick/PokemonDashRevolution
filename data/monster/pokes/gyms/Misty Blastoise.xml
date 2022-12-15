@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Misty Blastoise" nameDescription="a Misty Blastoise" race="undead" experience="1600" speed="240" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="80"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="headbutt" interval="1000" chance="50" min="-850" max="-950">
+    </attack>
+    <attack name="bubble" interval="1000" chance="50" min="-600" max="-700">
+    </attack>
+    <attack name="waterball" interval="4500" chance="50" min="-750" max="-800">
+    </attack>
+    <attack name="water gun" interval="4500" chance="50" min="-900" max="-1000">
+    </attack>
+    <attack name="bubblebeam" interval="5000" chance="50" min="-1500" max="-2000">
+    </attack>
+    <attack name="hydro cannon" interval="5000" chance="50" min="-1450" max="-1500">
+    </attack>
+    <attack name="aqua tail" interval="3500" chance="90" min="-2000" max="-2760">
+    </attack>
+    <attack name="hydro pump" interval="7000" chance="90" min="-2500" max="-3000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="199">
+    </defense>
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="MISTY BLASTOISE!"/>
+		<voice sentence="TOISE!"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="6569" countmax="2" chance="10000"/><!-- Sell Item -->
+		<item id="6126" countmax="1" chance="1500"/><!-- Sell Item -->
+		<item id="5810" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

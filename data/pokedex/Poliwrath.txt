@@ -1,0 +1,27 @@
+Nome: Poliwrath
+
+Tipo: Water / Fightig
+
+Level minimo: 65
+
+Movimentos:
+Mud Shot - m1 - level 65 - earth
+Doubleslap - m2 - level 65 - normal
+Bubbles - m3 - level 65 - water
+Water Gun - m4 - level 65 - water
+Dizzy Punch - m5 - level 69 - normal
+Mega Punch - m6 - level 65 - fighting
+Ice Punch - m7 - level 71 - ice
+Ice Beam - m8 - level 73 - ice
+Hypnosis - m9 - level 65 - psychic
+
+
+Passivas: Nenhum
+
+Evolução: Poliwag / Poliwhirl / Poliwrath
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf
+Rock Smash

@@ -1,0 +1,22 @@
+Nome: Tentacool
+
+Tipo: Water / Poison
+
+Level minimo: 12
+
+Movimentos:
+Acid - m1 - level 15 - poison
+Bubbles - m2 - level 15 - water
+Poison Sting - m3 - level 15 - poison
+Psy Pulse - m4 - level 17 - psychic
+Mud Shot - m5 - level 19 - earth
+Super Sonic - m6 - level 21 - normal
+
+Passivas: Nenhum
+
+Evolução: Tentacool / Tentacruel
+
+Stone: 1x Water Stone / 1x Crystal Stone
+
+Habilidade especial:
+Surf

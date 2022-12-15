@@ -1,0 +1,21 @@
+Nome: Bellsprout
+
+Tipo: Grass / Poison
+
+Level minimo: 5
+
+Movimentos:
+Razor Leaf - m1 - level 10 - grass
+Vine Whip - m2 - level 12 - grass
+Acid - m3 - level 8 - poison
+Slash - m4 - level 5 - normal
+
+Passivas: Nenhum
+
+Evolução: 
+Bellsprout / Weepinbell / Victreebel
+
+Stone: 1x Leaf Stone
+
+Habilidade especial:
+Cut

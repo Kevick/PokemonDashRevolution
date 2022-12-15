@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brock Golem" nameDescription="a Brock Golem" race="undead" experience="1350" speed="280" manacost="0">
+  <health now="15000" max="15000"/>
+  <look type="116" head="20" body="30" legs="40" feet="50" corpse="6043"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-750" max="-850">
+    </attack>
+    <attack name="rock polish" interval="4500" chance="90" min="-1200" max="-1300">
+    </attack>
+    <attack name="earthquake" interval="5000" chance="85" min="-1200" max="-1300">
+    </attack>
+    <attack name="rock polish" interval="3500" chance="90" min="-800" max="-950">
+    </attack>
+    <attack name="falling rocks" interval="7000" chance="90" min="-950" max="-1000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="50" max="100">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Goleem!"/>
+    <voice sentence="Gooleem!"/>
+    <voice sentence="Goleeem!"/>
+	</voices>
+	<loot>
+		<item id="1294" countmax="8" chance="20000"/><!-- Sell Item -->
+		<item id="2674" countmax="3" chance="10000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5924" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

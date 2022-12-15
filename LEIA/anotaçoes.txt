@@ -1,0 +1,1006 @@
+
+
+Coordenadas das town
+
+pallet city   1 {x = 568, y = 1135, z = 6}
+Viridian City 2 {x = 560, y = 1040, z = 7}
+Pewter City   3 {x = 571, y = 668, z = 6}
+Cerulean City 4 {x = 1060, y = 903, z = 7}
+Saffron City  5 {x = 1053, y = 1050, z = 7}
+Celadon City  6 {x = 863, y = 1036, z = 6}
+Lavender City 7 {x = 1204, y = 1045, z = 7}  
+Vermillion City 8{x = 1073, y = 1241, z = 7}
+Fuchsia City    9  {x = 1122, y = 1450, z = 7}
+Cinnabar City   10 {x = 634, y = 1345, z = 7}
+
+
+
+
+
+=============================
+items que falta nos loot
+--Tooth - Arbok - Ekans - Zubat, Golbat, venonat        -- nao feito 
+
+-- fur -- Vulpix --Ninetales, Mankey, primeape, Growlithe  -- nao feito
+--Microphone - Wigglytuff , Jigglypuff  -- nao feito
+-- Mushroom - paras - parasect           -- nao feito
+
+-- Luck Medalion - meouth - persian
+-- Wool Ball - meouth - persian               -- nao pronto
+-- ruby - persian , golduck, tentacool, tentacruel  - n pronto
+-- Karate Duck - golduck                             - n feito
+-- Iron Bracelet - primeape                             - n feito
+-- Slow Tail , slowpoke, slowbro                        - n feito
+-- Farfetch’d Stick - farfethd                            - feito
+--Traces of Ghost, gastly, gengar, haunter    ==n feito
+--Old Amber Aerodactyl                           -  tem
+--novo
+Belt of champion - 10020 --solved 
+
+ sem bug 5944 - ice orb
+ sem bug 5921 - Scythe
+5920 - Electric tail
+
+sem bug 5898 - Fox tail
+5896 - Pinsir horn
+sem bug 5880 - pinsir horn 2
+items do 5914 até 5875
+ all bug items do 3966 até 3939
+item do 2365 ate 2315
+Squirtle hull 2170
+2138 - bulb
+
+
+
+runas 2262
+================================================================
+ITEMS FREE E VIP
+First Stone (free Account)(Fire Stone, Water Stone, Leaf Stone)
+Box 1 (free Account)
+Box 2 (Free Account)
+Box 3 (Premium Account)
+Box 4 (Premium Account)
+Ice Stone quest (Free Account)
+Venom Stone (Free Account)
+Enigma Stone ( Free Account)
+Rock Stone Free Account)
+Darkness Stone ( Premium Account)
+Pokeball, HD, potions ( Free Account)
+
+para ter acesso as areas vip é necessario usar Fly
+
+Fly (premium account)
+ride(Free Account)
+surf (Free Account
+
+Control mind (Premium Account)
+Flash/blink (Free Account)
+Teleport ( Premnium Account)
+======================================================
+LISTA DE DROPS DOS POKEMONS SELVAGENS
+
+
+--Charizard
+Dragon tooth 2171 = 30%
+Essence of fire 8866 max 30 =85%
+pot of lava 8867 = 42%
+fire stone = 0,5%
+----------------------
+
+Charmeleon
+Essence of fire 8866 max 30 =45%
+pot of lava 8867 = 22%
+nail 8868 =30%
+Fire stone = 0,5%
+-----------------------
+
+
+Charmander
+Essence of fire 8866 max 15 = 40%
+Pot of lava 8867 = 12%
+nail 8868 =30%
+-----------------------
+
+bulbasaur
+
+seeds max 8850 25 = 45%
+leaves 8851 = 16,5%
+Bag of polem 8852 max 2 = 12%
+bulb 2138 = 10%
+
+---------------------------
+
+ivysaur
+
+seeds max 30 chance 40%
+leaves max 2 chance 21%
+bag of polem max 2 chance 14%
+leaf stone chance 0,5%
+bulb 20%
+
+--------------------------
+Venusaur
+
+seeds max 40 chance 40%
+leaves max 4 chance 21%
+bag of polem max 4 21%
+leaf stone 0,5%
+bulb  30%
+
+-------------------------
+
+squirtle
+
+water gem max 10 chance 85%
+water pendant 2 chance 42%
+squirtle hull chance 10%
+
+
+---------------------------
+
+Wartortle
+
+Water Stone 0,5%
+Water gem max 19 chance 85%
+water pensant max 2 chance 42%
+squirtle hull 20%
+---------------------------
+Blastoise
+
+Water gem max 60 chance 100%
+Water pendant max 4 chance 30%
+water stone chance 0,5%
+squirtle hull chance 30%
+
+-----------------------
+Caterpie
+
+platinum coin  max 10 chance 100%
+pot of moss bug chance 30%
+
+---------------------------
+metapod
+
+pot of moss bug chance 77%
+coocon stone chance 0,6%
+-------------------------
+Butterfree
+
+pot of moss bug chance 100%
+bug antenna 20%
+Coocon stone 0,6%
+Bag of polem 12%
+-------------------------
+
+Weedle
+
+pot of moss bug chance 28%
+-------------------------
+kakuna
+
+pot of moss bug chance 70%
+coocon stone chance 0,6%
+ -----------------------
+beedrill
+
+pot of moss bug chance 90%
+bug atenna chance 20%
+coccon stone chance 0,8%
+bag of polem 12%
+---------------------
+pidgey
+
+Straw max 6 chance 45%
+feather chance 12,3%
+pidgeot doll chance 0,3%
+---------------------
+pidgeotto
+
+straw max 10 chance 65%
+feather chance 30%
+bird break chance 15%
+heart stone chance 0,5%
+pidgeot doll chance 0,5%
+------------------------
+pidgeot
+
+Straw max 30 chance 75%
+feather max 5chance 40%
+bird break chance 35%
+heart stone chance 0,5%
+pidgeot doll chance 0,6%
+pidgeot backpack chance 1,7%
+---------------------------
+rattata
+
+Apple bite chance 59%
+---------------------------
+raticate
+
+apple bite chance 89%
+rat tail chance 30%
+heart stone chance 0,5%
+--------------------------
+spearow 
+
+Straw chance 45% max 6
+feather chance 12,3%
+-------------------------
+Fearow
+
+Straw chance 65% max 19
+Feather chance 30%
+bird break chance 35%
+Heart stone chance 0,5%
+-------------------------
+ekans
+
+cents chance 50% mac 60
+bottle o poison chance 80% max 10
+------------------------
+Arbok
+
+Venom stone chance 0,5%
+bottle os poison 80¨% max20
+--------------------------
+pikachu
+
+screw chance 65%
+electric box chance 10%
+imam chance 10%
+------------------------
+Raichu
+electric box chance 10%
+imam chance 10%
+thunder stone chance 0,5%
+------------------------
+sandsrehw 
+
+sandbag chance 30%
+small stone max 30 chance 62%
+------------------------
+sandslash
+
+sandbag chance 65% max 2 
+small stone max 40 chance 62%
+earth stone chance 0,6%
+----------------------
+nidoran female
+
+bottle of poison chance 48%
+nail chance 30%
+---------------------
+nidoran male
+
+bottle of poison chance 48%
+nail chance 30%
+----------------------
+nidorina
+
+bottle of poison max 15 chance 80%
+nail chance 35%
+venom stone chance 0,5%
+-----------------------
+nidorino
+
+Bottle of poison max 15 chance 80%
+venom stone chance 0,5%
+nail chance 35%
+-----------------------
+nidoqueen 
+
+Venom stone chance 0,5
+earth stone chance 0,6%
+nail chance 40%
+----------------------
+nidoking
+
+venom stone chance 0,5
+nail chance 40%
+---------------------
+Clefairy
+
+comb 6%
+--------------------
+Clefable
+Heart stone 0,5%
+comb 8%
+---------------------
+Vulpix
+
+Essence of fire max 15 50%
+pot of lava chance 30%
+nail chance 20%
+------------------------
+ninetales
+
+Essence of fire max 25 chance 50%
+pot of lava 40%
+nail 20%
+fire stone 0,5%
+dragon tooth 30%
+fox tail 15%
+-------------------------
+jigglypuff
+comb 9%
+---------------------
+wigglypuff
+
+heart stone chance 0,5%
+----------------------------
+Zubat
+
+Bat wing 12%
+bottle of poison chance 68%
+----------------------------
+golbat
+
+bat wing  29%
+bottle of poison max 30 79%
+Venom stone 0,5%
+---------------------------
+oddish
+
+seed max 20  chance 69%
+leaves chance 20%
+Bag of polem chance 25%
+--------------------------
+Gloom
+
+seed max 25 chance 78%
+bag of polem chance 24%
+leaf stone chance 0,5%
+leaves chance 18%
+-------------------------
+seed max 40 chance 45%
+bag of polem chance 40% max 4
+leaf stone chance 0,5%
+venom stone chance 0,5%
+leaves 25,5¨%
+---------------------------
+paras
+
+pot of moss bug chance 28%
+seeds chance 30% max 25
+--------------------------
+pot of moss bug chance 50%
+bug atenna chance 8,5%
+coccon stone 0,6%
+seed chance 30% max 25
+---------------------------
+bottle of poison chance 48% max 21
+bug atenna 25%
+seeds max 19 30%
+pot of moss bug 28%
+----------------------------
+
+venomoth
+
+bottle of poison max 30 chance 80%
+venom stone 0,5%
+bug venom chance 30%
+pot of moss bug chance 60%
+bug atenna chance 40%
+coccon stone chance 0,6%
+---------------------------
+diglett
+
+small stone max 15 chance 60%
+sandbag 30%
+--------------------------
+dugtrio
+
+sandbag chance 65%
+small stone max 20 chance 62%
+earth stone 0,6%
+--------------------------
+meowth
+nail 32%
+--------------------------
+persian 
+
+heart stone 0,5%
+nail 32%
+----------------------------
+psyduck
+water gem max 10 chance 85%
+water pendant chance 17%
+----------------------------
+Golduck
+
+Water gem chance 70% max 30
+Water pendand 27%
+water stone e enigma stone 0,5%
+----------------------------
+mankey
+
+Straw max 15  70%
+----------------------------
+primeape
+
+stone orb max 4 11%
+punch stone 0,5%
+straw max 15 70%
+
+
+-----------------------------
+growlithe
+
+essence of fire max 10 chance 50%
+pot of lava 30%
+nail 20%
+-----------------------------
+arcanine
+
+ essence of fire max 30 chance 50%
+pot of lava 30%
+nail max 2 chance 20%
+Fire stone chance 0,5%
+-----------------------------
+poliwag
+
+water gem max 5 chance 65%
+water pendant chance 10%
+poliwrath doll chance 0,2%
+----------------------------
+poliwhirl
+
+water gem max 20 chance 72%
+water pendante chance 35%
+poliwrath doll chance 0,4%
+water stone chance 0,5%
+---------------------------
+poliwrath
+
+water gem max 30 chance 85%
+water pendant chance 35% max 3
+poliwrath doll chance 0,5%
+water stone e punch stone chance 0,5%
+-----------------------------
+
+abra
+
+future orb chance 15%
+------------------------------
+
+Kadbara
+Future orb
+chance 40%
+psy spoon chance 24%
+enigma stone chance 0,5%
+-----------------------------
+alakazam 
+future orb 45%
+psy spoon chance 16%
+enigma stone chance 0,5%
+----------------------------
+machop
+
+stone orb chance 11%
+small stone max 15 chance 62%
+-----------------------------
+machoke
+punch stone chance 0,5%
+small stone max 25 chance 62%
+stone orb chance 11%
+belt of champion chance 10%
+-----------------------------
+machoke
+Stone orb max 3 chance 21%
+small stone max 35 chance 85%
+punch stone chance 0,5%
+belt of champion chance 20%
+----------------------------
+bellsprout
+seed max 15 chance 45%
+leaves chance 16%
+bag of polem chance 12%
+---------------------------
+weepinbell
+Seed max 25 chance 59%
+leaves chance 21%
+bag of polem chance 14%
+leaf stone chance 0,5%
+-------------------------
+victreebell
+
+seed max 35 chance 89%
+leaves chance 31%
+bag of polem chance 24%
+leaf stone chance 0,5%
+---------------------------
+tentacool
+water gem chance 20% max 10
+water pendant chance 42%
+----------------------------
+entacruell
+
+waterpendant chance 27% max 3
+water stone e venom stone 0,5%
+----------------------------
+geodude
+
+stone orb chance 11%
+small stone max 15 chance 62%
+-----------------------------
+graveler
+
+small stone chance 62% max 27
+rock stone chance 0,5%
+stone orb chance 11%
+-----------------------------
+golem
+
+stone orb max 6 chance 24%
+small stone max 35 chance 72%
+rock stone chance 0,5%
+----------------------------
+ponyta
+essence of fire chance 50% max 10
+
+pot of lava chance 30%
+-------------------------------
+rapidash
+essence of fire max 35 chance 65%
+pot of lava chance 22%
+fire stone chance 0,5%
+-----------------------------
+slowpoke
+water gem chance 85% max 13
+----------------------------
+slowbro
+water gem max 20 chance 100%
+water pendant chance 27% max 3
+Water stone e enigma stone 0,5%
+slowbro doll chance 1%
+---------------------------
+magnemite
+
+screw 65%  max 3
+electric box chance 9%
+imam chance 9%
+---------------------------
+magneton
+
+screw max 27 chance 75%
+electric box chance 15%
+imam chance 15%
+thunder stone chance 0,5%
+-------------------------
+Farfetchd
+
+straw max 19 chance 65%
+feather chance 30% max 2
+
+bird break chance 15%
+heart stone chance 0,5%
+farfetchd stick chance 20%
+-------------------------
+doduo
+
+straw max 6 chance 33%
+feather chance 22%
+bird break chance 45%
+-------------------------
+dodrio
+Straw max 22 chance 85%
+feather max 2 chance 37%
+bird break chance 45%
+heart stone max 0,5%
+-------------------------
+seel
+
+ice cube 5%
+ice orb 30%
+--------------------------
+dewgong
+ice stone 0,5%
+water stone e ice stone 0,5%
+ice orb 60%
+---------------------------
+grimer
+
+bottle of poison chance 48% max 21
+
+gosme chance 12%
+---------------------------
+muk
+
+bottle of poison max 30 chance 80%
+gosme chance 28%
+venom stone chance 0,5%
+----------------------------
+shellder
+ice cube chance 4%
+water gem chance 85%  max 19
+water pendant 17%
+locksmith of shell 17%
+ice orb 15%
+------------------------------
+cloyster
+water gem max 19 chance 85%
+locksmith of shell chance 21%
+ice orb chance 60%
+-----------------------------
+gastly
+future orb chance 10%
+---------------------------
+haunter
+
+future orb chance 15%
+darkness stone chance 0,5%
+---------------------------
+gengar
+
+Future orb chance 20%
+darkness stone chance 0,5%
+---------------------------
+onix
+
+stone orb max 6 chance 11%
+small stone max 30 chance 62%
+rock stone chance 0,5%
+--------------------------
+drowzee
+-- future orb chance 20%
+--------------------------
+hypno
+
+linearly guided hypnose chance 10% max 2
+enigma stone chance 0,5%
+future orb chance 30%
+
+
+--------------------------
+krabby
+
+water gem max 12 chance 20%
+crab claw chance 20%
+--------------------------
+kingler
+
+Water gem chance 70% max 20
+water stone 0,5%
+crab claw 25%
+water pendant 27%
+
+----------------------------
+voltorb
+
+screw max 13 chance 65%
+electric box  chance 9%
+imam 9%
+-------------------------------
+electrode
+
+seed max 15 chance 45%
+leaves chance 16%
+bag of polem chance 9%
+--------------------------------
+exeggutor
+
+leaves 21% max 2
+bag of polem chance 14%
+leaf stone e enigma stone chance 0,5%
+----------------------------------
+Cubone
+
+sandbag chance 25%
+small stone chance 62% max 15
+Bone chance 9¨%
+-----------------------------------
+marowak
+
+sandbag chance 65%
+small stone max 25 chance 62%
+earth stone chance 0,6%
+bigbone chance 8%
+------------------------------------
+
+hitmonlee
+ stone orb chance 11%
+small stone chance 62% max 45
+punch stone chance 0,5%
+-------------------------------------
+hitmonchan não feito
+-------------------------------------
+lickitung
+heart stone chance 0,5%
+tongue 20%
+------------------------------------
+koffing
+bottle of poison chance 48% max 15
+gosme chance 12%
+-----------------------------------
+weezing
+
+venom stone chance 0,5%
+gosme chance 28% max 3
+bottle of poiso max 30 chance 80%
+-----------------------------------
+rhyhorn
+horn chance 20%
+stone orb chance 11%
+small stone max 25 chance 62%
+-------------------------------------
+rhydon
+
+stone orb chance 24%
+small stone chance 72% max 60
+horn chance 25%
+rock stone chance 0,5%
+-----------------------------------
+chansey
+
+heart stone chance 0,6%
+orb of future chance 13%
+------------------------------------
+kangaskhan
+
+earth stone chance 0,6%
+heart stone chance 0,5%
+small stone chance 62% max 70
+seed max 20 chance 60%
+-----------------------------------
+horsea
+
+water gem 85% max 19
+water pendant chance 17%
+----------------------------------
+seadra
+
+water stone 0,5%
+waer pendant chance 27%
+water gem max 30 chance 50%
+----------------------------------
+goldeen
+
+water gem max 19 chance 85%
+water pendant chance 17%
+horn 15%
+--------------------------------
+seaking
+
+Water gem max 40 chance 40%
+water pendant chance 27%
+water stone chance 0,5%
+horn chance 20%
+--------------------------------
+staryu
+
+water gem chance 85% max 40 
+water pendant chance 17% 
+---------------------------------
+starmie
+
+water gem chance 100% max 40
+water pendant chance 27%
+water stone 0,5%
+---------------------------------
+mrmime
+
+heart stone e enigma stone 0,5%
+future orb chance 30%
+---------------------------------
+scyther
+
+seed 59% max 50
+leaves max 5 chance 21%
+bag of polem chance 50% max 5
+coccon stone 0,8%
+scythe chance 20%
+pot of moss bug chance 70%
+----------------------------------
+jynx
+
+]ice orb chance 60%
+ice cube chance 9%
+ice stone chance 0,5%
+ice bra chance 20%
+water pendant chance 27% max 4
+--------------------------------
+electabuzz
+
+electric box chance 17% max2
+imam 13% max2
+electric tail chance 19% max2
+thunder stone  0,5
+screw 65% max 25
+
+-------------------------------
+magmar
+essence of fire chance 85% max 50
+pot of lava max 3 chance 42%
+nail chance 52%
+fire stone chance 0,5%
+-----------------------------
+pinsir
+pot of moss bug max 2 chance 100%
+horn chance 8,5%
+pinsir horn chance 20%
+coccon stone chance 0,8%
+-------------------------------
+tauros
+
+seed max 22 chance 45%
+straw max 50 chance 65%
+horn chance 30%
+heart stone 0,5%
+--------------------------------
+magikarp 
+
+remain of magikarp chance 80%
+--------------------------------
+gyarados
+
+water gem chance 80% max 100
+gyarados tail chance 15%
+water pendant chance 27%
+water stone chance 0,5%
+crystal stone chance 0,5%
+--------------------------------
+lapras
+ice stone e water stone 0,5%
+ice cube 9%
+water pendant max 3 chance 27%
+ice orb chance 30%
+-------------------------------
+eevee
+
+apple bite chance 10%
+seed chance 45% max 22
+leaves chance 16%
+bag of polem chance 9%
+water gem chance 85% max 19
+water pendant chance 17%
+pot of moss bug chance 28%
+-------------------------------
+omanyte
+water gem max 50 chance 85%
+water pendant chance 27% max 2
+stone orb chance 11% 
+small stone max 45 chance 62%
+rock stone 0,5%
+------------------------------
+omastar
+crystal stone chance 0,5%
+water stone chance 0,5%
+------------------------------
+kabuto
+
+water gem chance 85% max 50
+stone orb chance 11%
+-------------------------------
+aerodactyl
+
+rock stone chance 0,5%
+stone orb chance 11% max 10
+--------------------------------
+snorlax
+heart stone chance 0,5%
+hamburger 20%
+hotdog chance 30%
+limonada chance 20%
+pizza chance 30%
+bitten apple chance 50%  max 2
+-------------------------------
+dratini
+
+Water gem chance 85% max 50%
+water pendant chance 27% max2
+ice cube chance 8%
+-----------------------------
+dragonair
+
+ater pendant chance 27% max3
+ice cube 9%
+crystal stone 0,5%
+-----------------------------
+Dragonite
+
+water pendant chance 27% max 4
+crystal stone chance 0,5%
+-----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

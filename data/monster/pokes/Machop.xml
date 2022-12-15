@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machop" nameDescription="Machop" race="undead" experience="325" speed="220" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="118" head="20" body="30" legs="40" feet="50" corpse="6045"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-10" max="-40"/>
+      <attack name="Doubleslap" interval="6000" chance="100" >
+	</attack>
+	<attack name="Karate Chop" interval="15000" chance="100" >
+	</attack>
+	<attack name="Strafe" interval="10000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="10000" chance="100" >
+	</attack>
+	<attack name="Ground Chop" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="15" defense="12">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Machooo"/>
+    <voice sentence="Machop!"/>
+    <voice sentence="maa!!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="20" chance="62000"/> -- small stone
+
+	</loot>
+        <script>
+	<event name="Spawn"/>
+        </script>
+</monster>
+

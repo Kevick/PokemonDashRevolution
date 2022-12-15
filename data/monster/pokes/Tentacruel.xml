@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="Tentacruel" race="undead" experience="875" speed="270" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="45" attack="16"/>
+    <attack name="Acid" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bubbles" interval="2000" chance="10" >
+	</attack>
+	<attack name="Poison Bomb" interval="2000" chance="10" >
+	</attack>
+	<attack name="Poison Sting" interval="10000" chance="100" >
+	</attack>
+	<attack name="Psy Pulse" interval="12000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="13000" chance="100" >
+	</attack>
+	<attack name="Psywave" interval="11000" chance="100" >
+	</attack>
+	
+
+  </attacks>
+
+
+  <defenses armor="13" defense="23"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="70" chance="100000"/> -- water gem
+	
+	
+	<item id="8820" countmax="3" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="500"/> -- water stone
+	<item id="2278" countmax="1" chance="500"/> -- Venom Stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

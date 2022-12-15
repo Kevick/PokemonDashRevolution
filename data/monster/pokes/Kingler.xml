@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="Kingler" race="undead" experience="625" speed="300" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="245" corpse="6340"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="1500" range="1" chance="100" min="-80" max="-120"/>
+    <attack name="Bubbles" interval="2000" chance="10" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Bubble Beam" interval="7000" chance="100" >
+	</attack>
+	<attack name="Crabhammer" interval="10000" chance="100" >
+	</attack>
+	<attack name="Guillotine" interval="12000" chance="100" >
+	</attack>
+	<attack name="Fury Cutter" interval="13000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="25" defense="30">
+    <defense name="healing" interval="3000" chance="18" min="200" max="395">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+
+    <elements>
+		<element energyPercent="20"/>
+		<element icePercent="10"/>
+		<element holyPercent="-25"/>
+		<element firePercent="25"/>
+	</elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="KINGLER!!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="30" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="500"/> -- water stone
+	<item id="6126" countmax="1" chance="40000"/> -- crab claw
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+
+
+</monster>

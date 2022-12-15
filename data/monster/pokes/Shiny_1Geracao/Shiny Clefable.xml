@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Clefable" nameDescription="Shiny Clefable" race="undead" experience="725" speed="255" manacost="100">
+  <health now="4200" max="4200"/>
+  <look type="68" head="20" body="30" legs="40" feet="50" corpse="6006"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="Doubleslap" interval="6000" chance="100" >
+	</attack>
+	<attack name="Lovely Kiss" interval="7000" chance="100" >
+	</attack>
+	<attack name="Sing" interval="8000" chance="100" >
+	</attack>
+	<attack name="Selfheal" interval="12000" chance="100" >
+	</attack>
+	<attack name="Multi-Slap" interval="7800" chance="100" >
+	</attack>
+	<attack name="Metronome" interval="11000" chance="100" >
+	</attack>
+	<attack name="Focus" interval="11000" chance="100" >
+	</attack>
+	
+  </attacks>
+
+  <defenses armor="17" defense="23">
+    <defense name="outfit" interval="1500" chance="20" monster="bat" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="outfit" interval="1500" chance="20" monster="vampire" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+
+     <defense name="speed" interval="1500" chance="120" range="7" speedchange="300" duration="30000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+  <element physicalPercent="35"/>
+  <element firePercent="-10"/>
+  <element holyPercent="-25"/>
+  </elements>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="100"> 
+    <voice sentence="BLOOD!" yell="1"/>
+    <voice sentence="Clefa!"/>
+    <voice sentence="Clefable"/>
+    <voice sentence="Fable"/>
+  </voices>
+ <loot>
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	<item id="5946" countmax="1" chance="12000"/> -- comb
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+
+
+</monster>

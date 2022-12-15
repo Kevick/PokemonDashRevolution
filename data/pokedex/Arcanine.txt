@@ -1,0 +1,26 @@
+Nome: Arcanine
+
+Tipo: Fire
+
+Level minimo: 80
+
+Movimentos:
+Roar - m1 - level 90 - normal
+Bite - m2 - level 80 - normal
+Quick Attack - m3 - level 80 - normal
+Ember - m4 - level 80 - fire
+Flamethrower - m5 - level 80 - fire
+Fireball - m6 - level 80 - fire
+Fire Fang - m7 - level 80 - fire
+Fire Blast - m8 - level 82 - fire
+Tri Flames - m9 - level 84 - fire
+War Dog - m10 - level 86 - normal
+
+Passivas: Nenhum
+
+Evolução: Growlithe / Arcanine
+
+Stone: Nenhum
+
+Habilidade Especial:
+ride

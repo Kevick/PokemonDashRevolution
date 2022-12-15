@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Goldeen" nameDescription="Shiny Goldeen" race="undead" experience="110" speed="156" manacost="315">
+  <health now="950" max="950"/>
+  <look type="274" head="20" body="30" legs="40" feet="50" corpse="2970"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="5"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-10" max="-15"/>
+   <attack name="Horn Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Poison Sting" interval="7000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="10000" chance="100" >
+	</attack>
+	<attack name="Water Pulse" interval="11000" chance="100" >
+	</attack>
+	<attack name="Aqua Tail" interval="12000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="7" defense="10"/>
+
+    <elements>
+		<element icePercent="20"/>
+		<element firePerent="20"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+  </elements>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Goldeenn!"/>
+    <voice sentence="deeen!" yell="1"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmin="7" countmax="12" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	<item id="5896" countmax="1" chance="15000"/> -- Horn
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

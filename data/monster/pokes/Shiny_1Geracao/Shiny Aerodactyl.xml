@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Aerodactyl" nameDescription="Shiny Aerodactyl" race="rock" experience="2000" speed="210" manacost="250">
+  <health now="12000" max="12000"/>
+  <look type="10" head="20" body="30" legs="40" feet="50" corpse="6338"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag staticattack="90"/>
+  <flag runonhealth="0" />
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="15000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="10000" chance="100" >
+	</attack>
+	<attack name="Rock Throw" interval="12000" chance="100" >
+	</attack>
+	<attack name="Rock Slide" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fire Fang" interval="15000" chance="100" >
+	</attack>
+	<attack name="Wing Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Falling Rocks" interval="16000" chance="100" >
+	</attack>
+	<attack name="Hyper Beam" interval="18000" chance="100" >
+	</attack>
+	<attack name="Ancient Power" interval="20000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="4000" chance="100" min="100" max="300"-->
+    <!--/defense-->
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Aeroodactyl!"/>
+		<voice sentence="Moohhhhooooo!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="10" chance="11000"/> -- stone orb
+	
+	<item id="2280" countmax="1" chance="500"/> -- rock stone
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

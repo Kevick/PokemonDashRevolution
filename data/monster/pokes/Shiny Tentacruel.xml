@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="Shiny tentacruel" race="undead" experience="195" speed="250" manacost="590">
+	<health now="14500" max="14500"/>
+	<look type="489" corpse="128"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+
+    <attack name="melee" interval="2000" skill="300" attack="300"/>
+    <attack name="ice strike" interval="6000" chance="1000" range="7" min="-645" max="-1250">
+    </attack>
+    <attack name="poli" interval="5000" chance="1000" range="7" min="-645" max="-800">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="35" range="5" target="1">
+    </attack>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-290" max="-405">
+    </attack>
+    <attack name="acid" range="5" interval="3000" chance="21" min="-300" max="-405">
+    </attack>
+    <attack name="poison sting" range="1" interval="2000" chance="17" min="-200" max="-300">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="1500" chance="18" min="-200" max="-255">
+    </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-360" max="-500">
+    </attack>
+    <attack name="bubbles" range="5" interval="2000" chance="20" min="-350" max="-660">
+    </attack>
+    <attack name="waterball" range="5" interval="1500" chance="15" min="-300" max="-300">
+    </attack>
+    <attack name="psy pulse" interval="1700" chance="22" min="-444" max="-444">
+    </attack>
+    <attack name="psy wave" range="4" interval="3000" chance="16" min="-222" max="-555">
+    </attack>
+
+  </attacks>
+	<defenses armor="15" defense="12">
+		<defense name="speed" interval="1000" chance="15" speedchange="290" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="20"/>
+		<element holyPercent="10"/>
+		<element earthPercent="-20"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="KRAK ORRRRRRK!" yell="1"/>
+	</voices>
+</monster>

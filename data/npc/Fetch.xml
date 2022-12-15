@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fetch" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="90" body="116" legs="88" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Ola amigo, eu vendo Hamburguer e Pizza."/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="hamburguer,2686,750;Pizza,2696,1000"/>
+			
+	</parameters>
+</npc>

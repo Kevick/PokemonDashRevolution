@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blaine Charizard" nameDescription="a Blaine Charizard" race="undead" experience="1600" speed="240" manacost="590">
+  <health now="8000" max="8000"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+
+  <targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="dragon claw" interval="1000" chance="50" min="-150" max="-600">
+    </attack>
+    <attack name="ember" interval="1000" chance="50" min="-200" max="-500">
+    </attack>
+    <attack name="wing attack" interval="4500" chance="50" min="-400" max="-600">
+    </attack>
+    <attack name="dragon rage" interval="4500" chance="50" min="-700" max="-1000">
+    </attack>
+    <attack name="fire blast" interval="5000" chance="90" min="-800" max="-900">
+    </attack>
+    <attack name="fire spin" interval="3500" chance="90" min="-1000" max="-1500">
+    </attack>
+    <attack name="flamethrower" interval="7000" chance="50" min="-2100" max="-2500">
+    </attack>
+    <attack name="magma storm" interval="7000" chance="50" min="-2750" max="-3000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="199">
+    </defense>
+  </defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Charizard!"/>
+		<voice sentence="ZAAARD!"/>
+	</voices>
+	<loot>
+		<item id="5894" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="5890" countmax="5" chance="7000"/><!-- Sell Item -->
+		<item id="5910" countmax="2" chance="4500"/><!-- Sell Item -->
+		<item id="5907" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

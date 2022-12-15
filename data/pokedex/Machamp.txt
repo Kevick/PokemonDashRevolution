@@ -1,0 +1,25 @@
+Nome: Machoke
+
+Tipo: Fighting
+
+Level minimo: 65
+
+Movimentos:
+Triple Punch - m1 - level 70 - fighting
+Mega Punch - m2 - level 70 - fighting
+Mega Kick - m3 - level 70 - fighting
+Karate Chop - m4 - level 70 - fighting
+Ground Chop - m5 - level 70 - fighting
+Fist Machine - m6 - level 76 - fighting
+Destroyer Hand - m7 - level 78 - fighting
+Strafe - m8 - level 74 - normal
+
+Passivas: Nenhum
+
+Evolução: Machop / Machoke / Machamp
+
+Stone: Nenhum
+
+Habilidade especial:
+Rock Smash
+Dig

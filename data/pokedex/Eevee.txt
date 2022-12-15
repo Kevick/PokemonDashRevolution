@@ -1,0 +1,23 @@
+Nome: Eevee
+
+Tipo: Normal
+
+Level minimo: 20
+
+Movimentos:
+Sand Attack - m1 - level 20 - earth
+Quick Attack - m2 - level 20 - normal
+Bite - m3 - level 20 - normal
+Headbutt - m4 - level 24 - normal
+Iron Tail - m5 - level 28 - normal
+Great Love - m6 - level 35 - normal
+
+Passivas: Nenhum
+
+Evolução: Eevee/Jolteon/Flareon/Vaporeon
+
+Stone: 
+Thunder Stone/Fire Stone ou Water Stone
+
+Habilidade especial:
+Nenhum

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weezing" nameDescription="Weezing" race="undead" experience="550" speed="460" manacost="280">
+  <health now="5000" max="5000"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1700" range="1" chance="100" min="-60" max="-80" />
+ <attack name="Mud Shot" interval="3000" chance="30" >
+	</attack>
+	<attack name="Mud Bomb" interval="13000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="7000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="10000" chance="100" >
+	</attack>
+	<attack name="Poison Bomb" interval="12000" chance="100" >
+	</attack>
+	<attack name="Selfdestruct" interval="17000" chance="100" >
+	</attack>
+	<attack name="Poison Gas" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mortal Gas" interval="13800" chance="100" >
+	</attack>
+  </attacks>
+
+
+
+
+  <defenses armor="4" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="100">
+    <voice sentence="Bsssssss"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8857" countmax="3" chance="28000"/> -- gosme
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+
+</monster>

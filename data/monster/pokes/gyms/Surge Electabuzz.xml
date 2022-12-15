@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Surge Electabuzz" nameDescription="a Surge Electabuzz" race="undead" experience="1500" speed="260" manacost="340">
+	<health now="6500" max="6500"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+  	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="68" min="-200" max="-600">
+    </attack>
+    <attack name="thundershock" interval="5000" chance="100" min="-400" max="-580">
+    </attack>
+    <attack name="sonicboom" interval="3000" chance="90" min="-1000" max="-1200">
+    </attack>
+    <attack name="thunderbolt" interval="7000" chance="95" min="-800" max="-1100">
+    </attack>
+    <attack name="thunder" interval="6500" chance="95" min="-1000" max="-1500">
+    </attack>
+    <attack name="electric storm" interval="10000" chance="95" min="-800" max="-1100">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense>
+    <defense name="Electricity" interval="5000" chance="60" min="-650" max="-1200">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Surge Electaabuzz!"/>
+	</voices>
+	<loot>
+		<item id="5893" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5928" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

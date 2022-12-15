@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Muk" nameDescription="Shiny Muk" race="poison" experience="550" speed="180" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="488" head="0" body="0" legs="0" feet="0" corpse="121"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+     <attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Sludge" interval="15000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="7000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="10000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+	<attack name="Body Slam" interval="13000" chance="100" >
+	</attack>
+	<attack name="Poison Bomb" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mud Bomb" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MUK!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8857" countmax="3" chance="28000"/> -- gosme
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

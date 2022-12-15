@@ -1,0 +1,26 @@
+Nome: Marowak
+
+Tipo: Earth
+
+Level minimo: 45
+
+Movimentos:
+Headbutt - m1 - level 55 - normal
+Bonemerang - m2 - level 55 - earth
+Bone Club - m3 - level 55 - earth
+Bone Slash - m4 - level 55 - earth
+Mud Shot - m5 - level 55 - earth
+Earthshock - m6 - level 59 - earth
+Shockwave - m7 - level 61 - earth
+Rage - m8 - level 65 - dragon
+
+Passivas: Nenhum
+
+Evolução: Cubone / Marowak
+
+Stone: Nenhum
+
+Habilidade especial:
+Dig
+Cut
+Rock Smash

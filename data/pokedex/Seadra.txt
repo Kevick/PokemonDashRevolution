@@ -1,0 +1,24 @@
+Nome: Seadra
+
+Tipo: Water
+
+Level minimo: 45
+
+Movimentos:
+Mud Shot - m1 - level 45 - earth
+Mud Bomb - m2 - level 45 - earth
+Quick Attack - m3 - level 45 - normal
+Bubbles - m4 - level 45 - water
+Bubblebeam - m5 - level 45 - water
+Water Gun - m6 - level 45 - water
+Waterball - m7 - level 45 - water
+Hydro Cannon - m8 - level 55 - water
+
+Passivas: Nenhum
+
+Evolução: Horsea / Seadra
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

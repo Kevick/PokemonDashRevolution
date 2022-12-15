@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Omanyte" nameDescription="Shiny Omanyte" race="undead" experience="400" speed="250" manacost="775">
+  <health now="1500" max="1500"/>
+  <look type="92" head="20" body="30" legs="40" feet="50" corpse="5998"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="melee" interval="1800" min="-14" max="-30"/>
+    
+     <attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Rock Throw" interval="15000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Waterball" interval="10000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="13000" chance="100" >
+	</attack>
+	<attack name="Ancient Power" interval="15000" chance="100" >
+	</attack>
+	</attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="40" max="60">
+    </defense-->
+  </defenses>
+	<loot>
+	        <item id="6528" countmin="7" countmax="50" chance="85000"/> -- water gem
+	        <item id="8820" countmax="2" chance="27000"/> -- water pendant
+		
+		<item id="8864" countmax="1" chance="11000"/> -- stone orb
+		<item id="1294" countmax="45" chance="62000"/> -- small stone
+		<item id="2280" countmax="1" chance="500"/> -- rock stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

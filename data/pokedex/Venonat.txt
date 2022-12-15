@@ -1,0 +1,24 @@
+Nome: Venonat
+
+Tipo: Bug / Poison
+
+Level minimo: 18
+
+Movimentos:
+Absorb - m1 - level 20 - grass
+Bug Bite - m2 - level 20 - bug
+Super Sonic - m3 - level 20 - normal
+Psychic - m4 - level 30 - psychic
+Poison Fang - m5 - level 20 - poison
+Sleep Powder - m6 - level 35 - grass
+Poison Powder - m7 - level 30 - poison
+Stun Spore - m8 - level 25 - grass
+
+Passivas: Nenhum
+ 
+Evolução: Venonat / Venomoth
+
+Stone: 1x Coccon Stone / 1x Venom Stone
+
+Habilidade especial:
+Nenhum

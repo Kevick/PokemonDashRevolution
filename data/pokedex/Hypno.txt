@@ -1,0 +1,25 @@
+Nome: Hypno
+
+Tipo: psychic 
+
+Level minimo: 50
+
+Movimentos:
+Headbutt - m1 - level 55 - normal
+Psywave - m2 - level 55 - psychic
+Psybeam - m3 - level 55 - psychic
+Confusion - m4 - level 55 - psychic
+Psychic - m5 - level 58 - psychic
+Dream Eater - m6 - level 68 - ghost
+Hypnosis - m7 - level 60 - psychic
+Focus - m8 - level 70 - normal
+
+Passivas: Nenhum
+
+Evolução: Abra / Kadabra / Alakazam
+
+Stone: Nenhum
+
+Habilidade especial:
+Teleport
+Flash

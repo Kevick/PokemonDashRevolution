@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoran Female" nameDescription="Nidoran Female" race="undead" experience="125" speed="200" manacost="650">
+  <health now="650" max="650"/>
+  <look type="70" head="20" body="30" legs="40" feet="50" corpse="6013"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-5" /> 
+  <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Horn Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="5" defense="3"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooo!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="10" chance="48000"/> -- bottle of poison
+	<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

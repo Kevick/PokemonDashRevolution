@@ -1,0 +1,20 @@
+Nome: Psyduck
+
+Tipo: Water
+
+Level minimo: 12
+
+Movimentos:
+Water Gun - m1 - level 24 - water
+Aqua Tail - m2 - level 20 - water
+Confusion - m3 - level 28 - psychic
+Headbutt - m4 - level 20 - normal
+
+Passivas: Stunning Confusion - psychc
+
+Evolução: Psyduck / Golduck
+
+Stone: 1x Water Stone / 1x Enigma Stone
+
+Habilidade especial:
+Nenhum

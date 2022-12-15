@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Bellsprout" nameDescription="Bellsprout" race="grass" experience="135" speed="195" manacost="300">
+  <health now="480" max="480" /> 
+  <look type="250" head="0" body="0" legs="0" feet="0" corpse="2806" /> 
+	<targetchange interval="1000000" chance="0"/>
+  <strategy attack="100" defense="0" /> 
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="0" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1800" min="-15" max="-30"/>
+    <attack name="Razor Leaf" interval="6000" chance="100" >
+	</attack>
+	<attack name="Vine Whip" interval="7000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="6000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bellsprout!"/>
+    <voice sentence="Bells!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="15" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="12000"/> -- bag of polem
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

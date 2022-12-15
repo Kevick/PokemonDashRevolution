@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Marowak" nameDescription="Shiny Marowak" race="undead" experience="700" speed="250" manacost="445">
+  <health now="4200" max="4200"/>
+  <look type="698" head="0" body="0" legs="0" feet="0" corpse="6072"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+	<attack name="melee" interval="1800" min="-60" max="-80"/>
+  <attack name="Headbutt" interval="6000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="3000" chance="10" >
+	</attack>
+	<attack name="Slash" interval="7000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="10000" chance="100" >
+	</attack>
+	<attack name="Bone Club" interval="12000" chance="100" >
+	</attack>
+	<attack name="Bone Slash" interval="13000" chance="100" >
+	</attack>
+	<attack name="Earthshock" interval="15000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="16000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="80" max="120">
+    </defense-->
+  </defenses>
+	<loot>
+	<item id="8865" countmax="1" chance="65000"/> -- sandbag
+	<item id="1294" countmax="25" chance="62000"/> -- small stone
+	<item id="2287" countmax="1" chance="600"/> -- earth stone
+	<item id="2231" countmax="1" chance="8000"/> -- bigbone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

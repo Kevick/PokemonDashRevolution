@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Beedrill" nameDescription="Beedrill" race="bug" experience="500" speed="182" manacost="250">
+  <health now="2800" max="2800"/>
+  <look type="45" head="20" body="30" legs="40" feet="50" corpse="5990"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-64" max="-74"/>
+	<attack name="String Shot" interval="2000" chance="20" >
+	</attack>
+	<attack name="Poison Sting" interval="3000" chance="20" >
+	</attack>
+	<attack name="Fury Cutter" interval="8000" chance="100" >
+	</attack>
+	<attack name="Pin Missile" interval="1000" chance="10" >
+	</attack>
+	<attack name="Strafe" interval="7000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="BEE!"/>
+    <voice sentence="BEEDRILL!"/>
+    <voice sentence="DRILL!"/>
+  </voices>
+	<loot>
+		<item id="8858" countmax="1" chance="40000"/>-- pot of moss bug
+		<item id="8859" countmax="1" chance="20000"/>-- bug antenna
+		<item id="2284" countmax="1" chance="800"/>-- coccon stone
+		<item id="8852" countmax="1" chance="12000"/> -- bag of polem	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

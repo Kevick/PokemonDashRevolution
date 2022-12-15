@@ -1,0 +1,22 @@
+Nome: Horsea
+
+Tipo: Water
+
+Level minimo: 5
+
+Movimentos:
+Mud Shot - m1 - level 10 - earth
+Bubbles - m2 - level 10 - water
+Bubblebeam - m3 - level 15 - water
+Water Gun - m4 - level 12 - water
+Waterball - m5 - level 10 - water
+
+
+Passivas: Nenhum
+
+Evolução: Horsea / Seadra
+
+Stone: 1x Water Stone
+
+Habilidade especial:
+Nenhum

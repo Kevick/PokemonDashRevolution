@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Kangaskhan" nameDescription="Shiny Kangaskhan" race="undead" experience="1200" speed="250" manacost="490">
+  <health now="8500" max="8500"/>
+  <look type="198" head="0" body="0" legs="0" feet="0" corpse="6073"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+   <attacks>
+   <attack name="melee" interval="1800" min="-45" max="-85"/>
+    <attack name="Bite" interval="6000" chance="100" >
+	</attack>
+	<attack name="Dizzy Punch" interval="15000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="7000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="10000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="12000" chance="100" >
+	</attack>
+	<attack name="Epicenter" interval="13000" chance="100" >
+	</attack>
+	<attack name="Earthshock" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="100" max="300">
+    </defense-->
+  </defenses>
+	<loot>
+	<item id="2287" countmax="1" chance="500"/> -- Earth stone
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	<item id="1294" countmax="50" chance="62000"/> -- small stone
+	<item id="8850" countmax="20" chance="59000"/> -- seeds
+	<!--item id="7443" countmax="1" chance="4000"/--><!-- Xp potion -->
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

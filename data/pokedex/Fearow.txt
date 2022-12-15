@@ -1,0 +1,24 @@
+Nome: Fearow
+
+Tipo: Normal/flying
+
+Level minimo: 50
+
+Movimentos:
+Quick Attack - m1 - level 50 - normal
+Sand Attack - m2 - level 50 - earth
+Drill Peck - m3 - level 50 - flying
+Gust - m4 - level 50 - flying
+Whirlwind - m5 - level 50 - flying
+Wing Attack - m6 - level 52 - flying
+Tornado - m7 - level 60 - flying
+Rage - m8 - level 55 - dragon
+
+Passivas: Nenhum
+
+Evolução: Spearow/Fearow
+
+Stone: Nenhum
+
+Habilidade especial:
+fly

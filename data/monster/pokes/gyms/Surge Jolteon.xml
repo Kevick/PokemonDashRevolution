@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Surge Jolteon" namedescription="a Surge Jolteon" race="undead" experience="1800" speed="280" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="195" head="20" body="30" legs="40" feet="50" corpse="6044"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+   <attacks>
+    <attack name="quick attack" interval="1000" chance="50" min="-100" max="-150">
+    </attack>
+    <attack name="bite" interval="1000" chance="50" min="-250" max="-500">
+    </attack>
+    <attack name="thundershock" interval="4500" chance="93" min="-400" max="-500">
+    </attack>
+    <attack name="thunderbolt" interval="5000" chance="93" min="-600" max="-800">
+    </attack>
+    <attack name="thunder wave" interval="3500" chance="92" min="-1000" max="-1400">
+    </attack>
+    <attack name="thunder" interval="7000" chance="93" min="-1500" max="-1700">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="1000" chance="100" min="10" max="50">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Surge Joolteon!"/>
+	</voices>
+	<loot>
+		<item id="5893" countmax="8" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5928" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

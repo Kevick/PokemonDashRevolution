@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorina" nameDescription="Nidorina" race="undead" experience="350" speed="170" manacost="360">
+  <health now="2200" max="2200"/>
+  <look type="71" head="20" body="30" legs="40" feet="50" corpse="6014"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="-65" poison="-50"/>
+  <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Horn Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Poison Sting" interval="15000" chance="100" >
+	</attack>
+	<attack name="Poison Fang" interval="12900" chance="100" >
+	</attack>
+	<attack name="Stomp" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="9" defense="20"/>
+  <immunities>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="nidooooriinaa!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="15" chance="80000"/> -- bottle of poison
+	<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

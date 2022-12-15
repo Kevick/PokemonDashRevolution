@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farfetchd" nameDescription="Farfetchd" race="undead" experience="665" speed="220" manacost="600">
+  <health now="3200" max="3200"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="2836"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="melee" interval="1800" min="-80" max="-120"/>
+     <attack name="Sand Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Drill Peck" interval="10000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="7000" chance="100" >
+	</attack>
+	<attack name="Stickmerang" interval="12000" chance="100" >
+	</attack>
+	<attack name="Fury Cutter" interval="10900" chance="100" >
+	</attack>
+	<attack name="Wing Attack" interval="7000" chance="100" >
+	</attack>
+	<attack name="Agility" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="100" max="250">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Farfetch'D"/>
+	</voices>
+	<loot>
+	<item id="2694" countmax="19" chance="65000"/> -- straw
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	<item id="8822" countmax="1" chance="15000"/> -- bird beak
+	<item id="2289" countmax="1" chance="600"/> -- heart stone
+	<item id="5877" countmax="1" chance="20000"/> -- farfeth stick
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

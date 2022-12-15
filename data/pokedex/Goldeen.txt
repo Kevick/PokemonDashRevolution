@@ -1,0 +1,22 @@
+Nome: Goldeen
+
+Tipo: Water
+
+Level minimo: 10
+
+Movimentos:
+Horn Attack - m1 - level 10 - normal
+Poison Sting - m2 - level 10 - poison
+Water Gun - m3 - level 12 - water
+Water Pulse - m4 - level 15 - water
+Aqua Tail - m5 - level 12 - water
+Super Sonic - m6 - level 18 - normal
+
+Passivas: Nenhum
+
+Evolução: Goldeen / Seaking
+
+Stone: 1x Water Stone
+
+Habilidade especial:
+Surf

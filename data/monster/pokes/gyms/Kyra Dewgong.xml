@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kyra Dewgong" nameDescription="a Kyra Dewgong" race="undead" experience="1180" speed="270" manacost="0">
+  <health now="4500" max="4500"/>
+  <look type="110" head="20" body="30" legs="40" feet="50" corpse="6038"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-100" max="-160">
+    </attack>
+    <attack name="bubble" interval="5000" chance="90" min="-170" max="-200">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-200" max="-320">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-350" max="-500">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-500" max="-650">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="80" max="160">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ccccchhhh!"/>
+    <voice sentence="Knooorrr!"/>
+	</voices>
+	<loot>
+		<item id="5901" countmax="5" chance="15000"/><!-- Sell Item -->
+		<item id="6569" countmax="5" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5917" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

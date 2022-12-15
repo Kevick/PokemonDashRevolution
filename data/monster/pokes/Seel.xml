@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seel" nameDescription="Seel" race="UNDEAD" experience="400" speed="210" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="101" head="20" body="30" legs="40" feet="50" corpse="6030"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+   
+    <attack name="melee" interval="1800" min="-10" max="-30"/>
+    <attack name="Aqua Tail" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ice Shards" interval="15000" chance="100" >
+	</attack>
+	<attack name="Ice Beam" interval="7000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="10000" chance="100" >
+	</attack>
+	<attack name="Aurora Beam" interval="12000" chance="100" >
+	</attack>
+	<attack name="Icy Wind" interval="13000" chance="100" >
+	</attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ccccchhhh!"/>
+    <voice sentence="Knooorrr!"/>
+	</voices>
+	<loot>
+		
+		<item id="7441" countmax="1" chance="100"/><!-- Ice cube -->
+		<item id="5944" countmax="1" chance="30000"/> -- ice orb
+		
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

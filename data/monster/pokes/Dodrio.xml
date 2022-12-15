@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dodrio" nameDescription="Dodrio" race="flying" experience="700" speed="250" manacost="0">
+  <health now="3550" max="3550"/>
+  <look type="120" head="20" body="30" legs="40" feet="50" corpse="6047"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1600" range="1" min="-88" max="-109"/>
+	<attack name="Sand Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Quick Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fury Attack" interval="9000" chance="100" >
+	</attack>
+	<attack name="Pluck" interval="8500" chance="100" >
+	</attack>
+	<attack name="Strafe" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="DODRIO!"/>
+<voice sentence="DRIO!"/>
+  </voices>
+
+	<loot>
+	<item id="2694" countmax="22" chance="85000"/> -- straw
+	<item id="8823" countmax="2" chance="37000"/> -- feather
+	<item id="8822" countmax="1" chance="45000"/> -- bird beak
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmeleon" nameDescription="Charmeleon" race="fire" experience="700" speed="185" manacost="0">
+  <health now="4200" max="4200"/>
+  <look type="23" head="20" body="30" legs="40" feet="50" corpse="5981"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-65" max="-100"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="30" >
+	</attack>
+	<attack name="Flamethrower" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="20" >
+	</attack>
+	<attack name="Fire Fang" interval="7800" chance="100" >
+	</attack>
+	<attack name="Fire Blast" interval="12000" chance="100" >
+	</attack>
+	<attack name="Raging Blast" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMELEON!"/>
+    <voice sentence="MELEON!"/>
+  </voices>
+	<loot>
+	<item id="8866" countmax="32" chance="45000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="22000"/> -- pot of lava
+	<item id="8868" countmax="1" chance="30000"/><!-- Nail -->
+	<item id="2283" countmax="1" chance="500"/> -- fire stone
+	</loot>
+<script>
+<event name="Spawn"/>
+<event name="BlockSpells"/>
+</script>
+</monster>

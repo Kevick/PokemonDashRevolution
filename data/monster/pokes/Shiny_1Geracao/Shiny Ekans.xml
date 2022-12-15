@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ekans" nameDescription="Shiny Ekans" race="undead" experience="250" speed="290" manacost="360">
+  <health now="700" max="700"/>
+  <look type="7" head="20" body="30" legs="40" feet="50" corpse="5979"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-20" max="-40" poison="-5"/>
+     <attack name="Bite" interval="6000" chance="100" >
+	</attack>
+	<attack name="Poison Fang" interval="10000" chance="100" >
+	</attack>
+	<attack name="Poison Sting" interval="12000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="10000" chance="100" >
+	</attack>
+	<attack name="Fear" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="8" defense="14"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ekaans."/>
+    <voice sentence="eeeeeee."/>
+    <voice sentence="kaaaans!"/>
+  </voices>
+	<loot>
+		<item id="8856" countmax="14" chance="80000"/> -- bottle of poison
+		
+		<item id="2148" countmax="60" chance="50000"/> -- cents
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+</monster>

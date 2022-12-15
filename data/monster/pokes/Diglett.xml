@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Diglett" nameDescription="Diglett" race="undead" experience="225" speed="155" manacost="355">
+  <health now="900" max="900"/>
+  <look type="82" head="20" body="30" legs="40" feet="50" corpse="6023"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" min="-25" max="-50"/>
+   <attack name="Sand Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="4000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="20" >
+	</attack>
+	<attack name="Mud Slap" interval="2000" chance="20" >
+	</attack>
+	<attack name="Earthshock" interval="8000" chance="100" >
+	</attack>
+
+  </attacks>
+
+
+
+  <defenses armor="14" defense="14"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Diigleett"/>
+  </voices>
+	<loot>
+		<item id="1294" countmax="20" chance="60000"/> -- small stone
+		<item id="8865" countmax="1" chance="30000"/> --sandbag
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+
+</monster>

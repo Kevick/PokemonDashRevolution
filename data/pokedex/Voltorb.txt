@@ -1,0 +1,21 @@
+Nome: Voltorb
+
+Tipo: eletric
+
+Level minimo: 14
+
+Movimentos:
+Thunder Shock - m1 - level 10 - electric
+Spark - m2 - level 10 - electric
+Thunder Wave - m3 - level 12 - electric
+Rollout - m4 - level 15 - stone
+Selfdestruction - m5 - level 20 - normal
+
+Passivas: Nenhum
+
+Evolução: Voltorb / Electrode
+
+Stone: 1x Thunder Stone
+
+Habilidade especial:
+Flash

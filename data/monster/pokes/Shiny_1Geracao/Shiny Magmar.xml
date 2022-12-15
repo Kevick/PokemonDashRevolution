@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magmar" nameDescription="Shiny Magmar" race="undead" experience="950" speed="260" manacost="320">
+  <health now="7700" max="7700"/>
+  <look type="76" head="20" body="30" legs="40" feet="50" corpse="7283"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+   <attacks>
+  <attack name="melee" key="m1" interval="2000" range="1" min="-105" max="-180"/>
+     <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="30" >
+	</attack>
+	<attack name="Fire Punch" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="20" >
+	</attack>
+	<attack name="Flamethrower" interval="7800" chance="100" >
+	</attack>
+	<attack name="Magma Storm" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fire Blast" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense-->
+  </defenses>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Magmaar!"/>
+	</voices>
+	
+	<loot>
+	<item id="8866" countmax="50" chance="85000"/> <!-- Essence of Fire -->
+	<item id="8867" countmax="3" chance="42000"/> <!-- Pot of Lava -->
+	<item id="8868" countmax="1" chance="52000"/> <!-- Nail -->
+	<item id="2283" countmax="1" chance="600"/> <!-- Fire Stone -->
+	
+	</loot>
+	
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

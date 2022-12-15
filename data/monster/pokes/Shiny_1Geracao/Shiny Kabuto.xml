@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Kabuto" nameDescription="Shiny Kabuto" race="undead" experience="400" speed="250" manacost="775">
+  <health now="1500" max="1500"/>
+  <look type="98" head="0" body="0" legs="0" feet="0" corpse="5972"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+   <attack name="melee" interval="1800" min="-10" max="-30"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bubbles" interval="10000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="7000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+	<attack name="Absorb" interval="13000" chance="100" >
+	</attack>
+	<attack name="Ancient Power" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="40" max="60">
+    </defense-->
+  </defenses>
+	<loot>
+	        <item id="6528" countmin="7" countmax="50" chance="85000"/> -- water gem
+	        
+		
+		<item id="8864" countmax="1" chance="11000"/> -- stone orb
+		
+		
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>
+
+

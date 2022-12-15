@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandshrew" nameDescription="Sandshrew" race="ground" experience="290" speed="150" manacost="310">
+  <health now="700" max="700"/>
+  <look type="43" head="20" body="30" legs="40" feet="50" corpse="5988"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Sand Attack" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Rollout" interval="10000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="3"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Saand!"/>
+    <voice sentence="Sandshreww!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="1" chance="25000"/> -- sandbag
+	<item id="1294" countmax="15" chance="62000"/> -- small stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

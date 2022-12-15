@@ -1,0 +1,24 @@
+Nome: Arbok
+
+Tipo: Poison
+
+Level minimo: 30
+
+Movimentos:
+Bite - m1 - level 35 - normal
+Poison Fang - m2 - level 35 - poison
+Sting Gun - m3 - level 35 - poison
+Pin Missile - m4 - level 38 - bug
+Acid - m5 - level 35 - poison
+Iron Tail - m6 - level 40 - normal
+Fear - m7 - level 42 - ghost
+Rage - m8 - level 40 - dragon
+
+Passivas: Nenhum
+
+Evolução: Ekans/Arbok
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum

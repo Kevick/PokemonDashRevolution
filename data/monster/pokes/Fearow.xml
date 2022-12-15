@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fearow" nameDescription="Fearow" race="undead" experience="750" speed="250" manacost="0">
+  <health now="6000" max="6000"/>
+  <look type="17" head="20" body="30" legs="40" feet="50" corpse="5992"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-200" max="-220" /> 
+  <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Sand Attack" interval="9000" chance="100" >
+	</attack>
+	<attack name="Drill Peck" interval="11000" chance="100" >
+	</attack>
+	<attack name="Gust" interval="10900" chance="100" >
+	</attack>
+	<attack name="Wing Attack" interval="7000" chance="100" >
+	</attack>
+	<attack name="Windstorm" interval="13000" chance="100" >
+	</attack>
+	
+  </attacks>
+
+
+  <defenses armor="15" defense="10"/>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Feaarroow!"/>
+  </voices>
+	<loot>
+	
+	
+	<item id="2694" countmax="19" chance="65000"/> -- straw
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	<item id="8822" countmax="1" chance="15000"/> -- bird beak
+	<item id="2289" countmax="1" chance="600"/> -- heart stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

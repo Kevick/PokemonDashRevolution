@@ -1,0 +1,23 @@
+Nome: Lapras
+
+Tipo: Water/Ice
+
+Level minimo: 70
+
+Movimentos:
+Horn Attack - m1 - level 80 - normal
+Ice Beam - m2 - level 80 - ice
+Ice Shards - m3 - level 80 - ice
+Water Gun - m4 - level 80 - water
+Waterball - m5 - level 80 - water
+Aurora Beam - m6 - level 80 - ice
+Blizzard - m7 - level 88 - ice
+Hydropump - m8 - level 90 - water
+Sing - m9 - level 80 - normal
+
+Evoluções: Nenhum
+
+Stone: Nenhuma 
+
+Habilidade especial:
+Surf

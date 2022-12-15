@@ -1,0 +1,21 @@
+Nome: Ekans
+
+Tipo: Poison
+
+Level minimo: 12
+
+Movimentos:
+Bite - m1 - level 15 - normal
+Poison Fang - m2 - level 17 - poison
+Sting Gun - m3 - level 21 - poison
+Acid - m4 - level 23 - poison
+Fear - m5 - level 25 - ghost
+
+Passivas: Nenhum
+
+Evolução: Ekans/Arbok
+
+Stone: 1x Venom Stone
+
+Habilidade especial:
+Nenhum

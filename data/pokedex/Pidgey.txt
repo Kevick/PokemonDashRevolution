@@ -1,0 +1,20 @@
+Nome: Pidgey
+
+Tipo: Normal / Flying
+
+Level minimo: 1
+
+Movimentos:
+Quick Attack - m1 - level 5 - normal
+Sand Attack - m2 - level 5 - earth
+Gust - m3 - level 7 - flying
+Drill Peck - m4 - level 12 - flying
+
+Passivas: Nenhum
+
+Evolução: Pidgey/Pidgeotto/Pidgeot
+
+Stone: 1x Heart Stone
+
+Habilidade especial:
+Nenhum

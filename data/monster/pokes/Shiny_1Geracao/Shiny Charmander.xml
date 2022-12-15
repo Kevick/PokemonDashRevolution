@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Charmander" nameDescription="Shiny Charmander" race="fire" experience="400" speed="166" manacost="550">
+  <health now="1400" max="1400"/>
+  <look type="29" head="20" body="30" legs="40" feet="50" corpse="5983"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-4" max="-9"/>
+      <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="20" >
+	</attack>
+	<attack name="Flamethrower" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="10" >
+	</attack>
+	<attack name="Fire Fang" interval="7800" chance="100" >
+	</attack>
+	<attack name="Fire Blast" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMANDER!"/>
+    <voice sentence="CHAR!"/>
+    <voice sentence="MANDER!"/>
+  </voices>
+	<loot>
+	<item id="8866" countmax="15" chance="40000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="12000"/> -- pot of lava
+	<item id="8868" countmax="1" chance="30000"/><!-- Nail -->
+	</loot>
+<script>
+<event name="Spawn"/>
+<event name="BlockSpells"/>
+</script>
+</monster>

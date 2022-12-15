@@ -1,0 +1,70 @@
+<npc name="Mom" floorchange="0" walkinterval="0">
+	<health now="150" max="150"/>
+	<look type="289"/>
+	<interaction range="3" idletime="30">
+	
+		<interact keywords="hi" focus="1">
+			<!--These are the keywords will trigger this interaction-->
+			<keywords>oi</keywords>
+			<keywords>hello</keywords>
+			<response>
+				<action name="script">
+					<![CDATA[
+						if(getPlayerLevel(cid)) >= 1 then
+							selfSay("Ola Filho, entao voce quer aprender sobre pokemons?")
+							_state.b1 = (isPremium(cid) == TRUE)
+							_state.topic = 1
+						else
+							selfSay("Hey garoto, estou um pouco ocupado, voce poderia pegar um dos pokemons naquela caixa pra mim?!")
+							_state.isidle = true
+						end
+					]]>
+				</action>
+			</response>
+		</interact>
+	
+		<interact keywords="sim" topic="1">
+					<keywords>yes</keywords>
+			<response text="Ja imaginava que um dia isso aconteceria, eu conheco um grande pesquisador pokemon que pode te ajudar seu nome é 'Prof Oak'.">
+				<action name="topic" value="2"/>
+			</response>
+		   </interact>
+		   
+		<interact keywords="sim" topic="2">
+					<keywords>oak</keywords>
+					<keywords>prof oak</keywords>
+					<keywords>professor oak</keywords>
+			<response text="Sim. Ele é um dos melhores pesquisadores pokemons da atualidade, e seu laboratorio fica logo do outro lado da rua, voce quer ir la?">
+				<action name="topic" value="3"/>
+			</response>
+		   </interact>
+		   
+
+		   
+		<interact keywords="sim" topic="3">
+					<keywords>laboratorio</keywords>
+					<keywords>lab</keywords>
+			<response text="Apenas siga ao sul e voce vera um grande laboratorio, o Prof oak esta no segundo andar ele te ensinara sobre esse maravilhoso mundo pokemon, boa sorte filhao!">
+				<action name="idle" value="1"/>
+			</response>
+		   </interact>
+		
+		
+		<interact keywords="bye" focus="0">
+			<keywords>farewell</keywords>
+			<response text="Bjos."/>
+		</interact>
+
+		<interact event="onBusy">
+			<response text="Um filho de cada vez!">
+				<action name="addqueue" value="|PLAYER|"/>
+			</response>
+		</interact>
+
+		<!--This event triggers if the player goes to far away from the npc/logout/idle timeout-->
+		<interact event="onPlayerLeave" focus="0">
+			<response text="Mudou de ideia muleke?"/>
+		</interact>
+		
+	</interaction>
+</npc>

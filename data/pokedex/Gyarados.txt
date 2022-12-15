@@ -1,0 +1,25 @@
+Nome: Gyarados
+
+Tipo: Water/Dragon
+
+Level minimo: 75
+
+Movimentos:
+Roar - m1 - level 95 - normal
+Bite - m2 - level 85 - normal
+Aqua Tail - m3 - level 85 - water
+Waterball - m4 - level 85 - water
+Hydro Cannon - m5 - level 85 - water
+Dragon Breath - m6 - level 85 - dragon
+Hyper Beam - m7 - level 85 - normal
+Hydropump - m8 - level 93 - water
+
+
+Passivas: Dragon Fury - dragon
+
+Evolução: Magikarp/Gyarados
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Spearow" nameDescription="Shiny Spearow" race="undead" experience="275" speed="195" manacost="255">
+  <health now="500" max="500"/>
+  <look type="27" head="20" body="30" legs="40" feet="50" corpse="5968"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="8"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1900" min="-10" max="-20" /> 
+   <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Sand Attack" interval="7000" chance="100" >
+	</attack>
+	<attack name="Gust" interval="10000" chance="100" >
+	</attack>
+	<attack name="Drill Peck" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="8" defense="8"/>
+  <elements>
+	<element icePercent="-5"/>
+	<element earthPercent="3"/>
+	<element holyPercent="7"/>
+	<element deathPercent="-4"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+<voices interval="5000" chance="10">
+    <voice sentence="Pidgey!"/>
+    <voice sentence="Geyyy!"/>
+  </voices>
+ <loot>
+		<item id="2694" countmax="6" chance="45000"/><!-- Straw -->
+		<item id="8823" countmax="1" chance="12300"/> -- feather
+  </loot>
+  <script>
+<event name="Spawn"/>
+</script>
+</monster>

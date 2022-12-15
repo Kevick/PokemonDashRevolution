@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="Sandslash" race="ground" experience="750" speed="195" manacost="0">
+  <health now="5200" max="5200"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-99" max="-121"/>
+     <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Sand Attack" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Rollout" interval="10000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="12000" chance="100" >
+	</attack>
+	<attack name="Earthquake" interval="11000" chance="100" >
+	</attack>
+	<attack name="Fury Cutter" interval="12900" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="4" chance="65000"/> -- sandbag
+	<item id="1294" countmax="60" chance="62000"/> -- small stone
+	<item id="2287" countmax="1" chance="600"/> -- earth stone
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

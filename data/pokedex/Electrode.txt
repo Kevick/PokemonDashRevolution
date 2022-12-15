@@ -1,0 +1,23 @@
+Nome: Electrode
+
+Tipo: eletric
+
+Level minimo: 38
+
+Movimentos:
+Thunder Shock - m1 - level 35 - electric
+Spark - m2 - level 35 - electric
+Thunder Wave - m3 - level 35 - electric
+Rollout - m4 - level 35 - stone
+Charge Beam - m5 - level 40 - electric
+Electric Storm - m6 - level 45 - electric
+Selfdestruction - m7 - level 35 - normal
+
+Passivas: Nenhum
+
+Evolução: Voltorb / Electrode
+
+Stone: Nenhum
+
+Habilidade especial:
+Flash

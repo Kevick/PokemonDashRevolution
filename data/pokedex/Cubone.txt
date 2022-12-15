@@ -1,0 +1,23 @@
+Nome: Cubone
+
+Tipo: Earth
+
+Level minimo: 18
+
+Movimentos:
+Headbutt - m1 - level 20 - normal
+Bonemerang - m2 - level 20 - earth
+Bone Club - m3 - level 22 - earth
+Bone Slash - m4 - level 27 - earth
+Rage - m5 - level 32 - dragon
+
+Passivas: Nenhum
+
+Evolução: Cubone / Marowak
+
+Stone: 1x Earth Stone
+
+Habilidade especial:
+Dig
+Cut
+Rock Smash

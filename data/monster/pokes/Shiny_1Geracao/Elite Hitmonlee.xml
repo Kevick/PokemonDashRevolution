@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Hitmonlee" nameDescription="Elite Hitmonlee" race="undead" experience="900" speed="265" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="526" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+   <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="Triple Kick" interval="6000" chance="100" >
+	</attack>
+	<attack name="Mega Kick" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mass Kick" interval="7000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="90" max="160">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hitmonlee!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="30" chance="62000"/> -- small stone
+	<item id="2281" countmax="1" chance="500"/> -- punch stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

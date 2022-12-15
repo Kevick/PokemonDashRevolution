@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wartortle" nameDescription="Wartortle" race="undead" experience="700" speed="280" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="6" head="0" body="0" legs="0" feet="0" corpse="5978"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+  <attacks>
+
+    <attack name="melee" interval="1900" range="1" min="-35" max="-50"/>
+    <attack name="Headbutt" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bubbles" interval="8000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="10000" chance="100" >
+	</attack>
+	<attack name="Waterball" interval="12000" chance="100" >
+	</attack>
+	<attack name="Aqua Tail" interval="13000" chance="100" >
+	</attack>
+	<attack name="Bubble Blast" interval="14000" chance="100" >
+	</attack>
+	<attack name="Hydro Cannon" interval="15000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="14000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="8" defense="10">
+
+  </defenses>
+	<voices interval="2000" chance="10">
+		<voice sentence="Wartortle!"/>
+		<voice sentence="Waar!"/>
+	</voices>
+	<loot>
+		<item id="2277" countmax="1" chance="500"/><!-- Water Stone -->
+	  <item id="6528" countmax="19" chance="85000"/> -- water gem
+	  <item id="8820" countmax="2" chance="42000"/> --water pendant
+	  <item id="2170" countmax="1" chance="20000"/> -- squirtle hull
+	
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+</monster>

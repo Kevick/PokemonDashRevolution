@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Butterfree" nameDescription="Butterfree" race="undead" experience="550" speed="190" manacost="530">
+  <health now="3500" max="3500"/>
+  <look type="40" head="20" body="30" legs="40" feet="50" corpse="5985"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="1000" min="-20" max="-40" poison="-20" /> 
+  <attack name="String Shot" interval="4000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="10000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="6000" chance="100" >
+	</attack>
+	<attack name="Whirlwind" interval="10900" chance="100" >
+	</attack>
+    <attack name="Psybeam" interval="11000" chance="100" >
+	</attack>
+	<attack name="Confusion" interval="15000" chance="100" >
+	</attack>
+	<attack name="Sleep Powder" interval="16000" chance="100" >
+	</attack>
+	<attack name="Stun Spore" interval="14600" chance="100" >
+	</attack>
+	<attack name="Poison Powder" interval="10600" chance="100" >
+	</attack>
+
+  </attacks>
+
+
+
+  <defenses armor="13" defense="15"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Buutter?"/>
+    <voice sentence="Buutterfree!"/>
+  </voices>
+	<loot>
+		<item id="8858" countmax="1" chance="100000"/>-- pot of moss bug
+		<item id="8859" countmax="1" chance="20000"/>-- bug antenna
+		<item id="2284" countmax="1" chance="600"/>-- coccon stone
+			
+		<item id="8852" countmax="1" chance="12000"/> -- bag of polem		
+	
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>
+

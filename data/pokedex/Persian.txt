@@ -1,0 +1,22 @@
+Nome: Persian
+
+Tipo: Normal
+
+Level minimo: 25
+
+Movimentos:
+Slash - m1 - level 30 - normal
+Scratch - m2 - level 30 - normal
+Bite - m3 - level 30 - normal
+Pay Day - m4 - level 30 - normal
+Fury Cutter - m5 - level 38 - bug
+Fear - m6 - level 40 - ghost
+
+Passivas: Fury
+
+Evolução: Meowth / Persian
+
+Stone: Nenhum
+
+Habilidade especial:
+Cut

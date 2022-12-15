@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dugtrio" nameDescription="Shiny Dugtrio" race="undead" experience="640" speed="270" manacost="395">
+  <health now="4500" max="4500"/>
+  <look type="83" head="20" body="30" legs="40" feet="50" corpse="6024"/>
+  <targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="80"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="15" attack="15"/>
+   <attack name="Sand Attack" interval="9000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="8000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Mud Slap" interval="10000" chance="100" >
+	</attack>
+	<attack name="Earthshock" interval="12000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="13000" chance="100" >
+	</attack>
+	<attack name="Earthquake" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="12" defense="15">
+  </defenses>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Duugtrioo"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="1" chance="65000"/> -- sandbag
+	<item id="1294" countmax="25" chance="62000"/> -- small stone
+	<item id="2287" countmax="1" chance="600"/> -- earth stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

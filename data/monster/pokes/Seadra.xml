@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Seadra" nameDescription="Seadra" race="water" experience="700" speed="190" manacost="200">
+    <health now="3500" max="3500"/>
+    <look type="276" head="0" body="0" legs="0" feet="0" corpse="2872"/>
+	<targetchange interval="10000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="95"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+    <attack name="melee" interval="2000" range="1" min="-75" max="-100"/>
+  <attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Water Pulse" interval="3000" chance="10" >
+	</attack>
+	<attack name="Quick Attack" interval="7000" chance="100" >
+	</attack>
+	<attack name="Bubbles" interval="4000" chance="10" >
+	</attack>
+	<attack name="Bubblebeam" interval="12000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="13000" chance="100" >
+	</attack>
+	<attack name="Water Oath" interval="15000" chance="100" >
+	</attack>
+	<attack name="Hydro Cannon" interval="8000" chance="100" >
+	</attack>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+	<loot>
+	<item id="6528" countmax="30" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="500"/> -- water stone
+	
+	</loot>
+    <voices interval="6000" chance="0">
+      <voice sentence="SEADRA!"/>
+      <voice sentence="DRA!"/>
+    </voices>
+<script>
+<event name="Spawn"/>
+</script>
+  </monster>

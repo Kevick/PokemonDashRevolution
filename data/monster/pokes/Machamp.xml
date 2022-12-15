@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machamp" nameDescription="Machamp" race="undead" experience="1000" speed="240" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="121" head="20" body="30" legs="40" feet="50" corpse="6048"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-85" max="-225"/>
+   <attack name="Doubleslap" interval="6000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="15000" chance="100" >
+	</attack>
+	<attack name="Fist Machine" interval="15000" chance="100" >
+	</attack>
+	<attack name="Mega Kick" interval="10000" chance="100" >
+	</attack>
+	<attack name="Karate Chop" interval="12000" chance="100" >
+	</attack>
+	<attack name="Destroyer Hand" interval="13000" chance="100" >
+	</attack>
+	<attack name="Ground Chop" interval="15000" chance="100" >
+	</attack>
+	<attack name="Strafe" interval="8000" chance="100" >
+	</attack>
+
+
+
+  </attacks>
+
+  <defenses armor="25" defense="35">
+    <defense name="healing" interval="2000" chance="30" min="300" max="480">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+
+
+    <elements>
+		<element energyPercent="100"/>
+		<element earthPercent="-100"/>
+		<element firePercent="50"/>
+	</elements>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Machaaamp!"/>
+    <voice sentence="Chammp!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="3" chance="21000"/> -- stone orb
+	<item id="1294" countmax="50" chance="82000"/> -- small stone
+	<item id="2281" countmax="1" chance="500"/> -- punch stone
+	<item id="10020" countmax="1" chance="20000"/> -- belt of champion
+	
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

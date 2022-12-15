@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Golbat" nameDescription="Shiny Golbat" race="poison" experience="600" speed="188" manacost="250">
+  <health now="2900" max="2900"/>
+  <look type="695" head="20" body="30" legs="40" feet="50" corpse="6053"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1750" min="-81" max="-102"/>
+   <attack name="Super Sonic" interval="11000" chance="40" >
+	</attack>
+	<attack name="Bite" interval="8000" chance="100" >
+	</attack>
+	<attack name="Poison Fang" interval="7000" chance="100" >
+	</attack>
+	<attack name="Absorb" interval="10000" chance="100" >
+	</attack>
+	<attack name="Toxic" interval="12000" chance="100" >
+	</attack>
+	<attack name="Whirlwind" interval="13000" chance="100" >
+	</attack>
+	<attack name="Poisonous Wing" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLBAT!"/>
+    <voice sentence="BAAT!"/>
+  </voices>
+	<loot>
+	<item id="8855" countmax="1" chance="29000"/> -- bat wing
+	<item id="8856" countmax="20" chance="79000"/> -- bottle of poison
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	</loot>
+	<script>
+	<event name="Spawn"/>
+        </script>
+</monster>

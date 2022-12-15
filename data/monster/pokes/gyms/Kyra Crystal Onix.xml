@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kyra Crystal Onix" nameDescription="a Kyra Crystal Onix" race="undead" experience="4000" speed="300" manacost="390">
+	<health now="20000" max="20000"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="6320"/>
+	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="300"/>
+	</flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-600" max="-800">
+    </attack>
+    <attack name="rock polish" interval="4500" chance="90" min="-1000" max="-1500">
+    </attack>
+    <attack name="earthquake" interval="5000" chance="90" min="-2000" max="-2500">
+    </attack>
+    <attack name="rock polish" interval="3500" chance="90" min="-1500" max="-2000">
+    </attack>
+    <attack name="stone edge" interval="7000" chance="90" min="-2500" max="-3000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="230" max="290">
+    </defense>
+  </defenses>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="oniiix"/>
+	</voices>
+	<loot>
+		<item id="5901" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="2674" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5924" chance="300"/><!-- Stone -->
+		<item id="5917" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

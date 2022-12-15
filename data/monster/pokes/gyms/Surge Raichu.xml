@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Surge Raichu" nameDescription="a Surge Raichu" race="undead" experience="1150" speed="270" manacost="310">
+  <health now="4000" max="4000"/>
+  <look type="50" head="20" body="30" legs="40" feet="50" corpse="5996"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="iron tail" interval="1000" chance="50" min="-100" max="-200">
+    </attack>
+    <attack name="mega kick" interval="1000" chance="50" min="-200" max="-250">
+    </attack>
+    <attack name="thunder wave" interval="4000" chance="50" min="-300" max="-450">
+    </attack>
+    <attack name="thunder punch" interval="4000" chance="50" min="-400" max="-500">
+    </attack>
+    <attack name="thundershock" interval="3000" chance="95" min="-600" max="-700">
+    </attack>
+    <attack name="thunderbolt" interval="7000" chance="95" min="-600" max="-650">
+    </attack>
+    <attack name="thunder" interval="6500" chance="60" min="-740" max="-920">
+    </attack>
+    <attack name="electric storm" interval="6500" chance="40" min="-900" max="-1000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="15" max="115">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Surge Raichu!"/>
+	</voices>
+	<loot>
+		<item id="5893" countmax="3" chance="10000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5928" chance="205"/><!-- Stone -->
+	</loot>
+</monster>

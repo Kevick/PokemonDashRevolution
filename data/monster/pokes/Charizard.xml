@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charizard" nameDescription="Charizard" race="fire" experience="1100" speed="220" manacost="590">
+  <health now="11500" max="11500"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" key="m1" interval="2000" range="1" min="-105" max="-180"/>
+     <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="30" >
+	</attack>
+	<attack name="Flamethrower" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="20" >
+	</attack>
+	<attack name="Fire Fang" interval="7800" chance="100" >
+	</attack>
+	<attack name="Raging Blast" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fire Blast" interval="15000" chance="100" >
+	</attack>
+	<attack name="Wing Attack" interval="8000" chance="100" >
+	</attack>
+	<attack name="Magma Storm" interval="11000" chance="100" >
+	</attack>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+	<item id="2171" countmax="1" chance="30000"/> -- dragon tooth
+	<item id="8866" countmax="50" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="42000"/> -- pot of lava
+	<item id="2283" countmax="1" chance="500"/> -- fire stone
+	
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

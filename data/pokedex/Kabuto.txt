@@ -1,0 +1,21 @@
+Nome: Kabuto
+
+Tipo: Rock/Water
+
+Level minimo: 20
+
+Movimentos:
+Scratch - m1 - level 20 - normal
+Bubbles - m2 - level 25 - water
+Slash - m3 - level 25 - normal
+Mud Shot - m4 - level 25 - earth
+Harden - m5 - level 30 - normal
+Ancient Power - m6 - level 35 - stone
+Mega Drain - passive  - normal
+
+Evoluções: Kabuto/Kabutops
+
+Stone: 1x Rock Stone/1x Crystaç stone
+
+Habilidade especial:
+Nenhum

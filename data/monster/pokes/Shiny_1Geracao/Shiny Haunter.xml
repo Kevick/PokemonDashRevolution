@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Haunter" nameDescription="Shiny Haunter" race="undead" experience="725" speed="280" manacost="485">
+  <health now="3000" max="3000"/>
+  <look type="65" head="20" body="30" legs="40" feet="50" corpse="6004"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+     <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="Lick" interval="8000" chance="100" >
+	</attack>
+	<attack name="Shadow Ball" interval="11000" chance="100" >
+	</attack>
+	<attack name="Night Shade" interval="13000" chance="100" >
+	</attack>
+	<attack name="Shadow Storm" interval="10000" chance="100" >
+	</attack>
+	<attack name="Dream Eater" interval="12000" chance="100" >
+	</attack>
+	<attack name="Hypnosis" interval="8000" chance="100" >
+	</attack>
+	<attack name="Fear" interval="15000" chance="100" >
+	</attack>
+	
+  </attacks>
+  <defenses armor="1" defense="1">
+  	<defense name="invisibleWild" interval="3000" chance="10" speedchange="250" duration="10000">
+	</defense>
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+ <loot>
+	<item id="8869" countmax="1" chance="15000"/>-- future orb
+	
+	<item id="2286" countmax="1" chance="500"/>-- Darkness Stone
+
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

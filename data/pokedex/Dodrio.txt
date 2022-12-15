@@ -1,0 +1,22 @@
+Nome: Dodrio
+
+Tipo: Normal/flying
+
+Level minimo: 45
+
+Movimentos:
+Sand Attack - m1 - level 45 - earth
+Quick Attack - m2 - level 45 - normal
+Drill Peck - m3 - level 45 - flying
+Pluck - m4 - level 50 - normal
+Rage - m5 - level 45 - dragon
+Strafe - m6 - level 45 - normal
+
+Passivas: Nenhum
+
+Evolução: Doduo / Dodrio
+
+Stone: Nenhum
+
+Habilidade especial:
+ride

@@ -1,0 +1,22 @@
+Nome: Abra
+
+Tipo: psychic 
+
+Level minimo: 15
+
+Movimentos:
+Restore - m1 - level 20 - psychic
+Psy Pulse - m2 - level 20 - psychic
+Psychic - m3 - level 29 - psychic
+Calm Mind - m4 - level 25 - psychic
+
+Passivas: Nenhum
+
+Evolução: Abra / Kadabra / Alakazam
+
+Stone: 1x Enigma Stone
+
+Habilidade especial:
+Teleport
+Flash
+Blink

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gastly" nameDescription="Gastly" race="undead" experience="350" speed="250" manacost="450">
+  <health now="1000" max="1000"/>
+  <look type="48" head="113" body="57" legs="95" feet="113" corpse="5993"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="2"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+   <attack name="physical" interval="2000" chance="100" range="3" min="-25" max="-60">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="Lick" interval="8000" chance="100" >
+	</attack>
+	<attack name="Shadow Ball" interval="10000" chance="100" >
+	</attack>
+	<attack name="Night Shade" interval="13000" chance="100" >
+	</attack>
+	<attack name="Hypnosis" interval="6000" chance="100" >
+	</attack>
+	<attack name="Fear" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  <defense name="invisibleWild" interval="3000" chance="10" speedchange="250" duration="10000">
+	</defense>
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+ <loot>
+	<item id="8869" countmax="1" chance="10000"/>-- future orb
+	
+
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

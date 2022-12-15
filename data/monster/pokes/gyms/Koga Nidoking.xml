@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Koga Nidoking" nameDescription="a Koga Nidoking" race="fire" experience="1300" speed="275" manacost="10000">
+  <health now="4200" max="4200"/>
+  <look type="35" corpse="5995"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="poison fang" interval="1000" chance="50" min="-800" max="-1000">
+    </attack>
+    <attack name="tail whip" interval="2000" chance="70" min="-400" max="-450">
+    </attack>
+    <attack name="bite" interval="3000" chance="90" min="-500" max="-600">
+    </attack>
+    <attack name="Dynamicpunch" interval="4000" chance="90" min="-700" max="-850">
+    </attack>
+    <attack name="horn attack" interval="4500" chance="90" min="-1000" max="-1200">
+    </attack>
+    <attack name="sandstorm" interval="5000" chance="90" min="-1500" max="-1700">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="5910" countmax="8" chance="8000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="260"/><!-- Stone -->
+	</loot>
+</monster>

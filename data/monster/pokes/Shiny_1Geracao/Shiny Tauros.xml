@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tauros" nameDescription="Shiny Tauros" race="undead" experience="625" speed="280" manacost="490">
+  <health now="4300" max="4300"/>
+  <look type="93" head="0" body="0" legs="0" feet="0" corpse="6302"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="50"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="melee" interval="1800" min="-40" max="-80"/>
+    <attack name="Headbutt" interval="6000" chance="100" >
+	</attack>
+	<attack name="Hyper Beam" interval="15000" chance="100" >
+	</attack>
+	<attack name="Quick Attack" interval="7000" chance="100" >
+	</attack>
+	<attack name="Horn Attack" interval="10000" chance="100" >
+	</attack>
+	<attack name="Stomp" interval="12000" chance="100" >
+	</attack>
+	
+	<attack name="Fear" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="50" max="100">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tauuros!"/>
+	</voices>
+	<loot>
+	
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="2694" countmax="50" chance="65000"/> -- straw
+			<item id="5896" countmax="1" chance="30000"/> -- Horn
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

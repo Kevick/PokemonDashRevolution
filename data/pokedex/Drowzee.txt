@@ -1,0 +1,22 @@
+Nome: Drowzee
+
+Tipo: psychic 
+
+Level minimo: 22
+
+Movimentos:
+Headbutt - m1 - level 25 - normal
+Psybeam - m2 - level 25 - psychic
+Confusion - m3 - level 27 - psychic
+Hypnosis - m4 - level 30 - psychic
+Focus - m5 - level 32 - normal
+
+Passivas: Nenhum
+
+Evolução: Drowzee / Hypno
+
+Stone: 2x Enigma Stone
+
+Habilidade especial:
+Teleport
+Flash

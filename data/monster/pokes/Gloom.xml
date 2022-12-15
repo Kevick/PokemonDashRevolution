@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gloom" nameDescription="Gloom" race="grass" experience="375" speed="200" manacost="220">
+  <health now="2000" max="2000"/>
+  <look type="74" head="20" body="30" legs="40" feet="50" corpse="6017"/>
+	<targetchange interval="1005" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" range="1" chance="100" min="-65" max="-90"/>
+   <attack name="Absorb" interval="8000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="12000" chance="100" >
+	</attack>
+	<attack name="Leech Seed" interval="10000" chance="100" >
+	</attack>
+	<attack name="Poison Bomb" interval="10900" chance="100" >
+	</attack>
+	<attack name="Poison Gas" interval="12900" chance="100" >
+	</attack>
+	<attack name="Sleep Powder" interval="13000" chance="100" >
+	</attack>
+	<attack name="Stun Spore" interval="15000" chance="100" >
+	</attack>
+	<attack name="Poison Powder" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="GLOOM!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="20" chance="78000"/> -- seeds
+	<item id="8852" countmax="1" chance="24000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="500"/> -- leaf stone
+	<item id="8851" countmax="1" chance="18500"/> -- leaves
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

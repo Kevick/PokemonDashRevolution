@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorlax" nameDescription="Snorlax" race="undead" experience="1500" speed="220" manacost="0">
+  <health now="11000" max="11000"/>
+  <look type="51" head="20" body="30" legs="40" feet="50" corpse="6016"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+    <attack name="melee" interval="1800" min="-80" max="-170"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="15000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="11000" chance="100" >
+	</attack>
+	<attack name="Dizzy Punch" interval="10000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="12000" chance="100" >
+	</attack>
+	<attack name="Body Slam" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fire Fang" interval="15000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="8000" chance="100" >
+	</attack>
+	<attack name="Epicenter" interval="16000" chance="100" >
+	</attack>
+	<attack name="Rest" interval="18000" chance="80" >
+	</attack>
+  </attacks>
+  
+  <defenses armor="1" defense="1">
+    <defense name="healing" interval="5000" chance="100" min="200" max="1000">
+			<attribute key="areaEffect" value="sleep"/>
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Snooorlax!"/>
+	</voices>
+	
+	<loot>
+	<item id="2289" countmax="1" chance="600"/> -- heart stone
+	<item id="2686" countmax="1" chance="20000"/> -- Hamburguer
+	<item id="2683" countmax="1" chance="30000"/> -- Hotdog
+	<item id="2684" countmax="1" chance="20000"/> -- limo
+	<item id="2696" countmax="1" chance="30000"/> -- pizza
+	<item id="8853" countmax="2" chance="50000"/> -- bitten apples
+	
+	</loot>
+	
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Alakazam" nameDescription="Dark Alakazam" race="psychic" experience="1000" speed="180" manacost="490">
+  <health now="8900" max="8900"/>
+  <look type="693" head="20" body="30" legs="40" feet="50" corpse="6057"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1000" chance="100" range="3" min="-121" max="-181">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="Psychic" interval="12000" chance="100" >
+	</attack>
+	<attack name="Psybeam" interval="10000" chance="100" >
+	</attack>
+	<attack name="Psy Pulse" interval="13000" chance="100" >
+	</attack>
+	<attack name="Confusion" interval="15000" chance="100" >
+	</attack>
+	<attack name="Psychic" interval="12000" chance="100" >
+	</attack>
+	<attack name="Psyusion" interval="17000" chance="100" >
+	</attack>
+	<attack name="Psy Wave" interval="7000" chance="100" >
+	</attack>
+	<attack name="Reflect" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="ALAKA!"/>
+    <voice sentence="ZAAAM!"/>
+    <voice sentence="ALAKAZAM!"/>
+  </voices>
+ <loot>
+ 	
+	<item id="8869" countmax="1" chance="30000"/> -- future orb
+	<item id="8870" countmax="1" chance="16000"/> -- psy spoon
+	<item id="2288" countmax="1" chance="500"/> -- enigma stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

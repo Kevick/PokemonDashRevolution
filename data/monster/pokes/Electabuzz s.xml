@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electabuzz" nameDescription="Electabuzz" race="undead" experience="8000" speed="260" manacost="340">
+	<health now="6900" max="6900"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="68" min="-20" max="-160">
+    </attack>
+    <attack name="thundershock" interval="5000" chance="100" min="-100" max="-480">
+    </attack>
+    <attack name="thunderbolt" interval="7000" chance="95" min="-800" max="-1100">
+    </attack>
+    <attack name="thunder" interval="6500" chance="95" min="-1000" max="-1500">
+    </attack>
+    <attack name="eletric storm" range="4" interval="3000" chance="25" min="-253" max="-1078">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense>
+    <defense name="thunder wave" interval="5000" chance="60" min="-650" max="-1200">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Electaabuzz!"/>
+	   <voice sentence="buzz!"/>
+	</voices>
+	<loot>
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	<item id="2279" countmax="1" chance="2600"/> -- thunder stone
+		<item id="2145" countmax="1" chance="750"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="500"/><!-- rare candy -->
+	<item id="2142" countmax="1" chance="100"/> -- Diamond
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>
+

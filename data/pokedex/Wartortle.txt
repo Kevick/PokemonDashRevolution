@@ -1,0 +1,24 @@
+Nome: Wartortle
+
+Tipo: Water
+
+Level minimo: 40
+
+Movimentos:
+Headbutt - m1 - level 40 - normal
+Bubbles - m2 - level 40 - water
+Water Gun - m3 - level 40 - water
+Waterball - m4 - level 40 - water
+Aqua Tail - m5 - level 40 - water
+Bubble Blast - m6 - level 45 - water
+Hydro Cannon - m7 - level 50 - water
+Harden - m8 - level 40 - normal
+
+Passivas: Nenhum
+
+Evolução: Squirtle/Wartortle/Blastoise
+
+Stone: 2x Water Stone
+
+Habilidade especial:
+Surf

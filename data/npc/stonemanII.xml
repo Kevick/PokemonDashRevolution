@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Flint" script="stoneman2.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="299" head="17" body="54" legs="114" feet="0" addons="0"/>
+    <parameters>
+		<parameter key="message_greet" value="Ola Irei precisar de voce para uma 'quest' se voce for lvl 85+.  Posso te {pagar} muito bem e garanto que vai adquirir uma baita experiencia." />
+    </parameters>
+</npc>

@@ -1,0 +1,23 @@
+Nome: Nidorino
+
+Tipo: Poison
+
+Level minimo: 25
+
+Movimentos:
+Quick Attack - m1 - level 30 - normal
+Bite - m2 - level 30 - normal
+Horn Attack - m3 - level 30 - normal
+Poison Sting - m4 - level 30 - poison
+Poison Fang - m5 - level 30 - poison
+Stomp - m6 - level 38 - earth
+Rage - m7 - level 35 - dragon
+
+Passivas: Nenhum
+
+Evolução: Nidoran M/Nidorino/Nidoking
+
+Stone: 1x Venom stone/ 1x Earth Stone
+
+Habilidade especial:
+Nenhum

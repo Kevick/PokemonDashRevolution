@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Growlithe" nameDescription="Shiny Growlithe" race="undead" experience="425" speed="220" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="505" head="20" body="30" legs="40" feet="50" corpse="117"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+   <attack name="Bite" interval="6000" chance="100" >
+	</attack>
+	<attack name="Roar" interval="15000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Quick Attack" interval="10000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="3000" chance="10" >
+	</attack>
+	<attack name="Flamethrower" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="10" >
+	</attack>
+	
+  </attacks>
+  <defenses armor="4" defense="15">
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Groow!"/>
+    <voice sentence="Growlithee!"/>
+  </voices>
+	<loot>
+		<item id="8866" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava -->
+		<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+
+</monster>

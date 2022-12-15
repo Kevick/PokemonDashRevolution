@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Lickitung" nameDescription="Lickitung" race="undead" experience="900" speed="300" manacost="0">
+    <health now="5200" max="5200"/>
+    <look type="11" corpse="2953"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-45" max="-180"/>
+    <attack name="Lick" interval="6000" chance="100" >
+	</attack>
+	<attack name="Doubleslap" interval="12000" chance="100" >
+	</attack>
+	<attack name="Scratch" interval="7000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="10000" chance="100" >
+	</attack>
+	<attack name="Iron Tail" interval="12000" chance="100" >
+	</attack>
+	<attack name="Squishy Licking" interval="13000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="15000" chance="100" >
+	</attack>
+	<attack name="Strafe" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="100" max="250"-->
+    <!--/defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Liiick!"/>
+    <voice sentence="Licki!"/>
+	</voices>
+	<loot>
+
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	<item id="5902" countmax="1" chance="30000"/> -- tongue
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

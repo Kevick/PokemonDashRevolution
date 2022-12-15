@@ -1,0 +1,22 @@
+Nome: Omastar
+
+Tipo: Rock/Water
+
+Level minimo: 70
+
+Movimentos:
+Bite - m1 - level 80 - normal
+Rock Throw - m2 - level 80 - stone
+Waterball - m3 - level 85 - water
+Water Gun - m4 - level 85 - water
+Bubble Blast - m5 - level 85 - water
+Mud Shot - m6 - level 85 - earth
+Harden - m7 - level 90 - normal
+Ancient Power - m8 - level 95 - stone
+
+Evoluções: Omanyte/Omastar
+
+Stone: Nenhum
+
+Habilidade especial:
+Surf

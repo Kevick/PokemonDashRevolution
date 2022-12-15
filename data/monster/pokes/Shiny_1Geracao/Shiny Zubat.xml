@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Zubat" nameDescription="Shiny Zubat" race="poison" experience="150" speed="152" manacost="280">
+  <health now="600" max="600"/>
+  <look type="521" head="20" body="30" legs="40" feet="50" corpse="114"/>
+	<targetchange interval="5000" chance="0"/>
+<targetchange interval="100" chance="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-11" max="-30"/>
+   <attack name="Absorb" interval="3000" chance="10" >
+	</attack>
+	<attack name="Toxic" interval="13000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Super Sonic" interval="10000" chance="40" >
+	</attack>
+	<attack name="Poison Fang" interval="12000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZUBAT!"/>
+    <voice sentence="BAT!"/>
+  </voices>
+	<loot>
+	<item id="8855" countmax="1" chance="12000"/> -- bat wing
+	<item id="8856" countmax="11" chance="68000"/> -- bottle of poison
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

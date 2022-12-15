@@ -1,0 +1,22 @@
+Nome: Geodude
+
+Tipo: Rock
+
+Level minimo: 15
+
+Movimentos:
+Rock Throw - m1 - level 15 - stone
+Rock Slide - m2 - level 15 - stone
+Mega Punch - m3 - level 18 - fighting
+Earthshock - m4 - level 25 - earth
+Harden - m5 - level 20 - normal
+
+Passivas: Nenhum
+
+Evolução: Geodude / Graveler / Golem
+
+Stone: 1x Rock Stone
+
+Habilidade especial:
+Rock Smash
+Dig

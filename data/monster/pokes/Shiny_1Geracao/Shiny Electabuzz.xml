@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Electabuzz" nameDescription="Shiny Electabuzz" race="undead" experience="950" speed="260" manacost="340">
+	<health now="6900" max="6900"/>
+	<look type="497" head="0" body="0" legs="0" feet="0" corpse="143"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+  <attack name="melee" interval="1800" min="-100" max="-205"/>
+      <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Thunder Punch" interval="12000" chance="100" >
+	</attack>
+	<attack name="Thunder Shock" interval="13000" chance="100" >
+	</attack>
+	<attack name="Thunder Fang" interval="15000" chance="100" >
+	</attack>
+	<attack name="Thunder Wave" interval="11500" chance="100" >
+	</attack>
+	<attack name="Thunder" interval="13900" chance="100" >
+	</attack>
+	<attack name="Zap Cannon" interval="16000" chance="100" >
+	</attack>
+  </attacks>
+  
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="150" max="300"> </defense-->
+  </defenses>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Electaabuzz!"/>
+	   <voice sentence="buzz!"/>
+	</voices>
+	<loot>
+	<item id="8862" countmax="2" chance="17000"/> -- elec box
+	<item id="8863" countmax="2" chance="13000"/> -- imam
+	<item id="5920" countmax="2" chance="19000"/> -- electric tail
+	<item id="2279" countmax="1" chance="500"/> -- thunder stone
+	<item id="8861" countmax="25" chance="65000"/> -- screw
+		
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

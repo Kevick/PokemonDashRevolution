@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwrath" nameDescription="Poliwrath" race="water" experience="825" speed="210" manacost="0">
+  <health now="6220" max="6220"/>
+  <look type="104" head="20" body="30" legs="40" feet="50" corpse="6033"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+     <attack name="melee" interval="1700" min="-140" max="-180"/>
+     <attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Waterball" interval="3000" chance="10" >
+	</attack>
+	<attack name="Bubbles" interval="2000" chance="10" >
+	</attack>
+	<attack name="Water Gun" interval="10000" chance="100" >
+	</attack>
+	<attack name="Dizzy Punch" interval="12000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="13000" chance="100" >
+	</attack>
+	<attack name="Ice Punch" interval="15000" chance="100" >
+	</attack>
+	<attack name="Hypnosis" interval="8000" chance="25" >
+	</attack>
+	<attack name="Ice Beam" interval="16000" chance="100" >
+	</attack>
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="WRATH!"/>
+    <voice sentence="POLIWRATH!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="70" chance="85000"/> -- water gem
+	<item id="8820" countmax="3" chance="35000"/> -- water pendant
+	<item id="8821" countmax="1" chance="500"/> -- poliwrath doll
+	<item id="2277" countmax="1" chance="500"/> -- water stone
+	<item id="2281" countmax="1" chance="500"/> -- punch stone
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

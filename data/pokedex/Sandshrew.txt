@@ -1,0 +1,23 @@
+Nome: Sandshrew
+
+Tipo: earth
+
+Level minimo: 18
+
+Movimentos:
+Sand Attack - m1 - level 20 - earth
+Mud Shot - m2 - level 20 - earth
+Scratch - m3 - level 20 - normal
+Rollout - m4 - level 25 - stone
+Shockwave - m5 - level 30 - earth
+
+Passivas: Nenhum
+
+Evolução: Sandshrew/Sandslash
+
+Stone: 2x earth Stone
+
+Habilidade especial:
+Dig
+Rock Smash
+Cut

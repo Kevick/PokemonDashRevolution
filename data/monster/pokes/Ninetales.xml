@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ninetales" nameDescription="Ninetales" race="undead" experience="900" speed="240" manacost="0">
+  <health now="7000" max="7000"/>
+  <look type="114" head="20" body="30" legs="40" feet="50" corpse="6040"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+<attacks>
+
+    <attack name="melee" interval="1900" range="1" min="-80" max="-100" />
+     <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="30" >
+	</attack>
+	<attack name="Flamethrower" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="2000" chance="20" >
+	</attack>
+	<attack name="Fire Fang" interval="7800" chance="100" >
+	</attack>
+	<attack name="Iron Tail" interval="13000" chance="100" >
+	</attack>
+	<attack name="Fire Blast" interval="15000" chance="100" >
+	</attack>
+	<attack name="Magma Storm" interval="11000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="20" defense="20"/>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Niinetalees!"/>
+  </voices>
+	<loot>
+		<item id="8866" countmax="25" chance="50000"/><!-- Essence of fire -->
+		<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+		<item id="2283" countmax="1" chance="500"/><!-- Fire stone -->
+		<item id="2171" countmax="1" chance="30000"/> -- dragon tooth
+		<item id="5898" countmax="1" chance="30000"/> -- fox tail
+		
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,21 @@
+Nome: Ponyta
+
+Tipo: Fire
+
+Level minimo: 20
+
+Movimentos:
+Quick Attack - m1 - level 20 - normal
+Ember - m2 - level 20 - fire
+Flamethrower - m3 - level 26 - fire
+Fireball - m4 - level 23 - fire
+Stomp - m5 - level 28 - earth
+
+Passivas: Nenhum
+
+Evolução: Ponyta / Rapidash
+
+Stone: 1x Fire Stone
+
+Habilidade Especial:
+ride

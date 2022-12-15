@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<npc name="Oak" script="data/npc/scripts/inicial.lua" walkinterval="0" floorchange="0" access="5" >
+	<health now="150" max="150"/>
+	<look type="177" head="17" body="54" legs="114" feet="0" addons="2" />
+	<parameters>
+		<parameter key="message_greet" value="Bem Vindo ao Mundo Pokemon |PLAYERNAME|! Voce gostaria de ser um mestre pokemon?"/>
+		<parameter key="message_farewell" value="Tchau! Ate a proxima."/>
+	</parameters>
+</npc>

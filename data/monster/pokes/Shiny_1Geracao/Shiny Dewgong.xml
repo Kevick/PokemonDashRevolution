@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dewgong" nameDescription="Shiny Dewgong" race="undead" experience="850" speed="270" manacost="0">
+  <health now="5200" max="5200"/>
+  <look type="110" head="20" body="30" legs="40" feet="50" corpse="6038"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="2000" range="1" min="-80" max="-120"/>
+    <attack name="Aqua Tail" interval="6000" chance="100" >
+	</attack>
+	<attack name="Headbutt" interval="5000" chance="100" >
+	</attack>
+	<attack name="Ice Shards" interval="8000" chance="100" >
+	</attack>
+	<attack name="Ice Beam" interval="14000" chance="100" >
+	</attack>
+	<attack name="Icy Wind" interval="13000" chance="100" >
+	</attack>
+	<attack name="Aurora Beam" interval="12000" chance="100" >
+	</attack>
+	<attack name="Blizzard" interval="15000" chance="100" >
+	</attack>
+	<attack name="Restore" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="80" max="160">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Deww!"/>
+    <voice sentence="Dewgoong!"/>
+	</voices>
+	<loot>
+		
+			
+	  <item id="2277" chance="500"/><!--Water Stone -->
+		<item id="2290" countmax="1" chance="500"/><!--Ice Stone -->
+		<item id="5944" countmax="1" chance="60000"/> -- ice orb
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

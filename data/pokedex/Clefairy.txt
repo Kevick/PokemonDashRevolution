@@ -1,0 +1,22 @@
+Nome: Clefairy
+
+Tipo: Normal
+
+Level minimo: 10
+
+Movimentos:
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 30 - normal
+Selfheal - m4 - level 28 - normal
+Multi-Slap - m5 - level 22 - normal
+Metronome - m6 - level 30 - normal
+
+Passivas: Nenhum
+
+Evolução: Clefairy/Clefable
+
+Stone: 2x Heart Stone
+
+Habilidade especial:
+Nenhum

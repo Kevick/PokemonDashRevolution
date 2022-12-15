@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+  <instant name="Absorb" words="Absorb" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Absorb.lua" />
+  <instant name="Ancient Power" words="Ancient Power" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ancient Power.lua" />
+  <instant name="acid" words="acid" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="acid.lua" /> 
+  <instant name="Agility" words="Agility" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Agility.lua" />
+  <instant name="Aowner" words="Aowner" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Aowner.lua" />
+  <instant name="Aqua Tail" words="Aqua Tail" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Aqua Tail.lua" />
+  <instant name="Aurora Beam" words="Aurora Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Aurora Beam.lua" />
+  <instant name="Bite" words="Bite" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bite.lua" />
+  <instant name="Blizzard" words="Blizzard" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Blizzard.lua" />
+  <instant name="Body Slam" words="Body Slam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Body Slam.lua" />
+  <instant name="Bone Club" words="Bone Club" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bone Club.lua" />
+   <instant name="Bone Slash" words="Bone Slash" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bone Slash.lua" />
+   <instant name="Bubble Beam" words="Bubble Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bubble Beam.lua" />
+  <instant name="Bubble Blast" words="Bubble Blast" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bubble Blast.lua" />
+   <instant name="Bubblebeam" words="Bubblebeam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bubblebeam.lua" />
+   <instant name="Bubbles" words="Bubbles" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bubbles.lua" />
+  <instant name="Bug Bite" words="Bug Bite" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bug Bite.lua" />
+   <instant name="Bullet Seed" words="Bullet Seed" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Bullet Seed.lua" />
+   <instant name="Calm Mind" words="Calm Mind" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Calm Mind.lua" />
+   <instant name="Charge Beam" words="Charge Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Charge Beam.lua" />
+  <instant name="Clamp" words="Clamp" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Clamp.lua" />
+  <instant name="Confusion" words="Confusion" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Confusion.lua" />
+  <instant name="Crabhammer" words="Crabhammer" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Crabhammer.lua" />
+   <instant name="Cross Chop" words="Cross Chop" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Cross Chop.lua" />
+   <instant name="Crusher Stomp" words="Crusher Stomp" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Crusher Stomp.lua" />
+   <instant name="Cyber Pulse" words="Cyber Pulse" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Cyber Pulse.lua" />
+  <instant name="Destroyer Hand" words="Destroyer Hand" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Destroyer Hand.lua" />
+  <instant name="Discharge" words="Discharge" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Discharge.lua" />
+   <instant name="Dizzy Punch" words="Dizzy Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dizzy Punch.lua" />
+   <instant name="Doubleslap" words="Doubleslap" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Doubleslap.lua" />
+  <instant name="Dragon Breath" words="Dragon Breath" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dragon Breath.lua" />
+  <instant name="Dragon Claw" words="Dragon Claw" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dragon Claw.lua" />
+  <instant name="Dragon Pulse" words="Dragon Pulse" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dragon Pulse.lua" />
+  <instant name="Dream Eater" words="Dream Eater" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dream Eater.lua" />
+  <instant name="Drill Peck" words="Drill Peck" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Drill Peck.lua" />
+   <instant name="Dynamic Punch" words="Dynamic Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Dynamic Punch.lua" />
+ <instant name="Earthquake" words="Earthquake" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Earthquake.lua" />  
+   <instant name="Earthshock" words="Earthshock" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Earthshock.lua" />
+   <instant name="EggBomb" words="EggBomb" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="EggBomb.lua" />
+   <instant name="Electric Charge" words="Electric Charge" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Electric Charge.lua" />
+   <instant name="Electric Storm" words="Electric Storm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Electric Storm.lua" />
+   <instant name="Electric" words="Electric" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Electric.lua" />
+  <instant name="Ember" words="Ember" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ember.lua" />
+  <instant name="Epicenter" words="Epicenter" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Epicenter.lua" />
+   <instant name="Falling Rocks" words="Falling Rocks" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Falling Rocks.lua" />
+ <instant name="Fear" words="Fear" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fear.lua" /> 
+  <instant name="Fire Blast" words="Fire Blast" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fire Blast.lua" /> 
+  <instant name="Fire Fang" words="Fire Fang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fire Fang.lua" />
+  <instant name="Fire Punch" words="Fire Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fire Punch.lua" />
+  <instant name="Fire Wave" words="Fire Wave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fire Wave.lua" />
+   <instant name="Fireball" words="Fireball" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fireball.lua" />
+  <instant name="Fist Machine" words="Fist Machine" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fist Machine.lua" />
+   <instant name="Flamethrower" words="Flamethrower" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Flamethrower.lua" />
+   <instant name="Focus" words="Focus" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Focus.lua" />
+  <instant name="Fury Attack" words="Fury Attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fury Attack.lua" />
+   <instant name="Fury Cutter" words="Fury Cutter" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Fury Cutter.lua" />
+   <instant name="Future Sight" words="Future Sight" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Future Sight.lua" />
+   <instant name="Gastro Aowner" words="Gastro Aowner" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Gastro Aowner.lua" />
+   <instant name="Great Love" words="Great Love" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Great Love.lua" />
+   <instant name="Ground Chop" words="Ground Chop" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ground Chop.lua" />
+  <instant name="Guillotine" words="Guillotine" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Guillotine.lua" />
+   <instant name="Gunk Shot" words="Gunk Shot" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Gunk Shot.lua" /> 
+   <instant name="Gust" words="Gust" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Gust.lua" /> 
+   <instant name="Harden" words="Harden" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Harden.lua" /> 
+ <instant name="Headbutt" words="Headbutt" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Headbutt.lua" />  
+  <instant name="Healarea" words="Healarea" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Healarea.lua" />  
+  <instant name="Healeara" words="Healeara" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Healeara.lua" />  
+  <instant name="Healera" words="Healera" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Healera.lua" />  
+  <instant name="Helix" words="Helix" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Helix.lua" />
+   <instant name="Horn Attack" words="Horn Attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Horn Attack.lua" />
+  <instant name="Horn Drill" words="Horn Drill" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Horn Drill.lua" />
+  <instant name="thunder" words="thunder" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder.lua" />
+  <instant name="Hydro Cannon" words="Hydro Cannon" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hydro Cannon.lua" />
+   <instant name="Hydropump" words="Hydropump" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hydropump.lua" />
+   <instant name="Hyper Beam" words="Hyper Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hyper Beam.lua" />
+   <instant name="Hyper Fang" words="Hyper Fang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hyper Fang.lua" />
+   <instant name="Hyper Voice" words="Hyper Voice" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hyper Voice.lua" />
+  <instant name="Hypnosis" words="Hypnosis" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Hypnosis.lua" />
+   <instant name="Ice Beam" words="Ice Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ice Beam.lua" />
+  <instant name="Ice Punch" words="Ice Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ice Punch.lua" />
+   <instant name="Ice Shards" words="Ice Shards" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ice Shards.lua" />
+   <instant name="Ice Wave" words="Ice Wave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Ice Wave.lua" />
+    <instant name="Iceball" words="Iceball" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Iceball.lua" />
+   <instant name="Icy Wind" words="Icy Wind" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Icy Wind.lua" />
+  <instant name="InvisibleWild" words="InvisibleWild" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Invisible.lua" />
+  <instant name="Iron Tail" words="Iron Tail" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Iron Tail.lua" />
+   <instant name="Karate Chop" words="Karate Chop" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Karate Chop.lua" />
+  <instant name="Lava Counter" words="Lava Counter" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Lava Counter.lua" />
+  <instant name="Leaf Blade" words="Leaf Blade" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Leaf Blade.lua" />
+   <instant name="Leaf Storm" words="Leaf Storm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Leaf Storm.lua" />
+   <instant name="Leech Seed" words="Leech Seed" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Leech Seed.lua" />
+   <instant name="Lick" words="Lick" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Lick.lua" />
+  <instant name="Lovely Kiss" words="Lovely Kiss" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Lovely Kiss.lua" />
+   <instant name="Magma Storm" words="Magma Storm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Magma Storm.lua" />
+  <instant name="Mass Kick" words="Mass Kick" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mass Kick.lua" />
+  <instant name="Mega Drain" words="Mega Drain" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mega Drain.lua" />
+   <instant name="Mega Horn" words="Mega Horn" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mega Horn.lua" />
+  <instant name="Mega Kick" words="Mega Kick" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mega Kick.lua" />
+  <instant name="Mega Punch" words="Mega Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mega Punch.lua" />
+  <instant name="Melody" words="Melody" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Melody.lua" />
+  <instant name="Metronome" words="Metronome" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Metronome.lua" />
+  <instant name="Mortal Gas" words="Mortal Gas" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mortal Gas.lua" />
+  <instant name="Mud Bomb" words="Mud Bomb" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mud Bomb.lua" />
+  <instant name="Mud Shot" words="Mud Shot" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mud Shot.lua" />
+   <instant name="Mud Slap" words="Mud Slap" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Mud Slap.lua" />
+  <instant name="Multi Punch" words="Multi Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Multi Punch.lua" />
+  <instant name="Multi-Slap" words="Multi-Slap" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Multi-Slap.lua" />
+  <instant name="Night Shade" words="Night Shade" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Night Shade.lua" />
+  <instant name="owner" words="owner" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="owner.lua" />
+  <instant name="Pay Day" words="Pay Day" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Pay Day.lua" />
+  <instant name="Peck" words="Peck" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Peck.lua" />
+  <instant name="Petal Dance" words="Petal Dance" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Petal Dance.lua" />
+  <instant name="Pin Missile" words="Pin Missile" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Pin Missile.lua" />
+  <instant name="Pluck" words="Pluck" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Pluck.lua" />
+  <instant name="Poison Bomb" words="Poison Bomb" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poison Bomb.lua" />
+    <instant name="Poison Fang" words="Poison Fang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poison Fang.lua" />
+  <instant name="Poison Gas" words="Poison Gas" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poison Gas.lua" />
+  <instant name="Poison Powder" words="Poison Powder" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poison Powder.lua" />
+    <instant name="Poison Sting" words="Poison Sting" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poison Sting.lua" />
+  <instant name="Poisonous Wing" words="Poisonous Wing" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Poisonous Wing.lua" />
+  <instant name="Psy Pulse" words="Psy Pulse" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psy Pulse.lua" />
+  <instant name="Psy Wave" words="Psy Wave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psy Wave.lua" />
+  <instant name="Psybeam" words="Psybeam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psybeam.lua" />
+  <instant name="Psychic" words="Psychic" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psychic.lua" />
+    <instant name="Psychicmew" words="Psychicmew" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psychicmew.lua" />
+ <instant name="Psychicmewtwo" words="Psychicmewtwo" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psychicmewtwo.lua" /> 
+  <instant name="Psycho Shift" words="Psycho Shift" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psycho Shift.lua" /> 
+  <instant name="Psyusion" words="Psyusion" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psyusion.lua" />
+<instant name="Psywave" words="Psywave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Psywave.lua" />   
+ <instant name="Quick Attack" words="Quick Attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Quick Attack.lua" />    
+  <instant name="Rage" words="Rage" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rage.lua" />  
+   <instant name="Raging Blast" words="Raging Blast" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Raging Blast.lua" />
+  
+ <instant name="Razor Leaf" words="Razor Leaf" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Razor Leaf.lua" /> 
+  <instant name="Redemoinho" words="Redemoinho" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Redemoinho.lua" /> 
+  <instant name="Reflect" words="Reflect" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Reflect.lua" /> 
+  <instant name="Rest" words="Rest" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rest.lua" /> 
+  <instant name="Restore" words="Restore" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Restore.lua" /> 
+  <instant name="Roar" words="Roar" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Roar.lua" /> 
+  <instant name="Rock Slide" words="Rock Slide" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rock Slide.lua" /> 
+  <instant name="Rock Throw" words="Rock Throw" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rock Throw.lua" /> 
+  <instant name="Rock Tomb" words="Rock Tomb" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rock Tomb.lua" /> 
+  <instant name="Rollout" words="Rollout" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Rollout.lua" /> 
+  <instant name="Sand Attack" words="Sand Attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Sand Attack.lua" /> 
+  <instant name="Scratch" words="Scratch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Scratch.lua" /> 
+  <instant name="Scyther" words="Scyther" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Scyther.lua" /> 
+  <instant name="Selfdestruct" words="Selfdestruct" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Selfdestruct.lua" /> 
+  <instant name="Selfheal" words="Selfheal" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Selfheal.lua" /> 
+  <instant name="Shadow Ball" words="Shadow Ball" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shadow Ball.lua" /> 
+  <instant name="Shadow Punch" words="Shadow Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shadow Punch.lua" /> 
+  <instant name="Shadow Storm" words="Shadow Storm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shadow Storm.lua" /> 
+  <instant name="Shadowstorm" words="ShadowStorm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shadowstorm.lua" /> 
+  <instant name="Shockwave" words="Shockwave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shockwave.lua" /> 
+  <instant name="Shredder Team" words="Shredder Team" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Shredder Team.lua" /> 
+  <instant name="Sing" words="Sing" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Sing.lua" /> 
+   <instant name="Skull Bash" words="Skull Bash" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Skull Bash.lua" /> 
+  <instant name="Slam" words="Slam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Slam.lua" /> 
+  <instant name="Slash" words="Slash" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Slash.lua" /> 
+  <instant name="Sleep Powder" words="Sleep Powder" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Sleep Powder.lua" /> 
+  <instant name="Slime Wave" words="Slime Wave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Slime Wave.lua" /> 
+  <instant name="Sludge" words="Sludge" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Sludge.lua" /> 
+  <instant name="Solar Beam" words="Solar Beam" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Solar Beam.lua" /> 
+  <instant name="Sonicboom" words="Sonicboom" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Sonicboom.lua" /> 
+  <instant name="Spark" words="Spark" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Spark.lua" /> 
+  <instant name="Splash" words="Splash" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Splash.lua" /> 
+  <instant name="Squishy Licking" words="Squishy Licking" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Squishy Licking.lua" /> 
+  <instant name="Stickmerang" words="Stickmerang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Stickmerang.lua" /> 
+  <instant name="Stomp" words="Stomp" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Stomp.lua" /> 
+  <instant name="Strafe" words="Strafe" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Strafe.lua" /> 
+  <instant name="String Shot" words="String Shot" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="String Shot.lua" /> 
+  <instant name="Stun Spore" words="Stun Spore" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Stun Spore.lua" /> 
+  <instant name="Super Fang" words="Super Fang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Super Fang.lua" /> 
+  <instant name="Super Sonic" words="Super Sonic" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Super Sonic.lua" /> 
+  <instant name="Super Vines" words="Super Vines" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Super Vines.lua" /> 
+  <instant name="Swift" words="Swift" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Swift.lua" /> 
+  <instant name="Thunder Bolt" words="Thunder Bolt" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder Bolt.lua" /> 
+  <instant name="Thunder Fang" words="Thunder Fang" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder Fang.lua" /> 
+  <instant name="Thunder Punch" words="Thunder Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder Punch.lua" /> 
+   <instant name="Thunder Shock" words="Thunder Shock" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder Shock.lua" /> 
+  <instant name="Thunder Wave" words="Thunder Wave" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunder Wave.lua" /> 
+  <instant name="Thunderbolt" words="Thunderbolt" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thunderbolt.lua" /> 
+  <instant name="Thundershock" words="Thundershock" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Thundershock.lua" /> 
+  <instant name="Tornado" words="Tornado" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Tornado.lua" /> 
+  <instant name="Toxic Needle" words="Toxic Needle" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Toxic Needle.lua" /> 
+  <instant name="Toxic Spikes" words="Toxic Spikes" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Toxic Spikes.lua" />
+  <instant name="Toxic" words="Toxic" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Toxic.lua" />
+  <instant name="Tri Flames" words="Tri Flames" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Tri Flames.lua" />
+  <instant name="Tri-attack" words="Tri-attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Tri-attack.lua" />
+   <instant name="Triple Kick" words="Triple Kick" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Triple Kick.lua" />
+   <instant name="Triple Punch" words="Triple Punch" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Triple Punch.lua" />
+  <instant name="Try Atake" words="Try Atake" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Try Atake.lua" />
+  <instant name="Twister" words="Twister" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Twister.lua" />
+  <instant name="Vine Whip" words="Vine Whip" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Vine Whip.lua" />
+  <instant name="Wardog" words="Wardog" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Wardog.lua" />
+  <instant name="Water Gun" words="Water Gun" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Water Gun.lua" />
+  <instant name="Water Oath" words="Water Oath" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Water Oath.lua" />
+  <instant name="Water Pulse" words="Water Pulse" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Water Pulse.lua" />
+  <instant name="Water Spout" words="Water Spout" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Water Spout.lua" />
+   <instant name="Waterball" words="Waterball" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Waterball.lua" />
+   <instant name="Whirlwind" words="Whirlwind" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Whirlwind.lua" />
+  <instant name="Windstorm" words="Windstorm" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Windstorm.lua" />
+  <instant name="Wing Attack" words="Wing Attack" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Wing Attack.lua" />
+  <instant name="X-Scissor" words="X-Scissor" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="X-Scissor.lua" />
+  <instant name="Zap Cannon" words="Zap Cannon" target="1" range="2" enabled="0" casterTargetOrDirection="1" blockwalls="1" needlearn="0" event="script" value="Zap Cannon.lua" />
+ </spells>

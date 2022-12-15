@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blaine Magmar" nameDescription="a Blaine Magmar" race="undead" experience="1500" speed="260" manacost="320">
+  <health now="6500" max="6500"/>
+  <look type="76" head="20" body="30" legs="40" feet="50" corpse="7283"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+   <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-200" max="-350">
+    </attack>
+    <attack name="dragon rage" interval="4500" chance="90" min="-200" max="-250">
+    </attack>
+    <attack name="fire spin" interval="5000" chance="90" min="-550" max="-600">
+    </attack>
+    <attack name="ember" interval="3500" chance="90" min="-750" max="-800">
+    </attack>
+    <attack name="quick attack" interval="8000" chance="100" min="-950" max="-1000">
+    </attack>
+    <attack name="flamethrower" interval="7000" chance="90" min="-1500" max="-1750">
+    </attack>
+    <attack name="magma storm" interval="10000" chance="90" min="-2000" max="-2500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense>
+    <defense name="LavaCounter" interval="5000" chance="60" min="-600" max="-1000">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Magmaar!"/>
+	</voices>
+	<loot>
+		<item id="5894" countmax="10" chance="10000"/><!-- Sell Item -->
+		<item id="5910" countmax="5" chance="8000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5907" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

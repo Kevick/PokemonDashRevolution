@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Misty Starmie" nameDescription="a Misty Starmie" race="undead" experience="1000" speed="220" manacost="280">
+  <health now="5000" max="5000"/>
+  <look type="249" head="20" body="30" legs="40" feet="50" corpse="7320"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="slash" interval="1000" chance="50" min="-150" max="-200">
+    </attack>
+    <attack name="bubble" interval="2000" chance="75" min="-200" max="-450">
+    </attack>
+    <attack name="psybeam" interval="3000" chance="75" min="-250" max="-500">
+    </attack>
+    <attack name="swift" interval="4000" chance="90" min="-250" max="-550">
+    </attack>
+    <attack name="waterball" interval="5000" chance="75" min="-300" max="-600">
+    </attack>
+    <attack name="thunder wave" interval="6000" chance="75" min="-325" max="-650">
+    </attack>
+    <attack name="water gun" interval="7000" chance="90" min="-500" max="-700">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="400" max="580">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="Staarmie!"/>
+    <voice sentence="Staar!"/>
+	</voices>
+	<loot>
+		<item id="6569" countmax="1" chance="20000"/><!-- Sell Item -->
+		<item id="5896" countmax="1" chance="10000"/><!-- Sell Item -->
+		<item id="5903" chance="100"/><!-- Sell Item -->
+		<item id="5810" chance="200"/><!-- Stone -->
+	</loot>
+</monster>

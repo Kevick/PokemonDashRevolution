@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Krabby" nameDescription="Krabby" race="undead" experience="150" speed="180" manacost="305">
+  <health now="850" max="850"/>
+  <look type="112" head="20" body="30" legs="40" feet="50" corpse="6039"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1800" range="1" chance="100" min="-8" max="-15"/>
+   <attack name="Bubbles" interval="2000" chance="10" >
+	</attack>
+	<attack name="Mud Shot" interval="3000" chance="10" >
+	</attack>
+	<attack name="Bubble Beam" interval="7000" chance="100" >
+	</attack>
+	<attack name="Crabhammer" interval="10000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+
+  </attacks>
+
+
+  <defenses armor="5" defense="5"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Krabby"/>
+  </voices>
+	<loot>
+		<item id="6528" countmax="12" chance="20000"/><!-- Water Gem -->
+		<item id="6126" countmax="1" chance="20000"/> -- crab claw
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

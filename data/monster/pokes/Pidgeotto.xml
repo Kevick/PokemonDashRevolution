@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeotto" nameDescription="Pidgeotto" race="flying" experience="375" speed="186" manacost="300">
+  <health now="1900" max="1900"/>
+  <look type="5" head="0" body="0" legs="0" feet="0" corpse="5966"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+     <attack name="melee" interval="1900" min="-70" max="-80"/>
+   <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Whirlwind" interval="15000" chance="100" >
+	</attack>
+	<attack name="Peck" interval="7000" chance="100" >
+	</attack>
+	<attack name="Wing Attack" interval="10000" chance="100" >
+	</attack>
+	<attack name="Tornado" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="1"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOTTO!"/>
+    <voice sentence="GEOTTO!"/>
+  </voices>
+
+	<loot>
+	<item id="2694" countmax="10" chance="65000"/> -- straw
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	<item id="8822" countmax="1" chance="15000"/> -- bird beak
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	<item id="8860" countmax="1" chance="500"/> -- pidgeot doll
+	</loot>
+	
+        <script>
+	<event name="Spawn"/>
+        </script>
+		
+</monster>

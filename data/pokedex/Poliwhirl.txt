@@ -1,0 +1,23 @@
+Nome: Poliwhirl
+
+Tipo: Water
+
+Level minimo: 20
+
+Movimentos:
+Mud Shot - m1 - level 25 - earth
+Doubleslap - m2 - level 25 - normal
+Bubbles - m3 - level 25 - water
+Water Gun - m4 - level 25 - water
+Mega Punch - m5 - level 30 - fighting
+Hypnosis - m6 - level 32 - psychic
+
+
+Passivas: Nenhum
+
+Evolução: Poliwag / Poliwhirl / Poliwrath
+
+Stone: 1x Water Stone / 1x Punch Stone
+
+Habilidade especial:
+Surf

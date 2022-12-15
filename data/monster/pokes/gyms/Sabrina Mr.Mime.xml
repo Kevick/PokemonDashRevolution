@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sabrina Mr.Mime" nameDescription="a Sabrina Mr.Mime" race="undead" experience="1570" speed="250" manacost="280">
+  <health now="5000" max="5000"/>
+  <look type="246" head="20" body="30" legs="40" feet="50" corpse="6069"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-200" max="-500">
+    </attack>
+    <attack name="confusion" interval="4000" chance="90" min="-500" max="-600">
+    </attack>
+    <attack name="psy pulse" interval="3000" chance="90" min="-400" max="-800">
+    </attack>
+    <attack name="psybeam" interval="7000" chance="90" min="-600" max="-900">
+    </attack>
+    <attack name="psychic" interval="6500" chance="90" min="-1000" max="-1500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="10000" chance="100" min="200" max="200">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sabrina Mister Miime!"/>
+	</voices>
+	<loot>
+		<item id="5896" countmax="1" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5903" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

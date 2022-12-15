@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rapidash" nameDescription="Rapidash" race="undead" experience="825" speed="276" manacost="300">
+  <health now="9000" max="9000"/>
+  <look type="220" head="20" body="30" legs="40" feet="50" corpse="4323"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1700" min="-99" max="-161"/>
+    <attack name="fire" interval="4000" chance="1000" range="7" radius="7" target="1" min="-150" max="-200">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+   <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="8000" chance="100" >
+	</attack>
+	<attack name="Fireball" interval="7000" chance="100" >
+	</attack>
+	<attack name="Stomp" interval="10000" chance="100" >
+	</attack>
+	<attack name="Flamethrower" interval="12000" chance="100" >
+	</attack>
+	 <attack name="Horn Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Crusher Stomp" interval="15000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="6" defense="6"/>
+
+
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="RAPIII!!!"/>
+    <voice sentence="Rapidash!!"/>
+  </voices>
+
+	<loot>
+	<item id="8866" countmax="70" chance="65000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="22000"/> -- pot of lava
+	<item id="2283" countmax="1" chance="600"/> -- fire stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vileplume" nameDescription="Vileplume" race="grass" experience="750" speed="230" manacost="0">
+  <health now="4800" max="4800"/>
+  <look type="86" head="20" body="30" legs="40" feet="50" corpse="6025"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-95" max="-100"/>
+   <attack name="Absorb" interval="6000" chance="100" >
+	</attack>
+	<attack name="Petal Dance" interval="12000" chance="100" >
+	</attack>
+	<attack name="Vine Whip" interval="11000" chance="100" >
+	</attack>
+	<attack name="Acid" interval="10000" chance="100" >
+	</attack>
+	<attack name="Leech Seed" interval="12000" chance="100" >
+	</attack>
+	<attack name="Bullet Seed" interval="13000" chance="100" >
+	</attack>
+	<attack name="Solar Beam" interval="15000" chance="100" >
+	</attack>
+	<attack name="Sleep Powder" interval="16900" chance="100" >
+	</attack>
+	<attack name="Stun Spore" interval="16000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="VILEPLUME!"/>
+    <voice sentence="PLUME!"/>
+  </voices>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="Spawn"/>
+	<event name="AvoidLook"/>
+        </script>
+ <loot>
+	<item id="8850" countmax="70" chance="45000"/> -- seeds
+	<item id="8852" countmax="4" chance="40000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="500"/> -- leaf stone
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	<item id="8851" countmax="2" chance="25500"/> -- leaves
+  </loot>
+</monster>

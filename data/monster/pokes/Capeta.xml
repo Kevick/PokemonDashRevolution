@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Monstrao Foda das Galaxias" nameDescription="Monstrao foda das galaxias" race="undead" experience="10000" speed="400" manacost="490">
+  <health now="200000" max="200000"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="5000" chance="100"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="lick" interval="500" chance="60" min="-1000" max="-1400">
+    </attack>
+    <attack name="shadow ball" interval="2000" chance="90" min="-2000" max="-2500">
+    </attack>
+    <attack name="dream eater" interval="1750" chance="80" min="-1500" max="-2000">
+    </attack>
+    <attack name="shadow punch" interval="4000" chance="80" min="-3000" max="-3500">
+    </attack>
+    <attack name="night shade" interval="6000" chance="70" min="-5000" max="-6000">
+    </attack>
+    <attack name="night shade" interval="10000" chance="55" min="-12000" max="-16000">
+    </attack>
+	<attack name="leech seed" range="4" interval="3200" chance="10" min="-1000" max="-2000">
+    </attack>
+    <attack name="absorb" range="1" interval="1500" chance="20" min="-2000" max="-2500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="15000" chance="25" min="80000" max="100000">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="50">
+	<voice sentence="Sou monstro foda! e vou te matar!"/>
+    <voice sentence="Voce vai morrer! Muawawawwawawa"/>
+	</voices>
+ <loot>
+	<item id="2145" countmax="2" chance="5000"/><!-- small diamond -->
+	<item id="6569" countmax="2" chance="3000"/><!-- rare candy -->
+	<item id="5913" countmax="1" chance="125000"/>-- Brown POC
+	<item id="5909" countmax="1" chance="125000"/>-- White POC
+	<item id="2286" countmax="1" chance="15000"/>-- Darkness Stone
+	<item id="5926" countmax="1" chance="15000"/> -- Gengar Backpack
+
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

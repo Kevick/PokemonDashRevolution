@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hypno" nameDescription="Hypno" race="undead" experience="780" speed="280" manacost="350">
+  <health now="5400" max="5400"/>
+  <look type="119" head="20" body="30" legs="40" feet="50" corpse="6046"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="1800" min="-100" max="-205"/>
+    <attack name="Headbutt" interval="6000" chance="100" >
+	</attack>
+	<attack name="Psybeam" interval="15000" chance="100" >
+	</attack>
+	<attack name="Psy Wave" interval="10000" chance="100" >
+	</attack>
+	<attack name="Confusion" interval="12000" chance="100" >
+	</attack>
+	<attack name="Psychic" interval="12900" chance="100" >
+	</attack>
+	<attack name="Dream Eater" interval="13000" chance="100" >
+	</attack>
+	<attack name="Hypnosis" interval="15000" chance="100" >
+	</attack>
+	<attack name="Focus" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="80" max="180">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hyyypno!"/>
+	</voices>
+ <loot>
+	<item id="8869" countmax="2" chance="32500"/> -- future orb
+	<item id="5878" countmax="2" chance="20000"/> -- future orb
+	<item id="2288" countmax="1" chance="500"/> -- enigma stone
+	
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

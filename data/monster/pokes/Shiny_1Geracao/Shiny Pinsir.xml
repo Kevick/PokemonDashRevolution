@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pinsir" nameDescription="Shiny Pinsir" race="undead" experience="700" speed="260" manacost="300">
+  <health now="4500" max="4500"/>
+  <look type="696" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-45" max="-60"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bug Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Harden" interval="14000" chance="100" >
+	</attack>
+	<attack name="Fury Cutter" interval="12000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="13000" chance="100" >
+	</attack>
+	<attack name="X-Scissor" interval="15000" chance="100" >
+	</attack>
+	<attack name="Guillotine" interval="14000" chance="100" >
+	</attack>
+
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="2000" chance="100" min="10" max="90">
+    </defense-->
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Piiinsir!"/>
+	</voices>
+	<loot>
+		
+		<item id="8858" countmax="1" chance="100000"/>-- pot of moss bug
+		<item id="2079" countmax="2" chance="8500"/>-- horn
+		<item id="5880" countmax="1" chance="20000"/>-- pinsir horn
+	
+		<item id="2284" countmax="1" chance="700"/>-- coccon stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

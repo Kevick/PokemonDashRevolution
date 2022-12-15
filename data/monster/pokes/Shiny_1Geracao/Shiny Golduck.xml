@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Golduck" nameDescription="Shiny Golduck" race="UNDEAD" experience="750" speed="265" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-100" max="-150"/>
+     <attack name="Doubleslap" interval="9000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="13000" chance="100" >
+	</attack>
+	<attack name="Confusion" interval="7000" chance="100" >
+	</attack>
+	<attack name="Waterball" interval="10000" chance="100" >
+	</attack>
+	<attack name="Psybeam" interval="12000" chance="100" >
+	</attack>
+	<attack name="Psy Wave" interval="13000" chance="100" >
+	</attack>
+	<attack name="Mega Kick" interval="15000" chance="100" >
+	</attack>
+	<attack name="Strafe" interval="8000" chance="100" >
+	</attack>
+
+  </attacks>
+
+
+
+  <defenses armor="20" defense="20">
+
+  </defenses>
+  <elements>
+  <element energyPercent="80"/>
+  <element holyPercent="-20"/>
+  </elements>
+  <immunities>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+    <elements>
+		<element energyPercent="100"/>
+		<element earthPercent="-100"/>
+		<element firePercent="50"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Golduck!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="30" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="500"/> -- water stone
+	<item id="2288" countmax="1" chance="500"/> -- Enigma stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+
+</monster>

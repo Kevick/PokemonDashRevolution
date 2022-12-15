@@ -1,0 +1,20 @@
+Nome: Persian
+
+Tipo: Normal
+
+Level minimo: 12
+
+Movimentos:
+Slash - m1 - level 15 - normal
+Scratch - m2 - level 15 - normal
+Bite - m3 - level 15 - normal
+Pay Day - m4 - level 20 - normal
+
+Passivas: Fury
+
+Evolução: Meowth / Persian
+
+Stone: 1x Heart Stone
+
+Habilidade especial:
+Cut

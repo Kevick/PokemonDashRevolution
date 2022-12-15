@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lapras" nameDescription="Lapras" race="undead" experience="1100" speed="265" manacost="0">
+  <health now="9800" max="9800"/>
+  <look type="193" head="0" body="0" legs="0" feet="0" corpse="6018"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="80"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="1800" min="-20" max="-60"/>
+    <attack name="Horn Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Ice Beam" interval="15000" chance="100" >
+	</attack>
+	<attack name="Ice Shards" interval="7000" chance="100" >
+	</attack>
+	<attack name="Water Gun" interval="10000" chance="100" >
+	</attack>
+	<attack name="Waterball" interval="12000" chance="100" >
+	</attack>
+	<attack name="Hydropump" interval="13000" chance="100" >
+	</attack>
+	<attack name="Aurora Beam" interval="15000" chance="100" >
+	</attack>
+	<attack name="Sing" interval="8000" chance="100" >
+	</attack>
+	<attack name="Blizzard" interval="16000" chance="100" >
+	</attack>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="150" max="300"-->
+    <!--/defense-->
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <summons maxSummons="2">
+    <summon name="Crypt Shambler" interval="2000" chance="10000"/>
+    <summon name="Ghost" interval="2000" chance="10000"/>
+  </summons>
+	<loot>
+	        <item id="6528" countmin="7" countmax="100" chance="85000"/> -- water gem
+	       
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+		<item id="2277" countmax="1" chance="500"/><!-- Water Stone -->
+		<item id="5944" countmax="1" chance="15000"/> -- ice orb
+		<item id="7441" countmax="1" chance="9000"/><!-- Ice cube -->
+		<item id="2290" countmax="1" chance="500"/> -- ice stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+</monster>

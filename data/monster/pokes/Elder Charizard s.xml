@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Charizard" nameDescription="Elder Charizard" race="undead" experience="16500" speed="200" manacost="0">
+    <health now="15100" max="15100"/>
+    <look type="294" corpse="2954"/>
+	<targetchange interval="10000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+   <attack name="melee" interval="2000" range="1" min="-105" max="-280"/>	
+      <attack name="lifedrain" interval="2000" min="-120" max="-240">
+		<attribute key="areaEffect" value="redshimmer"/>
+	  </attack>
+
+    <attack name="scratch" interval="1400" chance="25" min="-135" max="-195">
+    </attack>
+    <attack name="ember" interval="1700" chance="20" min="-145" max="-255">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-365" max="-475">
+    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-345" max="-555">
+    </attack>
+    <attack name="wing attack" interval="2700" chance="21" min="-345" max="-655">
+    </attack>
+    <attack name="flamethrower" interval="4000" chance="30">
+    </attack>
+    <attack name="raging blast" interval="3800" chance="27">
+    </attack>
+    <attack name="fire blast" interval="3100" chance="20" min="-500" max="-1000">
+    </attack>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    </attacks>
+
+    <defenses armor="10" defense="15">
+	  <defense name="speed" interval="10000" chance="40" speedchange="310" duration="20000">
+		<attribute key="areaEffect" value="greenshimmer"/>
+      </defense>
+	  <defense name="healing" interval="5000" chance="60" min="25" max="75">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	  </defense>
+	</defenses>
+
+
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="100" chance="85000"/> -- essence of fire
+	<item id="2145" countmax="1" chance="2000"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="800"/><!-- rare candy -->
+	<item id="8867" countmax="10" chance="42000"/> -- pot of lava
+	<item id="2365" countmax="1" chance="1000"/><!-- Elder backpack -->
+	<item id="2283" countmax="1" chance="4000"/> -- fire stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Spawn"/>
+        </script>
+
+</monster>

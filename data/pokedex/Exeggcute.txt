@@ -1,0 +1,21 @@
+Nome: Exeggcute
+
+Tipo: grass / psychic 
+
+Level minimo: 8
+
+Movimentos:
+Hypnosis - m1 - level 14 - psychic
+Leech Seed - m2 - level 10 - grass
+Egg Bomb - m3 - level 10 - normal
+Confusion - m4 - level 16 - psychic
+
+Passivas: Nenhum
+
+Evolução: Exeggcute / Exeggutor
+
+Stone: 
+1x Enigma Stone / 1x Leaf Stone
+
+Habilidade especial:
+Nenhum

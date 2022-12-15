@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Koga Crobat" nameDescription="a Koga crobat" race="undead" experience="1200" speed="280" manacost="0">
+	<health now="5400" max="5400"/>
+	<look type="326" corpse="7326"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="3"/>
+  </flags>
+    <attacks>
+    <attack name="gust" interval="5000" chance="90" min="-100" max="-140">
+    </attack>
+    <attack name="tackle" interval="1000" chance="60" min="-200" max="-250">
+    </attack>
+    <attack name="supersonic" interval="3500" chance="80" min="-200" max="-300">
+    </attack>
+    <attack name="bite" interval="3000" chance="90" min="-450" max="-500">
+    </attack>
+    <attack name="smokescreen" interval="7000" chance="90" min="-540" max="-600">
+    </attack>
+    <attack name="sludge bomb" interval="6000" chance="90" min="-750" max="-800">
+    </attack>
+    <attack name="rapid attack" interval="10000" chance="85" min="-900" max="-1000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="200">
+    </defense>
+  </defenses>
+
+  <voices interval="5000" chance="100">
+    <voice sentence="Crobat"/>
+    <voice sentence="bat"/>
+	</voices>
+	<loot>
+		<item id="5881" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

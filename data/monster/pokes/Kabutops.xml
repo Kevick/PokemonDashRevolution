@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Kabutops" nameDescription="Kabutops" race="undead" experience="1000" speed="230" manacost="250">
+  <health now="10000" max="10000"/>
+  <look type="13" head="20" body="30" legs="40" feet="50" corpse="6345"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="20"/>
+  </flags>
+  <attacks>
+
+   <attack name="melee" interval="1800" min="-80" max="-130"/>
+    <attack name="Scratch" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bubbles" interval="10000" chance="100" >
+	</attack>
+	<attack name="Slash" interval="7000" chance="100" >
+	</attack>
+	<attack name="Mud Shot" interval="2000" chance="10" >
+	</attack>
+	<attack name="Harden" interval="12000" chance="100" >
+	</attack>
+	<attack name="Absorb" interval="13000" chance="100" >
+	</attack>
+	<attack name="Aurora Beam" interval="13900" chance="100" >
+	</attack>
+	<attack name="Ancient Power" interval="15000" chance="100" >
+	</attack>
+	<attack name="Fury Cutter" interval="15000" chance="100" >
+	</attack>
+
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="100" max="300">
+    </defense-->
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Kabutops!"/>
+		<voice sentence="Kabutops!"/>
+	</voices>
+	<loot>
+	       
+		<item id="8864" countmax="5" chance="11000"/> -- stone orb
+	      
+		<item id="2280" countmax="1" chance="500"/> -- rock stone
+		<item id="2285" countmax="1" chance="500"/><!-- crystal Stone -->
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

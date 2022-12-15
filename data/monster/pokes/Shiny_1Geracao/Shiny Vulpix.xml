@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Vulpix" nameDescription="Shiny Vulpix" race="undead" experience="300" speed="220" manacost="320">
+  <health now="850" max="850"/>
+  <look type="62" head="20" body="30" legs="40" feet="50" corpse="6003"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1800" min="-15" max="-75"/>
+    <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Iron Tail" interval="7000" chance="100" >
+	</attack>
+	<attack name="Ember" interval="2000" chance="10" >
+	</attack>
+	<attack name="Flamethrower" interval="8000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="6" defense="12"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Vuuul!"/>
+    <voice sentence="pix!"/>
+
+  </voices>
+	<loot>
+		<item id="8866" countmax="15" chance="50000"/><!-- Essence of fire -->
+		<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava -->
+		<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+		
+		
+	</loot>
+	<script>
+<event name="Spawn"/>
+</script>
+</monster>

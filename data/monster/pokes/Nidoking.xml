@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="Nidoking" race="undead" experience="975" speed="275" manacost="10000">
+  <health now="8000" max="8000"/>
+  <look type="35" corpse="5995"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" min="-100" max="-200"/>
+     <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Poison Sting" interval="15000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="7000" chance="100" >
+	</attack>
+	<attack name="Horn Attack" interval="10000" chance="100" >
+	</attack>
+	<attack name="Mega Punch" interval="12000" chance="100" >
+	</attack>
+	<attack name="Horn Drill" interval="13000" chance="100" >
+	</attack>
+	<attack name="Shockwave" interval="15000" chance="100" >
+	</attack>
+	<attack name="Poison Fang" interval="8000" chance="100" >
+	</attack>
+	<attack name="Stomp" interval="16000" chance="100" >
+	</attack>
+  </attacks>
+
+
+
+  <defenses armor="55" defense="55">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+  </voices>
+	<loot>
+	
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	
+	<item id="8868" countmax="1" chance="15000"/><!-- Nail -->
+	
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

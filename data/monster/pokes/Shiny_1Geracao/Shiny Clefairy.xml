@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Clefairy" nameDescription="Shiny Clefairy" race="undead" experience="300" speed="268" manacost="0">
+  <health now="700" max="700"/>
+  <look type="73" head="20" body="30" legs="40" feet="50" corpse="2968"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+ <attack name="Doubleslap" interval="6000" chance="100" >
+	</attack>
+	<attack name="Lovely Kiss" interval="7000" chance="100" >
+	</attack>
+	<attack name="Sing" interval="8000" chance="100" >
+	</attack>
+	<attack name="Selfheal" interval="12000" chance="100" >
+	</attack>
+	<attack name="Multi-Slap" interval="7800" chance="100" >
+	</attack>
+	<attack name="Metronome" interval="11000" chance="100" >
+	</attack>
+  </attacks>
+
+
+  <defenses armor="30" defense="20">
+    <defense name="healing" interval="1000" chance="10" min="200" max="350">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Clefairy!!"/>
+  </voices>
+  <loot>
+	
+	<item id="5946" countmax="1" chance="6000"/> -- comb
+	
+	
+	</loot>
+  <script>
+<event name="Spawn"/>
+</script>
+
+</monster>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blaine Arcanine" nameDescription="a Blaine Arcanine" race="undead" experience="1600" speed="300" manacost="0">
+  <health now="6000" max="6000"/>
+  <look type="88" head="20" body="30" legs="40" feet="50" corpse="6031"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="bite" interval="1000" chance="50" min="-100" max="-300">
+    </attack>
+    <attack name="scratch" interval="4500" chance="90" min="-200" max="-400">
+    </attack>
+    <attack name="quick attack" interval="5000" chance="90" min="-450" max="-500">
+    </attack>
+    <attack name="ember" interval="3500" chance="90" min="-600" max="-700">
+    </attack>
+    <attack name="fireball" interval="3500" chance="90" min="-750" max="-850">
+    </attack>
+    <attack name="flamethrower" interval="7000" chance="90" min="-100" max="-1250">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="50" max="150">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+	</voices>
+	<loot>
+		<item id="5894" countmax="10" chance="15000"/><!-- Sell Item -->
+		<item id="5910" countmax="2" chance="10000"/><!-- Sell Item -->
+		<item id="5097" countmax="1" chance="6000"/><!-- Sell Item -->
+		<item id="5907" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

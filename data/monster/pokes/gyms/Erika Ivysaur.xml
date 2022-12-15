@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Erika Ivysaur" nameDescription="a Erika Ivysaur" race="undead" experience="720" speed="260" manacost="390">
+  <health now="2600" max="2600"/>
+  <look type="24" head="20" body="30" legs="40" feet="50" corpse="5982"/>
+ 
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+   <attacks>
+    <attack name="quick attack" interval="1000" chance="50" min="-100" max="-150">
+    </attack>
+    <attack name="headbutt" interval="1000" chance="50" min="-150" max="-200">
+    </attack>
+    <attack name="razor leaf" interval="4500" chance="50" min="-400" max="-500">
+    </attack>
+    <attack name="leech seed" interval="4500" chance="50" min="-200" max="-300">
+    </attack>
+    <attack name="solarbeam" interval="5000" chance="50" min="-200" max="-240">
+    </attack>
+    <attack name="poisonpowder" interval="5000" chance="50" min="-200" max="-240">
+    </attack>
+    <attack name="stun spore" interval="3500" chance="50" min="-200" max="-250">
+    </attack>
+    <attack name="leech seed" interval="3500" chance="50" min="-400" max="-400">
+    </attack>
+    <attack name="vine whip" interval="7000" chance="93" min="-450" max="-500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="40" max="60">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ivyyyyy!"/>
+    <voice sentence="Ivysaur!"/>
+	</voices>
+	<loot>
+		<item id="2111" countmax="5" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="20000"/><!-- Sell Item -->
+		<item id="5918" chance="200"/><!-- Stone -->
+	</loot>
+</monster>

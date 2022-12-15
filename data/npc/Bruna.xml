@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bruna" script="bruna.lua" walkinterval="350000" floorchange="0" speed="0" lookdir="2">
+	<health now="150" max="150"/>
+	<look type="160" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="OH MY GOD, I CANT BELIEVE IT! Someone finally arrived my psychic room, you must be a really smart person, {right}?"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+	</parameters>
+</npc>

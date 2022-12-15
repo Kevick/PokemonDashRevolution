@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arbok" nameDescription="Arbok" race="undead" experience="575" speed="245" manacost="0">
+  <health now="3900" max="3900"/>
+  <look type="39" head="20" body="30" legs="40" feet="50" corpse="5984"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-70" max="-120"/>
+    <attack name="Bite" interval="6000" chance="100" >
+	</attack>
+	<attack name="Poison Fang" interval="10000" chance="100" >
+	</attack>
+	<attack name="Poison Sting" interval="7000" chance="100" >
+	</attack>
+	<attack name="Pin Missile" interval="2000" chance="20" >
+	</attack>
+	<attack name="Acid" interval="3000" chance="10" >
+	</attack>
+	<attack name="Iron Tail" interval="7000" chance="100" >
+	</attack>
+	<attack name="Fear" interval="13000" chance="100" >
+	</attack>
+  </attacks>
+  <defenses armor="22" defense="35">
+    <defense name="healing" interval="1000" chance="25" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arboook" yell="1"/>
+  </voices>
+
+	<loot>
+	<item id="8856" countmax="20" chance="80000"/> -- bottle of poison
+	<item id="2278" countmax="1" chance="500"/> -- venom stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

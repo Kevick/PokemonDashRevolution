@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="Raticate" race="normal" experience="425" speed="189" manacost="320">
+<health now="1400" max="1400"/>
+<look type="69" corpse="6007"/>
+<targetchange interval="100" chance="0"/>
+<strategy attack="100" defense="0"/>
+	
+<flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+	
+</flags>	
+<attacks>		
+	<attack name="melee" interval="1550" min="-55" max="-70"/>
+   <attack name="Quick Attack" interval="6000" chance="100" >
+	</attack>
+	<attack name="Bite" interval="11000" chance="100" >
+	</attack>
+	<attack name="Super Fang" interval="14000" chance="100" >
+	</attack>
+	<attack name="Scratch" interval="10000" chance="100" >
+	</attack>
+</attacks>	
+<defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="1" chance="89000"/> -- apple bite
+	<item id="8854" countmax="1" chance="40000"/> -- rat tail
+	<item id="2289" countmax="1" chance="500"/> -- heart stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

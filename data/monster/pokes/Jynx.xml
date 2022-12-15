@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jynx" nameDescription="Jynx" race="undead" experience="925" speed="250" manacost="290">
+  <health now="7000" max="7000"/>
+  <look type="282" head="20" body="30" legs="40" feet="50" corpse="5765"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+
+
+   <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="Slash" interval="6000" chance="100" >
+	</attack>
+	<attack name="Psy Wave" interval="15000" chance="100" >
+	</attack>
+	<attack name="Doubleslap" interval="7000" chance="100" >
+	</attack>
+	<attack name="Icy Wind" interval="10000" chance="100" >
+	</attack>
+	<attack name="Ice Punch" interval="12000" chance="100" >
+	</attack>
+	<attack name="Ice Beam" interval="13000" chance="100" >
+	</attack>
+	<attack name="Blizzard" interval="15000" chance="100" >
+	</attack>
+	<attack name="Great Love" interval="11000" chance="100" >
+	</attack>
+	<attack name="Aurora Beam" interval="16000" chance="100" >
+	</attack>
+
+
+  </attacks>
+  <defenses armor="1" defense="1">
+    <!--defense name="Intense Healing" interval="5000" chance="100" min="80" max="120">
+    </defense-->
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Jyynx!"/>
+		<voice sentence="Jyynx!"/>
+	</voices>
+	<loot>
+	        
+	        <item id="8820" countmax="4" chance="27000"/> -- water pendant
+		<item id="7441" countmax="1" chance="9000"/><!-- Ice cube -->
+		<item id="2290" countmax="1" chance="500"/> -- ice stone
+		<item id="2290" countmax="1" chance="500"/><!-- Stone -->
+		<item id="5944" countmax="1" chance="60000"/> -- ice orb
+		<item id="5906" countmax="1" chance="20000"/> -- ice bra
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

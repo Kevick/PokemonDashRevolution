@@ -1,0 +1,22 @@
+Nome: Shellder
+
+Tipo: Water
+
+Level minimo: 5
+
+Movimentos:
+Lick - m1 - level 10 - normal
+Super Sonic - m2 - level 17 - normal
+Clamp - m3 - level 20 - water
+Bubbles - m4 - level 15 - water
+Ice Beam - m5 - level 22 - ice
+Harden - m6 - level 18 - normal
+
+Passivas: Nenhum
+
+Evolução: Shellder / Cloyster
+
+Stone: 1x Water Stone / 1x Ice Stone
+
+Habilidade especial:
+Nenhum

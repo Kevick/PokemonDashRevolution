@@ -1,0 +1,22 @@
+Nome: Jigglypuff
+
+Tipo: Normal
+
+Level minimo: 10
+
+Movimentos:
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 20 - normal
+Selfheal - m4 - level 28 - normal
+Hyper Voice - m5 - level 30 - normal
+Metronome - m6 - level 35 - normal
+
+Passivas: Nenhum
+
+Evolução: Jigglypuff/Wigglytuff
+
+Stone: 2x Heart stone
+
+Habilidade especial:
+Nenhum

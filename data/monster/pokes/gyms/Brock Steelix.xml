@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brock Steelix" nameDescription="a Brock Steelix" race="undead" experience="9000" speed="290" manacost="390">
+	<health now="10000" max="10000"/>
+	<look type="369" head="0" body="0" legs="0" feet="0" corpse="3053"/>
+  	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-80" max="-160">
+    </attack>
+    <attack name="rock polish" interval="4500" chance="90" min="-120" max="-550">
+    </attack>
+    <attack name="earthquake" interval="5000" chance="90" min="-1520" max="-2999">
+    </attack>
+    <attack name="rock polish" interval="3500" chance="90" min="-180" max="-1100">
+    </attack>
+    <attack name="stone edge" interval="7000" chance="90" min="-1500" max="-3500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="90" max="120">
+    </defense>
+  </defenses>
+	<voices interval="3000" chance="200">
+		<voice sentence="Steelixxxxxxxxx"/>
+		<voice sentence="steellix"/>
+	</voices>
+	<loot>
+		<item id="1294" countmax="10" chance="8000"/><!-- Sell Item -->
+		<item id="2674" countmax="5" chance="5000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5924" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

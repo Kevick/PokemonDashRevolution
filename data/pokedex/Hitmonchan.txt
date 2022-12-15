@@ -1,0 +1,24 @@
+Nome: Hitmonlee
+
+Tipo: Water / Fightig
+
+Level minimo: 60
+
+Movimentos:
+Triple Punch - m1 - level 60 - fighting
+Mega Punch - m2 - level 60 - fighting
+Fire Punch - m3 - level 60 - fire
+Ice Punch - m4 - level 60 - ice
+Thunder Punch - m5 - level 60 - electric
+Shadow Punch - m6 - level 60 - ghost
+Multi-Punch - m7 - level 65 - fighting
+Ultimate Champion - m8 - level 60 - fighting
+
+Passivas: Evasion - normal
+
+Evolução: Nenhum
+
+Stone: Nenhum
+
+Habilidade especial:
+Nenhum
