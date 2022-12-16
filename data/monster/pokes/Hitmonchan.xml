@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Hitmonchan" nameDescription="Hitmonchan" race="undead" experience="900" speed="265" manacost="0">
+<monster name="Hitmonchan" nameDescription="Hitmonchan" race="fighting" experience="900" speed="265" manacost="0">
 	
 <health now="12000" max="12000"/>
 	
