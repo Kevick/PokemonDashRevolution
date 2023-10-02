@@ -82,87 +82,67 @@ function onStatsChange(cid, attacker, enps, combatee, value)
       end
 
       if not isPlayer(cid) then
-         local porrada = nil
-         local poketype = pokes[getCreatureName(cid)].type
+    local porrada = nil
+    local poketype = pokes[getCreatureName(cid)].type
 
-         print("Pokemon Atacado: " ..getCreatureName(cid).. " race: "..poketype)
-         print(combatee)
-         if combatee == PSYCHICDAMAGE then
-            cor = COLOR_PSYCHIC
-            porrada = PSYCHICDAMAGE
-         elseif combatee == GRASSDAMAGE then
-            cor = COLOR_GRASS
-            porrada = GRASSDAMAGE
-         elseif combatee == FIREDAMAGE then
-            cor = COLOR_FIRE2
-            porrada = FIREDAMAGE
-         elseif combatee == WATERDAMAGE then
-            cor = COLOR_WATER
-            porrada = WATERDAMAGE
-         elseif combatee == ICEDAMAGE then
-            cor = COLOR_ICE
-            porrada = ICEDAMAGE
-         elseif combatee == COLOR_NORMAL then
-            cor = COLOR_NORMAL
-            porrada = NORMALDAMAGE
-         elseif combatee == FLYINGDAMAGE then
-            cor = COLOR_FLYING
-            porrada = FLYINGDAMAGE
-         elseif combatee == GHOSTDAMAGE then
-            cor = COLOR_GHOST
-            porrada = GHOSTDAMAGE
-         elseif combatee == GROUNDDAMAGE then
-            cor = COLOR_GROUND
-            porrada = GROUNDDAMAGE
-         elseif combatee == ELECTRICDAMAGE then
-            cor = COLOR_ELECTRIC
-            porrada = ELECTRICDAMAGE
-         elseif combatee == ROCKDAMAGE then
-            cor = COLOR_ROCK
-            porrada = ROCKDAMAGE
-         elseif combatee == BUGDAMAGE then
-            cor = COLOR_BUG
-            porrada = BUGDAMAGE
-         elseif combatee == FIGHTINGDAMAGE then
-            cor = COLOR_FIGHTING
-            porrada = FIGHTINGDAMAGE
-         elseif combatee == DRAGONDAMAGE then
-            cor = COLOR_DRAGON
-            porrada = DRAGONDAMAGE
-         elseif combatee == POISONDAMAGE then
-            cor = COLOR_POISON
-            porrada = POISONDAMAGE
-         elseif getCreatureName(cid) == "Kakuna" or getCreatureName(cid) == "Metapod" then
-            cor = COLOR_BUG
-            porrada = BUGDAMAGE
-         elseif getCreatureName(cid) == "Golem" or getCreatureName(cid) == "Graveler" or getCreatureName(cid) == "Geodude" then
-            cor = COLOR_ROCK
-            porrada = ROCKDAMAGE
-         elseif combatee == COMBAT_NONE then
-            cor = COLOR_TEAL
-            porrada = combatee
-         else
-            cor = NONE
-            porrada = combatee
-         end
-         if combatee ~= COMBAT_PHYSICALDAMAGE then
-            if isInArray(effectiveness[porrada].super, poketype) then
-               x = 2
-               print("setei super")
-            elseif isInArray(effectiveness[porrada].weak, poketype) then
-               x = 0.5
-               print("setei WEAK")
-            elseif isInArray(effectiveness[porrada].non, poketype) then
-               return false
-            else
-               x = 1
-               print ("setei 1x")
-            end
-         else
+    print("Pokemon Atacado: " .. getCreatureName(cid) .. " race: " .. poketype)
+    print(combatee)
+
+    local damageMappings = {
+        [PSYCHICDAMAGE] = {cor = COLOR_PSYCHIC, porrada = PSYCHICDAMAGE},
+        [GRASSDAMAGE] = {cor = COLOR_GRASS, porrada = GRASSDAMAGE},
+        [FIREDAMAGE] = {cor = COLOR_FIRE2, porrada = FIREDAMAGE},
+        [WATERDAMAGE] = {cor = COLOR_WATER, porrada = WATERDAMAGE},
+        [ICEDAMAGE] = {cor = COLOR_ICE, porrada = ICEDAMAGE},
+        [COLOR_NORMAL] = {cor = COLOR_NORMAL, porrada = NORMALDAMAGE},
+        [FLYINGDAMAGE] = {cor = COLOR_FLYING, porrada = FLYINGDAMAGE},
+        [GHOSTDAMAGE] = {cor = COLOR_GHOST, porrada = GHOSTDAMAGE},
+        [GROUNDDAMAGE] = {cor = COLOR_GROUND, porrada = GROUNDDAMAGE},
+        [ELECTRICDAMAGE] = {cor = COLOR_ELECTRIC, porrada = ELECTRICDAMAGE},
+        [ROCKDAMAGE] = {cor = COLOR_ROCK, porrada = ROCKDAMAGE},
+        [BUGDAMAGE] = {cor = COLOR_BUG, porrada = BUGDAMAGE},
+        [FIGHTINGDAMAGE] = {cor = COLOR_FIGHTING, porrada = FIGHTINGDAMAGE},
+        [DRAGONDAMAGE] = {cor = COLOR_DRAGON, porrada = DRAGONDAMAGE},
+        [POISONDAMAGE] = {cor = COLOR_POISON, porrada = POISONDAMAGE}
+    }
+
+    local mapping = damageMappings[combatee]
+
+    if mapping then
+        cor = mapping.cor
+        porrada = mapping.porrada
+    elseif getCreatureName(cid) == "Kakuna" or getCreatureName(cid) == "Metapod" then
+        cor = COLOR_BUG
+        porrada = BUGDAMAGE
+    elseif getCreatureName(cid) == "Golem" or getCreatureName(cid) == "Graveler" or getCreatureName(cid) == "Geodude" then
+        cor = COLOR_ROCK
+        porrada = ROCKDAMAGE
+    elseif combatee == COMBAT_NONE then
+        cor = COLOR_TEAL
+        porrada = combatee
+    else
+        cor = NONE
+        porrada = combatee
+    end
+
+    if combatee ~= COMBAT_PHYSICALDAMAGE then
+        if isInArray(effectiveness[porrada].super, poketype) then
+            x = 2
+            print("setei super")
+        elseif isInArray(effectiveness[porrada].weak, poketype) then
+            x = 0.5
+            print("setei WEAK")
+        elseif isInArray(effectiveness[porrada].non, poketype) then
+            return false
+        else
             x = 1
-            print("setei fora do if 1x")
-         end
-      end
+            print("setei 1x")
+        end
+    else
+        x = 1
+        print("setei fora do if 1x")
+    end
+end
       local xx = x
 
 
